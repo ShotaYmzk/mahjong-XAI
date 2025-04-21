@@ -1,0 +1,39 @@
+2025-04-19 12:30:43,206 [INFO] Found 10879 NPZ files
+2025-04-19 12:30:43,206 [INFO] Limiting dataset to 5439 files (50% of 10879) for faster training
+2025-04-19 12:30:43,207 [INFO] Scanning NPZ files for metadata...
+2025-04-19 12:30:43,208 [INFO] Available fields in NPZ files: ['sequences', 'static_features', 'labels']
+2025-04-19 12:30:43,208 [INFO] Using fields: sequences, static_features, labels
+2025-04-19 12:30:45,086 [INFO] Dataset initialized: 5439 files, 20171043 samples.
+2025-04-19 12:30:45,086 [INFO] Dims: SeqLen=60, Event=32, Static=192
+2025-04-19 12:30:45,086 [INFO] Limiting dataset to 500000 samples for faster training
+2025-04-19 12:30:46,199 [INFO] Starting training with 475,000 training samples, 25,000 validation samples
+2025-04-19 13:16:27,148 [INFO] Epoch 1/50 - Time: 2740.9s - Train Loss: 3.4760 - Train Acc: 0.0490 - Train Top-3: 0.1398 - Val Loss: nan - Val Acc: 0.0423 - Val Top-3: 0.1021 - LR: 0.000196
+2025-04-19 13:16:27,160 [INFO] New best model saved with validation accuracy: 0.0423
+2025-04-19 14:02:34,448 [INFO] Epoch 2/50 - Time: 2767.3s - Train Loss: 3.4320 - Train Acc: 0.0502 - Train Top-3: 0.1509 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000183
+2025-04-19 14:48:46,370 [INFO] Epoch 3/50 - Time: 2771.6s - Train Loss: 3.4314 - Train Acc: 0.0509 - Train Top-3: 0.1509 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000163
+2025-04-19 15:35:02,162 [INFO] Epoch 4/50 - Time: 2775.8s - Train Loss: 3.4313 - Train Acc: 0.0510 - Train Top-3: 0.1510 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000138
+2025-04-19 16:21:10,025 [INFO] Epoch 5/50 - Time: 2767.6s - Train Loss: 3.4313 - Train Acc: 0.0511 - Train Top-3: 0.1510 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000110
+2025-04-19 17:07:11,170 [INFO] Epoch 6/50 - Time: 2761.1s - Train Loss: 3.4313 - Train Acc: 0.0513 - Train Top-3: 0.1509 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000082
+2025-04-19 17:53:33,343 [INFO] Epoch 7/50 - Time: 2781.8s - Train Loss: 3.4313 - Train Acc: 0.0509 - Train Top-3: 0.1509 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000057
+2025-04-19 18:39:44,922 [INFO] Epoch 8/50 - Time: 2771.6s - Train Loss: 3.4312 - Train Acc: 0.0511 - Train Top-3: 0.1510 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000037
+2025-04-19 19:26:09,719 [INFO] Epoch 9/50 - Time: 2784.5s - Train Loss: 3.4313 - Train Acc: 0.0511 - Train Top-3: 0.1510 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000024
+2025-04-19 20:12:29,893 [INFO] Epoch 10/50 - Time: 2780.2s - Train Loss: 3.4313 - Train Acc: 0.0513 - Train Top-3: 0.1510 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000200
+2025-04-19 20:58:52,327 [INFO] Epoch 11/50 - Time: 2782.1s - Train Loss: 3.4313 - Train Acc: 0.0511 - Train Top-3: 0.1510 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000199
+2025-04-19 21:44:54,351 [INFO] Epoch 12/50 - Time: 2762.0s - Train Loss: 3.4313 - Train Acc: 0.0511 - Train Top-3: 0.1509 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000196
+2025-04-19 22:31:07,773 [INFO] Epoch 13/50 - Time: 2773.1s - Train Loss: 3.4314 - Train Acc: 0.0511 - Train Top-3: 0.1509 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000190
+2025-04-19 23:16:58,103 [INFO] Epoch 14/50 - Time: 2750.3s - Train Loss: 3.4313 - Train Acc: 0.0512 - Train Top-3: 0.1509 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000183
+2025-04-20 00:03:18,199 [INFO] Epoch 15/50 - Time: 2779.8s - Train Loss: 3.4313 - Train Acc: 0.0511 - Train Top-3: 0.1510 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000174
+2025-04-20 00:49:23,382 [INFO] Epoch 16/50 - Time: 2765.2s - Train Loss: 3.4313 - Train Acc: 0.0509 - Train Top-3: 0.1509 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000163
+2025-04-20 01:35:25,993 [INFO] Epoch 17/50 - Time: 2762.3s - Train Loss: 3.4313 - Train Acc: 0.0513 - Train Top-3: 0.1510 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000151
+2025-04-20 02:21:26,922 [INFO] Epoch 18/50 - Time: 2760.9s - Train Loss: 3.4313 - Train Acc: 0.0509 - Train Top-3: 0.1509 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000138
+2025-04-20 03:36:14,829 [INFO] Epoch 19/50 - Time: 4487.5s - Train Loss: 3.4313 - Train Acc: 0.0510 - Train Top-3: 0.1509 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000124
+2025-04-20 04:37:38,558 [INFO] Epoch 20/50 - Time: 3683.7s - Train Loss: 3.4313 - Train Acc: 0.0511 - Train Top-3: 0.1509 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000110
+2025-04-20 05:33:22,773 [INFO] Epoch 21/50 - Time: 3343.8s - Train Loss: 3.4313 - Train Acc: 0.0509 - Train Top-3: 0.1509 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000096
+2025-04-20 06:33:39,953 [INFO] Epoch 22/50 - Time: 3617.2s - Train Loss: 3.4313 - Train Acc: 0.0511 - Train Top-3: 0.1509 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000082
+2025-04-20 07:30:57,769 [INFO] Epoch 23/50 - Time: 3437.5s - Train Loss: 3.4313 - Train Acc: 0.0511 - Train Top-3: 0.1510 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000069
+2025-04-20 08:28:47,816 [INFO] Epoch 24/50 - Time: 3470.0s - Train Loss: 3.4313 - Train Acc: 0.0509 - Train Top-3: 0.1510 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000057
+2025-04-20 09:26:49,153 [INFO] Epoch 25/50 - Time: 3481.0s - Train Loss: 3.4313 - Train Acc: 0.0511 - Train Top-3: 0.1510 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000046
+2025-04-20 11:21:05,317 [INFO] Epoch 26/50 - Time: 6856.2s - Train Loss: 3.4312 - Train Acc: 0.0510 - Train Top-3: 0.1510 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000037
+2025-04-20 12:58:31,069 [INFO] Epoch 27/50 - Time: 5845.4s - Train Loss: 3.4313 - Train Acc: 0.0512 - Train Top-3: 0.1510 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000030
+2025-04-20 14:33:58,512 [INFO] Epoch 28/50 - Time: 5727.4s - Train Loss: 3.4313 - Train Acc: 0.0508 - Train Top-3: 0.1509 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000024
+2025-04-20 16:14:18,931 [INFO] Epoch 29/50 - Time: 6020.0s - Train Loss: 3.4313 - Train Acc: 0.0510 - Train Top-3: 0.1509 - Val Loss: nan - Val Acc: 0.0415 - Val Top-3: 0.1021 - LR: 0.000021

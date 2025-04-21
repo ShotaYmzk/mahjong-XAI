@@ -1,0 +1,12 @@
+2025-04-19 05:46:08,601 [INFO] --- Starting Training Process ---
+2025-04-19 05:46:08,601 [INFO] Found 415 data files.
+2025-04-19 05:46:08,601 [INFO] Scanning NPZ files for metadata...
+2025-04-19 05:46:08,924 [INFO] Dataset initialized: 415 valid files, 5815776 samples.
+2025-04-19 05:46:08,924 [INFO] Dims: SeqLen=60, Event=6, Static=1222
+2025-04-19 05:46:08,924 [INFO] Splitting data: 5234199 train, 581577 validation.
+2025-04-19 05:46:09,119 [INFO] Using 0 workers for DataLoaders.
+2025-04-19 05:46:09,120 [INFO] DataLoaders created.
+2025-04-19 05:46:09,120 [INFO] Initializing model...
+2025-04-19 05:46:09,258 [INFO] Model initialized with 362,850 trainable parameters.
+2025-04-19 05:46:09,792 [INFO] Loss function, optimizer, and scheduler initialized.
+2025-04-19 05:46:09,792 [INFO] --- Starting Training for 100 epochs ---

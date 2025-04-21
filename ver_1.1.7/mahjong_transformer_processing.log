@@ -1,0 +1,859 @@
+2025-04-07 16:15:29,622 [INFO] Found 11739 XML files to process
+2025-04-07 16:15:29,622 [INFO] Starting processing with 8 workers...
+2025-04-07 16:16:17,643 [INFO] Found 11739 XML files to process
+2025-04-07 16:16:17,644 [INFO] Starting processing with 8 workers...
+2025-04-07 16:20:28,074 [ERROR] Error processing 2009030721gm-00e1-0000-7d2e4245.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,075 [ERROR] Error processing 2009082410gm-00e1-0000-2405c997.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,075 [ERROR] Error processing 2009110714gm-00e1-0000-19b776a0.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,075 [ERROR] Error processing 2009061300gm-00e1-0000-03e23ffd.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,075 [ERROR] Error processing 2009122302gm-00a9-0000-eeb2876a.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,074 [ERROR] Error processing 2009060923gm-00e1-0000-c930641d.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,074 [ERROR] Error processing 2009092006gm-00a9-0000-ff577139.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,076 [ERROR] Error processing 2009022022gm-00e1-0000-e6144478.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,080 [ERROR] Error processing 2009042521gm-00e1-0000-44929fa6.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,081 [ERROR] Error processing 2009030715gm-00e1-0000-cc5d9746.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,083 [ERROR] Error processing 2009111019gm-00e1-0000-d2a55702.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,083 [ERROR] Error processing 2009082417gm-00e1-0000-da981b2a.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,085 [ERROR] Error processing 2009110721gm-00a9-0000-53be5a83.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,087 [ERROR] Error processing 2009091704gm-00e1-0000-eec95bcf.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,087 [ERROR] Error processing 2009080819gm-00e1-0000-ac8a6704.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,087 [ERROR] Error processing 2009101819gm-00e1-0000-f6018648.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,087 [ERROR] Error processing 2009121423gm-00a9-0000-d21185d8.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,127 [ERROR] Error processing 2009042420gm-00e1-0000-4c4641c5.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,127 [ERROR] Error processing 2009080500gm-00e1-0000-8119fc7c.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,128 [ERROR] Error processing 2009042821gm-00e1-0000-1c8c1394.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,128 [ERROR] Error processing 2009072122gm-00e1-0000-c642f8e0.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,128 [ERROR] Error processing 2009071702gm-00e1-0000-c97fd371.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,131 [ERROR] Error processing 2009102213gm-00e1-0000-bab42c42.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,133 [ERROR] Error processing 2009081217gm-00e1-0000-2a72d732.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,136 [ERROR] Error processing 2009081201gm-00e1-0000-db807ff9.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,138 [ERROR] Error processing 2009031620gm-00e1-0000-b0057cf2.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,140 [ERROR] Error processing 2009101423gm-00e1-0000-3ce58443.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,140 [ERROR] Error processing 2009100205gm-00a9-0000-2bf63691.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,141 [ERROR] Error processing 2009031616gm-00e1-0000-18ea75d0.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,142 [ERROR] Error processing 2009121400gm-00e1-0000-d7d92c51.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,142 [ERROR] Error processing 2009090101gm-00e1-0000-32870b88.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,144 [ERROR] Error processing 2009022202gm-00a9-0000-b587e1ed.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,144 [ERROR] Error processing 2009080522gm-00e1-0000-79e9613e.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,144 [ERROR] Error processing 2009080510gm-00e1-0000-9c513cd2.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,144 [ERROR] Error processing 2009091720gm-00e1-0000-cdb92ce3.xml: [Errno 5] Input/output error
+2025-04-07 16:20:28,145 [ERROR] Error processing 2009081200gm-00e1-0000-62a8ec6e.xml: [Errno 5] Input/output error
+2025-04-07 17:16:46,309 [INFO] Found 11739 XML files to process
+2025-04-07 17:16:46,309 [INFO] Starting processing with 8 workers...
+2025-04-07 17:16:57,728 [INFO] Found 11739 XML files to process
+2025-04-07 17:16:57,728 [INFO] Starting processing with 8 workers...
+2025-04-07 17:18:54,252 [INFO] Found 11739 XML files to process
+2025-04-07 17:18:54,253 [INFO] Starting processing with 8 workers...
+2025-04-07 17:21:15,119 [INFO] Collecting results and saving batches...
+2025-04-07 17:21:15,876 [INFO] Saved batch 0 to ./training_data/mahjong_transformer_data_batch_0.npz with 12206 samples
+2025-04-07 17:21:16,702 [INFO] Saved batch 1 to ./training_data/mahjong_transformer_data_batch_1.npz with 13362 samples
+2025-04-07 17:21:17,632 [INFO] Saved batch 2 to ./training_data/mahjong_transformer_data_batch_2.npz with 14077 samples
+2025-04-07 17:21:18,434 [INFO] Saved batch 3 to ./training_data/mahjong_transformer_data_batch_3.npz with 12967 samples
+2025-04-07 17:21:19,283 [INFO] Saved batch 4 to ./training_data/mahjong_transformer_data_batch_4.npz with 14396 samples
+2025-04-07 17:21:20,166 [INFO] Saved batch 5 to ./training_data/mahjong_transformer_data_batch_5.npz with 13993 samples
+2025-04-07 17:21:20,980 [INFO] Saved batch 6 to ./training_data/mahjong_transformer_data_batch_6.npz with 13313 samples
+2025-04-07 17:21:21,811 [INFO] Saved batch 7 to ./training_data/mahjong_transformer_data_batch_7.npz with 13590 samples
+2025-04-07 17:21:22,729 [INFO] Saved batch 8 to ./training_data/mahjong_transformer_data_batch_8.npz with 14784 samples
+2025-04-07 17:21:23,557 [INFO] Saved batch 9 to ./training_data/mahjong_transformer_data_batch_9.npz with 13641 samples
+2025-04-07 17:21:24,357 [INFO] Saved batch 10 to ./training_data/mahjong_transformer_data_batch_10.npz with 12843 samples
+2025-04-07 17:21:25,299 [INFO] Saved batch 11 to ./training_data/mahjong_transformer_data_batch_11.npz with 14706 samples
+2025-04-07 17:21:26,098 [INFO] Saved batch 12 to ./training_data/mahjong_transformer_data_batch_12.npz with 12992 samples
+2025-04-07 17:21:26,851 [INFO] Saved batch 13 to ./training_data/mahjong_transformer_data_batch_13.npz with 13119 samples
+2025-04-07 17:21:27,760 [INFO] Saved batch 14 to ./training_data/mahjong_transformer_data_batch_14.npz with 15071 samples
+2025-04-07 17:21:28,562 [INFO] Saved batch 15 to ./training_data/mahjong_transformer_data_batch_15.npz with 12913 samples
+2025-04-07 17:21:29,352 [INFO] Saved batch 16 to ./training_data/mahjong_transformer_data_batch_16.npz with 13454 samples
+2025-04-07 17:21:30,165 [INFO] Saved batch 17 to ./training_data/mahjong_transformer_data_batch_17.npz with 13775 samples
+2025-04-07 17:21:31,294 [INFO] Saved batch 18 to ./training_data/mahjong_transformer_data_batch_18.npz with 15763 samples
+2025-04-07 17:21:32,184 [INFO] Saved batch 19 to ./training_data/mahjong_transformer_data_batch_19.npz with 13731 samples
+2025-04-07 17:21:33,100 [INFO] Saved batch 20 to ./training_data/mahjong_transformer_data_batch_20.npz with 14290 samples
+2025-04-07 17:21:33,968 [INFO] Saved batch 21 to ./training_data/mahjong_transformer_data_batch_21.npz with 13693 samples
+2025-04-07 17:21:34,832 [INFO] Saved batch 22 to ./training_data/mahjong_transformer_data_batch_22.npz with 14131 samples
+2025-04-07 17:21:35,620 [INFO] Saved batch 23 to ./training_data/mahjong_transformer_data_batch_23.npz with 13545 samples
+2025-04-07 17:21:36,433 [INFO] Saved batch 24 to ./training_data/mahjong_transformer_data_batch_24.npz with 13166 samples
+2025-04-07 17:21:37,343 [INFO] Saved batch 25 to ./training_data/mahjong_transformer_data_batch_25.npz with 15073 samples
+2025-04-07 17:21:38,207 [INFO] Saved batch 26 to ./training_data/mahjong_transformer_data_batch_26.npz with 14329 samples
+2025-04-07 17:21:38,965 [INFO] Saved batch 27 to ./training_data/mahjong_transformer_data_batch_27.npz with 12850 samples
+2025-04-07 17:21:39,848 [INFO] Saved batch 28 to ./training_data/mahjong_transformer_data_batch_28.npz with 14996 samples
+2025-04-07 17:21:40,620 [INFO] Saved batch 29 to ./training_data/mahjong_transformer_data_batch_29.npz with 13189 samples
+2025-04-07 17:21:41,401 [INFO] Saved batch 30 to ./training_data/mahjong_transformer_data_batch_30.npz with 14041 samples
+2025-04-07 17:21:42,170 [INFO] Saved batch 31 to ./training_data/mahjong_transformer_data_batch_31.npz with 13589 samples
+2025-04-07 17:21:43,102 [INFO] Saved batch 32 to ./training_data/mahjong_transformer_data_batch_32.npz with 14875 samples
+2025-04-07 17:21:43,891 [INFO] Saved batch 33 to ./training_data/mahjong_transformer_data_batch_33.npz with 13645 samples
+2025-04-07 17:21:44,717 [INFO] Saved batch 34 to ./training_data/mahjong_transformer_data_batch_34.npz with 14765 samples
+2025-04-07 17:21:45,487 [INFO] Saved batch 35 to ./training_data/mahjong_transformer_data_batch_35.npz with 13258 samples
+2025-04-07 17:21:46,207 [INFO] Saved batch 36 to ./training_data/mahjong_transformer_data_batch_36.npz with 12975 samples
+2025-04-07 17:21:46,938 [INFO] Saved batch 37 to ./training_data/mahjong_transformer_data_batch_37.npz with 12608 samples
+2025-04-07 17:21:47,707 [INFO] Saved batch 38 to ./training_data/mahjong_transformer_data_batch_38.npz with 13347 samples
+2025-04-07 17:21:48,522 [INFO] Saved batch 39 to ./training_data/mahjong_transformer_data_batch_39.npz with 14024 samples
+2025-04-07 17:21:49,299 [INFO] Saved batch 40 to ./training_data/mahjong_transformer_data_batch_40.npz with 13195 samples
+2025-04-07 17:21:50,095 [INFO] Saved batch 41 to ./training_data/mahjong_transformer_data_batch_41.npz with 13648 samples
+2025-04-07 17:21:50,949 [INFO] Saved batch 42 to ./training_data/mahjong_transformer_data_batch_42.npz with 14194 samples
+2025-04-07 17:21:51,753 [INFO] Saved batch 43 to ./training_data/mahjong_transformer_data_batch_43.npz with 14317 samples
+2025-04-07 17:21:52,512 [INFO] Saved batch 44 to ./training_data/mahjong_transformer_data_batch_44.npz with 13473 samples
+2025-04-07 17:21:53,235 [INFO] Saved batch 45 to ./training_data/mahjong_transformer_data_batch_45.npz with 12685 samples
+2025-04-07 17:21:54,089 [INFO] Saved batch 46 to ./training_data/mahjong_transformer_data_batch_46.npz with 14435 samples
+2025-04-07 17:21:54,867 [INFO] Saved batch 47 to ./training_data/mahjong_transformer_data_batch_47.npz with 13248 samples
+2025-04-07 17:21:55,662 [INFO] Saved batch 48 to ./training_data/mahjong_transformer_data_batch_48.npz with 13316 samples
+2025-04-07 17:21:56,453 [INFO] Saved batch 49 to ./training_data/mahjong_transformer_data_batch_49.npz with 13906 samples
+2025-04-07 17:21:57,212 [INFO] Saved batch 50 to ./training_data/mahjong_transformer_data_batch_50.npz with 13534 samples
+2025-04-07 17:21:57,999 [INFO] Saved batch 51 to ./training_data/mahjong_transformer_data_batch_51.npz with 13764 samples
+2025-04-07 17:21:58,764 [INFO] Saved batch 52 to ./training_data/mahjong_transformer_data_batch_52.npz with 13771 samples
+2025-04-07 17:21:59,603 [INFO] Saved batch 53 to ./training_data/mahjong_transformer_data_batch_53.npz with 14592 samples
+2025-04-07 17:22:00,497 [INFO] Saved batch 54 to ./training_data/mahjong_transformer_data_batch_54.npz with 15132 samples
+2025-04-07 17:22:01,296 [INFO] Saved batch 55 to ./training_data/mahjong_transformer_data_batch_55.npz with 14076 samples
+2025-04-07 17:22:02,160 [INFO] Saved batch 56 to ./training_data/mahjong_transformer_data_batch_56.npz with 14649 samples
+2025-04-07 17:22:03,168 [INFO] Saved batch 57 to ./training_data/mahjong_transformer_data_batch_57.npz with 16414 samples
+2025-04-07 17:22:03,991 [INFO] Saved batch 58 to ./training_data/mahjong_transformer_data_batch_58.npz with 13185 samples
+2025-04-07 17:22:04,878 [INFO] Saved batch 59 to ./training_data/mahjong_transformer_data_batch_59.npz with 14114 samples
+2025-04-07 17:22:05,756 [INFO] Saved batch 60 to ./training_data/mahjong_transformer_data_batch_60.npz with 13820 samples
+2025-04-07 17:22:06,590 [INFO] Saved batch 61 to ./training_data/mahjong_transformer_data_batch_61.npz with 13403 samples
+2025-04-07 17:22:07,462 [INFO] Saved batch 62 to ./training_data/mahjong_transformer_data_batch_62.npz with 14704 samples
+2025-04-07 17:22:08,319 [INFO] Saved batch 63 to ./training_data/mahjong_transformer_data_batch_63.npz with 13236 samples
+2025-04-07 17:22:09,062 [INFO] Saved batch 64 to ./training_data/mahjong_transformer_data_batch_64.npz with 13018 samples
+2025-04-07 17:22:09,900 [INFO] Saved batch 65 to ./training_data/mahjong_transformer_data_batch_65.npz with 14001 samples
+2025-04-07 17:22:10,767 [INFO] Saved batch 66 to ./training_data/mahjong_transformer_data_batch_66.npz with 13903 samples
+2025-04-07 17:22:11,626 [INFO] Saved batch 67 to ./training_data/mahjong_transformer_data_batch_67.npz with 14078 samples
+2025-04-07 17:22:12,393 [INFO] Saved batch 68 to ./training_data/mahjong_transformer_data_batch_68.npz with 13593 samples
+2025-04-07 17:22:13,198 [INFO] Saved batch 69 to ./training_data/mahjong_transformer_data_batch_69.npz with 13333 samples
+2025-04-07 17:22:14,075 [INFO] Saved batch 70 to ./training_data/mahjong_transformer_data_batch_70.npz with 14674 samples
+2025-04-07 17:22:14,903 [INFO] Saved batch 71 to ./training_data/mahjong_transformer_data_batch_71.npz with 14644 samples
+2025-04-07 17:22:15,725 [INFO] Saved batch 72 to ./training_data/mahjong_transformer_data_batch_72.npz with 14159 samples
+2025-04-07 17:22:16,494 [INFO] Saved batch 73 to ./training_data/mahjong_transformer_data_batch_73.npz with 13828 samples
+2025-04-07 17:22:17,271 [INFO] Saved batch 74 to ./training_data/mahjong_transformer_data_batch_74.npz with 14010 samples
+2025-04-07 17:22:18,090 [INFO] Saved batch 75 to ./training_data/mahjong_transformer_data_batch_75.npz with 14420 samples
+2025-04-07 17:22:18,954 [INFO] Saved batch 76 to ./training_data/mahjong_transformer_data_batch_76.npz with 13827 samples
+2025-04-07 17:22:19,725 [INFO] Saved batch 77 to ./training_data/mahjong_transformer_data_batch_77.npz with 13125 samples
+2025-04-07 17:22:20,541 [INFO] Saved batch 78 to ./training_data/mahjong_transformer_data_batch_78.npz with 13201 samples
+2025-04-07 17:22:21,286 [INFO] Saved batch 79 to ./training_data/mahjong_transformer_data_batch_79.npz with 13381 samples
+2025-04-07 17:22:22,185 [INFO] Saved batch 80 to ./training_data/mahjong_transformer_data_batch_80.npz with 15560 samples
+2025-04-07 17:22:22,914 [INFO] Saved batch 81 to ./training_data/mahjong_transformer_data_batch_81.npz with 12797 samples
+2025-04-07 17:22:23,705 [INFO] Saved batch 82 to ./training_data/mahjong_transformer_data_batch_82.npz with 14048 samples
+2025-04-07 17:22:24,567 [INFO] Saved batch 83 to ./training_data/mahjong_transformer_data_batch_83.npz with 14488 samples
+2025-04-07 17:22:25,280 [INFO] Saved batch 84 to ./training_data/mahjong_transformer_data_batch_84.npz with 12703 samples
+2025-04-07 17:22:26,023 [INFO] Saved batch 85 to ./training_data/mahjong_transformer_data_batch_85.npz with 13353 samples
+2025-04-07 17:22:26,841 [INFO] Saved batch 86 to ./training_data/mahjong_transformer_data_batch_86.npz with 13946 samples
+2025-04-07 17:22:27,674 [INFO] Saved batch 87 to ./training_data/mahjong_transformer_data_batch_87.npz with 14106 samples
+2025-04-07 17:22:28,558 [INFO] Saved batch 88 to ./training_data/mahjong_transformer_data_batch_88.npz with 15165 samples
+2025-04-07 17:22:29,388 [INFO] Saved batch 89 to ./training_data/mahjong_transformer_data_batch_89.npz with 14467 samples
+2025-04-07 17:22:30,113 [INFO] Saved batch 90 to ./training_data/mahjong_transformer_data_batch_90.npz with 12393 samples
+2025-04-07 17:22:30,949 [INFO] Saved batch 91 to ./training_data/mahjong_transformer_data_batch_91.npz with 14495 samples
+2025-04-07 17:22:31,763 [INFO] Saved batch 92 to ./training_data/mahjong_transformer_data_batch_92.npz with 14245 samples
+2025-04-07 17:22:32,555 [INFO] Saved batch 93 to ./training_data/mahjong_transformer_data_batch_93.npz with 14153 samples
+2025-04-07 17:22:33,366 [INFO] Saved batch 94 to ./training_data/mahjong_transformer_data_batch_94.npz with 13809 samples
+2025-04-07 17:22:34,178 [INFO] Saved batch 95 to ./training_data/mahjong_transformer_data_batch_95.npz with 14129 samples
+2025-04-07 17:22:34,941 [INFO] Saved batch 96 to ./training_data/mahjong_transformer_data_batch_96.npz with 13638 samples
+2025-04-07 17:22:35,723 [INFO] Saved batch 97 to ./training_data/mahjong_transformer_data_batch_97.npz with 13445 samples
+2025-04-07 17:22:36,504 [INFO] Saved batch 98 to ./training_data/mahjong_transformer_data_batch_98.npz with 12699 samples
+2025-04-07 17:22:37,410 [INFO] Saved batch 99 to ./training_data/mahjong_transformer_data_batch_99.npz with 14650 samples
+2025-04-07 17:22:38,304 [INFO] Saved batch 100 to ./training_data/mahjong_transformer_data_batch_100.npz with 13160 samples
+2025-04-07 17:22:39,131 [INFO] Saved batch 101 to ./training_data/mahjong_transformer_data_batch_101.npz with 14125 samples
+2025-04-07 17:22:39,871 [INFO] Saved batch 102 to ./training_data/mahjong_transformer_data_batch_102.npz with 12792 samples
+2025-04-07 17:22:40,826 [INFO] Saved batch 103 to ./training_data/mahjong_transformer_data_batch_103.npz with 16210 samples
+2025-04-07 17:22:41,638 [INFO] Saved batch 104 to ./training_data/mahjong_transformer_data_batch_104.npz with 14044 samples
+2025-04-07 17:22:42,441 [INFO] Saved batch 105 to ./training_data/mahjong_transformer_data_batch_105.npz with 13846 samples
+2025-04-07 17:22:43,224 [INFO] Saved batch 106 to ./training_data/mahjong_transformer_data_batch_106.npz with 13651 samples
+2025-04-07 17:22:43,934 [INFO] Saved batch 107 to ./training_data/mahjong_transformer_data_batch_107.npz with 12689 samples
+2025-04-07 17:22:44,765 [INFO] Saved batch 108 to ./training_data/mahjong_transformer_data_batch_108.npz with 14634 samples
+2025-04-07 17:22:45,613 [INFO] Saved batch 109 to ./training_data/mahjong_transformer_data_batch_109.npz with 14356 samples
+2025-04-07 17:22:46,433 [INFO] Saved batch 110 to ./training_data/mahjong_transformer_data_batch_110.npz with 13857 samples
+2025-04-07 17:22:47,345 [INFO] Saved batch 111 to ./training_data/mahjong_transformer_data_batch_111.npz with 15477 samples
+2025-04-07 17:22:48,224 [INFO] Saved batch 112 to ./training_data/mahjong_transformer_data_batch_112.npz with 14347 samples
+2025-04-07 17:22:49,138 [INFO] Saved batch 113 to ./training_data/mahjong_transformer_data_batch_113.npz with 15007 samples
+2025-04-07 17:22:50,005 [INFO] Saved batch 114 to ./training_data/mahjong_transformer_data_batch_114.npz with 15111 samples
+2025-04-07 17:22:50,793 [INFO] Saved batch 115 to ./training_data/mahjong_transformer_data_batch_115.npz with 13612 samples
+2025-04-07 17:22:51,569 [INFO] Saved batch 116 to ./training_data/mahjong_transformer_data_batch_116.npz with 13224 samples
+2025-04-07 17:22:52,437 [INFO] Saved batch 117 to ./training_data/mahjong_transformer_data_batch_117.npz with 15007 samples
+2025-04-07 17:22:53,331 [INFO] Saved batch 118 to ./training_data/mahjong_transformer_data_batch_118.npz with 15502 samples
+2025-04-07 17:22:54,184 [INFO] Saved batch 119 to ./training_data/mahjong_transformer_data_batch_119.npz with 13957 samples
+2025-04-07 17:22:55,071 [INFO] Saved batch 120 to ./training_data/mahjong_transformer_data_batch_120.npz with 15310 samples
+2025-04-07 17:22:55,855 [INFO] Saved batch 121 to ./training_data/mahjong_transformer_data_batch_121.npz with 13595 samples
+2025-04-07 17:22:56,610 [INFO] Saved batch 122 to ./training_data/mahjong_transformer_data_batch_122.npz with 13130 samples
+2025-04-07 17:22:57,395 [INFO] Saved batch 123 to ./training_data/mahjong_transformer_data_batch_123.npz with 13485 samples
+2025-04-07 17:22:58,277 [INFO] Saved batch 124 to ./training_data/mahjong_transformer_data_batch_124.npz with 13458 samples
+2025-04-07 17:22:59,525 [INFO] Saved batch 125 to ./training_data/mahjong_transformer_data_batch_125.npz with 13500 samples
+2025-04-07 17:23:00,511 [INFO] Saved batch 126 to ./training_data/mahjong_transformer_data_batch_126.npz with 15032 samples
+2025-04-07 17:23:01,407 [INFO] Saved batch 127 to ./training_data/mahjong_transformer_data_batch_127.npz with 12438 samples
+2025-04-07 17:23:02,253 [INFO] Saved batch 128 to ./training_data/mahjong_transformer_data_batch_128.npz with 14500 samples
+2025-04-07 17:23:03,113 [INFO] Saved batch 129 to ./training_data/mahjong_transformer_data_batch_129.npz with 14115 samples
+2025-04-07 17:23:03,988 [INFO] Saved batch 130 to ./training_data/mahjong_transformer_data_batch_130.npz with 12981 samples
+2025-04-07 17:23:04,842 [INFO] Saved batch 131 to ./training_data/mahjong_transformer_data_batch_131.npz with 14328 samples
+2025-04-07 17:23:05,650 [INFO] Saved batch 132 to ./training_data/mahjong_transformer_data_batch_132.npz with 14051 samples
+2025-04-07 17:23:06,410 [INFO] Saved batch 133 to ./training_data/mahjong_transformer_data_batch_133.npz with 13442 samples
+2025-04-07 17:23:07,166 [INFO] Saved batch 134 to ./training_data/mahjong_transformer_data_batch_134.npz with 13528 samples
+2025-04-07 17:23:07,920 [INFO] Saved batch 135 to ./training_data/mahjong_transformer_data_batch_135.npz with 13256 samples
+2025-04-07 17:23:08,792 [INFO] Saved batch 136 to ./training_data/mahjong_transformer_data_batch_136.npz with 14122 samples
+2025-04-07 17:23:09,634 [INFO] Saved batch 137 to ./training_data/mahjong_transformer_data_batch_137.npz with 13733 samples
+2025-04-07 17:23:10,535 [INFO] Saved batch 138 to ./training_data/mahjong_transformer_data_batch_138.npz with 15191 samples
+2025-04-07 17:23:11,323 [INFO] Saved batch 139 to ./training_data/mahjong_transformer_data_batch_139.npz with 13027 samples
+2025-04-07 17:23:12,039 [INFO] Saved batch 140 to ./training_data/mahjong_transformer_data_batch_140.npz with 12795 samples
+2025-04-07 17:23:12,860 [INFO] Saved batch 141 to ./training_data/mahjong_transformer_data_batch_141.npz with 14635 samples
+2025-04-07 17:23:13,700 [INFO] Saved batch 142 to ./training_data/mahjong_transformer_data_batch_142.npz with 14777 samples
+2025-04-07 17:23:14,533 [INFO] Saved batch 143 to ./training_data/mahjong_transformer_data_batch_143.npz with 15256 samples
+2025-04-07 17:23:15,449 [INFO] Saved batch 144 to ./training_data/mahjong_transformer_data_batch_144.npz with 16454 samples
+2025-04-07 17:23:16,285 [INFO] Saved batch 145 to ./training_data/mahjong_transformer_data_batch_145.npz with 14526 samples
+2025-04-07 17:23:17,060 [INFO] Saved batch 146 to ./training_data/mahjong_transformer_data_batch_146.npz with 12901 samples
+2025-04-07 17:23:17,823 [INFO] Saved batch 147 to ./training_data/mahjong_transformer_data_batch_147.npz with 13313 samples
+2025-04-07 17:23:18,720 [INFO] Saved batch 148 to ./training_data/mahjong_transformer_data_batch_148.npz with 14698 samples
+2025-04-07 17:23:19,601 [INFO] Saved batch 149 to ./training_data/mahjong_transformer_data_batch_149.npz with 15202 samples
+2025-04-07 17:23:20,424 [INFO] Saved batch 150 to ./training_data/mahjong_transformer_data_batch_150.npz with 14393 samples
+2025-04-07 17:23:21,298 [INFO] Saved batch 151 to ./training_data/mahjong_transformer_data_batch_151.npz with 14490 samples
+2025-04-07 17:23:22,088 [INFO] Saved batch 152 to ./training_data/mahjong_transformer_data_batch_152.npz with 13502 samples
+2025-04-07 17:23:22,857 [INFO] Saved batch 153 to ./training_data/mahjong_transformer_data_batch_153.npz with 13232 samples
+2025-04-07 17:23:23,576 [INFO] Saved batch 154 to ./training_data/mahjong_transformer_data_batch_154.npz with 12718 samples
+2025-04-07 17:23:24,568 [INFO] Saved batch 155 to ./training_data/mahjong_transformer_data_batch_155.npz with 15508 samples
+2025-04-07 17:23:25,337 [INFO] Saved batch 156 to ./training_data/mahjong_transformer_data_batch_156.npz with 13459 samples
+2025-04-07 17:23:26,142 [INFO] Saved batch 157 to ./training_data/mahjong_transformer_data_batch_157.npz with 14197 samples
+2025-04-07 17:23:26,917 [INFO] Saved batch 158 to ./training_data/mahjong_transformer_data_batch_158.npz with 13903 samples
+2025-04-07 17:23:27,656 [INFO] Saved batch 159 to ./training_data/mahjong_transformer_data_batch_159.npz with 12998 samples
+2025-04-07 17:23:28,467 [INFO] Saved batch 160 to ./training_data/mahjong_transformer_data_batch_160.npz with 14365 samples
+2025-04-07 17:23:29,351 [INFO] Saved batch 161 to ./training_data/mahjong_transformer_data_batch_161.npz with 14438 samples
+2025-04-07 17:23:30,147 [INFO] Saved batch 162 to ./training_data/mahjong_transformer_data_batch_162.npz with 13771 samples
+2025-04-07 17:23:30,964 [INFO] Saved batch 163 to ./training_data/mahjong_transformer_data_batch_163.npz with 14221 samples
+2025-04-07 17:23:31,815 [INFO] Saved batch 164 to ./training_data/mahjong_transformer_data_batch_164.npz with 15189 samples
+2025-04-07 17:23:32,529 [INFO] Saved batch 165 to ./training_data/mahjong_transformer_data_batch_165.npz with 12434 samples
+2025-04-07 17:23:33,295 [INFO] Saved batch 166 to ./training_data/mahjong_transformer_data_batch_166.npz with 13212 samples
+2025-04-07 17:23:34,131 [INFO] Saved batch 167 to ./training_data/mahjong_transformer_data_batch_167.npz with 14810 samples
+2025-04-07 17:23:34,901 [INFO] Saved batch 168 to ./training_data/mahjong_transformer_data_batch_168.npz with 13263 samples
+2025-04-07 17:23:35,616 [INFO] Saved batch 169 to ./training_data/mahjong_transformer_data_batch_169.npz with 12760 samples
+2025-04-07 17:23:36,471 [INFO] Saved batch 170 to ./training_data/mahjong_transformer_data_batch_170.npz with 14067 samples
+2025-04-07 17:23:37,337 [INFO] Saved batch 171 to ./training_data/mahjong_transformer_data_batch_171.npz with 14572 samples
+2025-04-07 17:23:38,287 [INFO] Saved batch 172 to ./training_data/mahjong_transformer_data_batch_172.npz with 15543 samples
+2025-04-07 17:23:39,163 [INFO] Saved batch 173 to ./training_data/mahjong_transformer_data_batch_173.npz with 15166 samples
+2025-04-07 17:23:40,021 [INFO] Saved batch 174 to ./training_data/mahjong_transformer_data_batch_174.npz with 14223 samples
+2025-04-07 17:23:40,902 [INFO] Saved batch 175 to ./training_data/mahjong_transformer_data_batch_175.npz with 15682 samples
+2025-04-07 17:23:41,714 [INFO] Saved batch 176 to ./training_data/mahjong_transformer_data_batch_176.npz with 14045 samples
+2025-04-07 17:23:42,486 [INFO] Saved batch 177 to ./training_data/mahjong_transformer_data_batch_177.npz with 13681 samples
+2025-04-07 17:23:43,305 [INFO] Saved batch 178 to ./training_data/mahjong_transformer_data_batch_178.npz with 14095 samples
+2025-04-07 17:23:44,073 [INFO] Saved batch 179 to ./training_data/mahjong_transformer_data_batch_179.npz with 13354 samples
+2025-04-07 17:23:44,822 [INFO] Saved batch 180 to ./training_data/mahjong_transformer_data_batch_180.npz with 13673 samples
+2025-04-07 17:23:45,690 [INFO] Saved batch 181 to ./training_data/mahjong_transformer_data_batch_181.npz with 15078 samples
+2025-04-07 17:23:46,494 [INFO] Saved batch 182 to ./training_data/mahjong_transformer_data_batch_182.npz with 13647 samples
+2025-04-07 17:23:47,284 [INFO] Saved batch 183 to ./training_data/mahjong_transformer_data_batch_183.npz with 13466 samples
+2025-04-07 17:23:48,085 [INFO] Saved batch 184 to ./training_data/mahjong_transformer_data_batch_184.npz with 14311 samples
+2025-04-07 17:23:48,895 [INFO] Saved batch 185 to ./training_data/mahjong_transformer_data_batch_185.npz with 14366 samples
+2025-04-07 17:23:49,755 [INFO] Saved batch 186 to ./training_data/mahjong_transformer_data_batch_186.npz with 14177 samples
+2025-04-07 17:23:50,615 [INFO] Saved batch 187 to ./training_data/mahjong_transformer_data_batch_187.npz with 13917 samples
+2025-04-07 17:23:51,369 [INFO] Saved batch 188 to ./training_data/mahjong_transformer_data_batch_188.npz with 13426 samples
+2025-04-07 17:23:52,131 [INFO] Saved batch 189 to ./training_data/mahjong_transformer_data_batch_189.npz with 13610 samples
+2025-04-07 17:23:52,998 [INFO] Saved batch 190 to ./training_data/mahjong_transformer_data_batch_190.npz with 15006 samples
+2025-04-07 17:23:53,748 [INFO] Saved batch 191 to ./training_data/mahjong_transformer_data_batch_191.npz with 12858 samples
+2025-04-07 17:23:54,533 [INFO] Saved batch 192 to ./training_data/mahjong_transformer_data_batch_192.npz with 13680 samples
+2025-04-07 17:23:55,237 [INFO] Saved batch 193 to ./training_data/mahjong_transformer_data_batch_193.npz with 12460 samples
+2025-04-07 17:23:56,063 [INFO] Saved batch 194 to ./training_data/mahjong_transformer_data_batch_194.npz with 13816 samples
+2025-04-07 17:23:56,798 [INFO] Saved batch 195 to ./training_data/mahjong_transformer_data_batch_195.npz with 12054 samples
+2025-04-07 17:23:57,531 [INFO] Saved batch 196 to ./training_data/mahjong_transformer_data_batch_196.npz with 13087 samples
+2025-04-07 17:23:58,351 [INFO] Saved batch 197 to ./training_data/mahjong_transformer_data_batch_197.npz with 14311 samples
+2025-04-07 17:23:59,204 [INFO] Saved batch 198 to ./training_data/mahjong_transformer_data_batch_198.npz with 14802 samples
+2025-04-07 17:24:00,103 [INFO] Saved batch 199 to ./training_data/mahjong_transformer_data_batch_199.npz with 15109 samples
+2025-04-07 17:24:00,947 [INFO] Saved batch 200 to ./training_data/mahjong_transformer_data_batch_200.npz with 14600 samples
+2025-04-07 17:24:01,766 [INFO] Saved batch 201 to ./training_data/mahjong_transformer_data_batch_201.npz with 13734 samples
+2025-04-07 17:24:02,546 [INFO] Saved batch 202 to ./training_data/mahjong_transformer_data_batch_202.npz with 14035 samples
+2025-04-07 17:24:03,368 [INFO] Saved batch 203 to ./training_data/mahjong_transformer_data_batch_203.npz with 14435 samples
+2025-04-07 17:24:04,290 [INFO] Saved batch 204 to ./training_data/mahjong_transformer_data_batch_204.npz with 16075 samples
+2025-04-07 17:24:05,108 [INFO] Saved batch 205 to ./training_data/mahjong_transformer_data_batch_205.npz with 14196 samples
+2025-04-07 17:24:05,932 [INFO] Saved batch 206 to ./training_data/mahjong_transformer_data_batch_206.npz with 13889 samples
+2025-04-07 17:24:06,833 [INFO] Saved batch 207 to ./training_data/mahjong_transformer_data_batch_207.npz with 14600 samples
+2025-04-07 17:24:07,722 [INFO] Saved batch 208 to ./training_data/mahjong_transformer_data_batch_208.npz with 15144 samples
+2025-04-07 17:24:08,558 [INFO] Saved batch 209 to ./training_data/mahjong_transformer_data_batch_209.npz with 14702 samples
+2025-04-07 17:24:09,341 [INFO] Saved batch 210 to ./training_data/mahjong_transformer_data_batch_210.npz with 13725 samples
+2025-04-07 17:24:10,221 [INFO] Saved batch 211 to ./training_data/mahjong_transformer_data_batch_211.npz with 14702 samples
+2025-04-07 17:24:10,996 [INFO] Saved batch 212 to ./training_data/mahjong_transformer_data_batch_212.npz with 13139 samples
+2025-04-07 17:24:11,818 [INFO] Saved batch 213 to ./training_data/mahjong_transformer_data_batch_213.npz with 14383 samples
+2025-04-07 17:24:12,611 [INFO] Saved batch 214 to ./training_data/mahjong_transformer_data_batch_214.npz with 14209 samples
+2025-04-07 17:24:13,439 [INFO] Saved batch 215 to ./training_data/mahjong_transformer_data_batch_215.npz with 14543 samples
+2025-04-07 17:24:14,305 [INFO] Saved batch 216 to ./training_data/mahjong_transformer_data_batch_216.npz with 14889 samples
+2025-04-07 17:24:15,062 [INFO] Saved batch 217 to ./training_data/mahjong_transformer_data_batch_217.npz with 12905 samples
+2025-04-07 17:24:15,824 [INFO] Saved batch 218 to ./training_data/mahjong_transformer_data_batch_218.npz with 13759 samples
+2025-04-07 17:24:16,641 [INFO] Saved batch 219 to ./training_data/mahjong_transformer_data_batch_219.npz with 14419 samples
+2025-04-07 17:24:17,454 [INFO] Saved batch 220 to ./training_data/mahjong_transformer_data_batch_220.npz with 14527 samples
+2025-04-07 17:24:18,228 [INFO] Saved batch 221 to ./training_data/mahjong_transformer_data_batch_221.npz with 13641 samples
+2025-04-07 17:24:18,994 [INFO] Saved batch 222 to ./training_data/mahjong_transformer_data_batch_222.npz with 13599 samples
+2025-04-07 17:24:19,891 [INFO] Saved batch 223 to ./training_data/mahjong_transformer_data_batch_223.npz with 15315 samples
+2025-04-07 17:24:20,689 [INFO] Saved batch 224 to ./training_data/mahjong_transformer_data_batch_224.npz with 13915 samples
+2025-04-07 17:24:21,471 [INFO] Saved batch 225 to ./training_data/mahjong_transformer_data_batch_225.npz with 13162 samples
+2025-04-07 17:24:22,267 [INFO] Saved batch 226 to ./training_data/mahjong_transformer_data_batch_226.npz with 13510 samples
+2025-04-07 17:24:23,089 [INFO] Saved batch 227 to ./training_data/mahjong_transformer_data_batch_227.npz with 14126 samples
+2025-04-07 17:24:23,873 [INFO] Saved batch 228 to ./training_data/mahjong_transformer_data_batch_228.npz with 12888 samples
+2025-04-07 17:24:24,652 [INFO] Saved batch 229 to ./training_data/mahjong_transformer_data_batch_229.npz with 13804 samples
+2025-04-07 17:24:25,372 [INFO] Saved batch 230 to ./training_data/mahjong_transformer_data_batch_230.npz with 12662 samples
+2025-04-07 17:24:26,113 [INFO] Saved batch 231 to ./training_data/mahjong_transformer_data_batch_231.npz with 12655 samples
+2025-04-07 17:24:26,976 [INFO] Saved batch 232 to ./training_data/mahjong_transformer_data_batch_232.npz with 14402 samples
+2025-04-07 17:24:27,860 [INFO] Saved batch 233 to ./training_data/mahjong_transformer_data_batch_233.npz with 15228 samples
+2025-04-07 17:24:28,490 [INFO] Saved batch 234 to ./training_data/mahjong_transformer_data_batch_234.npz with 11429 samples
+2025-04-07 17:24:28,491 [INFO] Processing complete.
+2025-04-07 17:24:28,491 [INFO] Processed 11739 files.
+2025-04-07 17:24:28,491 [INFO] Extracted and saved 3279858 samples in 235 batches.
+2025-04-07 17:24:28,491 [INFO] Data saved in ./training_data/ with prefix 'mahjong_transformer_data'
+2025-04-07 17:24:28,491 [INFO] Next step: Combine batches if needed and run train.py
+2025-04-09 14:50:42,183 [INFO] Found 20726 XML files to process
+2025-04-09 14:50:42,183 [INFO] Starting processing with 8 workers...
+2025-04-09 14:54:44,663 [INFO] Collecting results and saving batches...
+2025-04-09 14:54:45,599 [INFO] Saved batch 0 to ./training_data/mahjong_transformer_data_batch_0.npz with 13713 samples
+2025-04-09 14:54:46,545 [INFO] Saved batch 1 to ./training_data/mahjong_transformer_data_batch_1.npz with 13763 samples
+2025-04-09 14:54:47,710 [INFO] Saved batch 2 to ./training_data/mahjong_transformer_data_batch_2.npz with 13549 samples
+2025-04-09 14:54:48,694 [INFO] Saved batch 3 to ./training_data/mahjong_transformer_data_batch_3.npz with 13530 samples
+2025-04-09 14:54:49,516 [INFO] Saved batch 4 to ./training_data/mahjong_transformer_data_batch_4.npz with 13583 samples
+2025-04-09 14:54:50,299 [INFO] Saved batch 5 to ./training_data/mahjong_transformer_data_batch_5.npz with 12435 samples
+2025-04-09 14:54:51,086 [INFO] Saved batch 6 to ./training_data/mahjong_transformer_data_batch_6.npz with 13170 samples
+2025-04-09 14:54:51,934 [INFO] Saved batch 7 to ./training_data/mahjong_transformer_data_batch_7.npz with 13958 samples
+2025-04-09 14:54:52,867 [INFO] Saved batch 8 to ./training_data/mahjong_transformer_data_batch_8.npz with 15341 samples
+2025-04-09 14:54:53,697 [INFO] Saved batch 9 to ./training_data/mahjong_transformer_data_batch_9.npz with 13789 samples
+2025-04-09 14:54:54,568 [INFO] Saved batch 10 to ./training_data/mahjong_transformer_data_batch_10.npz with 14062 samples
+2025-04-09 14:54:55,404 [INFO] Saved batch 11 to ./training_data/mahjong_transformer_data_batch_11.npz with 13757 samples
+2025-04-09 14:54:56,251 [INFO] Saved batch 12 to ./training_data/mahjong_transformer_data_batch_12.npz with 14351 samples
+2025-04-09 14:54:57,079 [INFO] Saved batch 13 to ./training_data/mahjong_transformer_data_batch_13.npz with 13854 samples
+2025-04-09 14:54:57,927 [INFO] Saved batch 14 to ./training_data/mahjong_transformer_data_batch_14.npz with 14215 samples
+2025-04-09 14:54:58,757 [INFO] Saved batch 15 to ./training_data/mahjong_transformer_data_batch_15.npz with 13778 samples
+2025-04-09 14:54:59,643 [INFO] Saved batch 16 to ./training_data/mahjong_transformer_data_batch_16.npz with 13632 samples
+2025-04-09 14:55:00,450 [INFO] Saved batch 17 to ./training_data/mahjong_transformer_data_batch_17.npz with 13262 samples
+2025-04-09 14:55:01,231 [INFO] Saved batch 18 to ./training_data/mahjong_transformer_data_batch_18.npz with 13260 samples
+2025-04-09 14:55:02,186 [INFO] Saved batch 19 to ./training_data/mahjong_transformer_data_batch_19.npz with 14544 samples
+2025-04-09 14:55:03,074 [INFO] Saved batch 20 to ./training_data/mahjong_transformer_data_batch_20.npz with 14947 samples
+2025-04-09 14:55:03,910 [INFO] Saved batch 21 to ./training_data/mahjong_transformer_data_batch_21.npz with 13422 samples
+2025-04-09 14:55:04,685 [INFO] Saved batch 22 to ./training_data/mahjong_transformer_data_batch_22.npz with 13164 samples
+2025-04-09 14:55:05,494 [INFO] Saved batch 23 to ./training_data/mahjong_transformer_data_batch_23.npz with 13507 samples
+2025-04-09 14:55:06,612 [INFO] Saved batch 24 to ./training_data/mahjong_transformer_data_batch_24.npz with 14665 samples
+2025-04-09 14:55:07,495 [INFO] Saved batch 25 to ./training_data/mahjong_transformer_data_batch_25.npz with 14729 samples
+2025-04-09 14:55:08,334 [INFO] Saved batch 26 to ./training_data/mahjong_transformer_data_batch_26.npz with 14280 samples
+2025-04-09 14:55:09,079 [INFO] Saved batch 27 to ./training_data/mahjong_transformer_data_batch_27.npz with 12641 samples
+2025-04-09 14:55:09,916 [INFO] Saved batch 28 to ./training_data/mahjong_transformer_data_batch_28.npz with 13918 samples
+2025-04-09 14:55:10,846 [INFO] Saved batch 29 to ./training_data/mahjong_transformer_data_batch_29.npz with 15230 samples
+2025-04-09 14:55:11,656 [INFO] Saved batch 30 to ./training_data/mahjong_transformer_data_batch_30.npz with 13641 samples
+2025-04-09 14:55:12,588 [INFO] Saved batch 31 to ./training_data/mahjong_transformer_data_batch_31.npz with 15410 samples
+2025-04-09 14:55:13,513 [INFO] Saved batch 32 to ./training_data/mahjong_transformer_data_batch_32.npz with 14479 samples
+2025-04-09 14:55:14,353 [INFO] Saved batch 33 to ./training_data/mahjong_transformer_data_batch_33.npz with 14246 samples
+2025-04-09 14:55:15,230 [INFO] Saved batch 34 to ./training_data/mahjong_transformer_data_batch_34.npz with 14952 samples
+2025-04-09 14:55:16,043 [INFO] Saved batch 35 to ./training_data/mahjong_transformer_data_batch_35.npz with 13617 samples
+2025-04-09 14:55:16,804 [INFO] Saved batch 36 to ./training_data/mahjong_transformer_data_batch_36.npz with 13006 samples
+2025-04-09 14:55:17,691 [INFO] Saved batch 37 to ./training_data/mahjong_transformer_data_batch_37.npz with 15145 samples
+2025-04-09 14:55:18,529 [INFO] Saved batch 38 to ./training_data/mahjong_transformer_data_batch_38.npz with 13805 samples
+2025-04-09 14:55:19,332 [INFO] Saved batch 39 to ./training_data/mahjong_transformer_data_batch_39.npz with 13769 samples
+2025-04-09 14:55:20,115 [INFO] Saved batch 40 to ./training_data/mahjong_transformer_data_batch_40.npz with 13275 samples
+2025-04-09 14:55:20,909 [INFO] Saved batch 41 to ./training_data/mahjong_transformer_data_batch_41.npz with 13511 samples
+2025-04-09 14:55:21,677 [INFO] Saved batch 42 to ./training_data/mahjong_transformer_data_batch_42.npz with 12768 samples
+2025-04-09 14:55:22,532 [INFO] Saved batch 43 to ./training_data/mahjong_transformer_data_batch_43.npz with 13980 samples
+2025-04-09 14:55:23,470 [INFO] Saved batch 44 to ./training_data/mahjong_transformer_data_batch_44.npz with 15793 samples
+2025-04-09 14:55:24,324 [INFO] Saved batch 45 to ./training_data/mahjong_transformer_data_batch_45.npz with 14575 samples
+2025-04-09 14:55:25,168 [INFO] Saved batch 46 to ./training_data/mahjong_transformer_data_batch_46.npz with 13933 samples
+2025-04-09 14:55:25,996 [INFO] Saved batch 47 to ./training_data/mahjong_transformer_data_batch_47.npz with 13624 samples
+2025-04-09 14:55:26,810 [INFO] Saved batch 48 to ./training_data/mahjong_transformer_data_batch_48.npz with 13928 samples
+2025-04-09 14:55:27,732 [INFO] Saved batch 49 to ./training_data/mahjong_transformer_data_batch_49.npz with 15100 samples
+2025-04-09 14:55:28,545 [INFO] Saved batch 50 to ./training_data/mahjong_transformer_data_batch_50.npz with 13677 samples
+2025-04-09 14:55:29,373 [INFO] Saved batch 51 to ./training_data/mahjong_transformer_data_batch_51.npz with 14206 samples
+2025-04-09 14:55:30,214 [INFO] Saved batch 52 to ./training_data/mahjong_transformer_data_batch_52.npz with 13906 samples
+2025-04-09 14:55:31,139 [INFO] Saved batch 53 to ./training_data/mahjong_transformer_data_batch_53.npz with 14751 samples
+2025-04-09 14:55:32,094 [INFO] Saved batch 54 to ./training_data/mahjong_transformer_data_batch_54.npz with 14255 samples
+2025-04-09 14:55:32,894 [INFO] Saved batch 55 to ./training_data/mahjong_transformer_data_batch_55.npz with 13397 samples
+2025-04-09 14:55:33,780 [INFO] Saved batch 56 to ./training_data/mahjong_transformer_data_batch_56.npz with 15068 samples
+2025-04-09 14:55:34,664 [INFO] Saved batch 57 to ./training_data/mahjong_transformer_data_batch_57.npz with 15039 samples
+2025-04-09 14:55:35,435 [INFO] Saved batch 58 to ./training_data/mahjong_transformer_data_batch_58.npz with 13196 samples
+2025-04-09 14:55:36,255 [INFO] Saved batch 59 to ./training_data/mahjong_transformer_data_batch_59.npz with 14078 samples
+2025-04-09 14:55:37,147 [INFO] Saved batch 60 to ./training_data/mahjong_transformer_data_batch_60.npz with 14700 samples
+2025-04-09 14:55:37,964 [INFO] Saved batch 61 to ./training_data/mahjong_transformer_data_batch_61.npz with 13899 samples
+2025-04-09 14:55:38,743 [INFO] Saved batch 62 to ./training_data/mahjong_transformer_data_batch_62.npz with 12978 samples
+2025-04-09 14:55:39,534 [INFO] Saved batch 63 to ./training_data/mahjong_transformer_data_batch_63.npz with 13592 samples
+2025-04-09 14:55:40,360 [INFO] Saved batch 64 to ./training_data/mahjong_transformer_data_batch_64.npz with 13985 samples
+2025-04-09 14:55:41,177 [INFO] Saved batch 65 to ./training_data/mahjong_transformer_data_batch_65.npz with 13988 samples
+2025-04-09 14:55:41,974 [INFO] Saved batch 66 to ./training_data/mahjong_transformer_data_batch_66.npz with 12481 samples
+2025-04-09 14:55:42,730 [INFO] Saved batch 67 to ./training_data/mahjong_transformer_data_batch_67.npz with 13007 samples
+2025-04-09 14:55:43,594 [INFO] Saved batch 68 to ./training_data/mahjong_transformer_data_batch_68.npz with 13801 samples
+2025-04-09 14:55:44,454 [INFO] Saved batch 69 to ./training_data/mahjong_transformer_data_batch_69.npz with 14317 samples
+2025-04-09 14:55:45,297 [INFO] Saved batch 70 to ./training_data/mahjong_transformer_data_batch_70.npz with 14301 samples
+2025-04-09 14:55:46,053 [INFO] Saved batch 71 to ./training_data/mahjong_transformer_data_batch_71.npz with 12722 samples
+2025-04-09 14:55:46,936 [INFO] Saved batch 72 to ./training_data/mahjong_transformer_data_batch_72.npz with 14746 samples
+2025-04-09 14:55:47,738 [INFO] Saved batch 73 to ./training_data/mahjong_transformer_data_batch_73.npz with 13707 samples
+2025-04-09 14:55:48,561 [INFO] Saved batch 74 to ./training_data/mahjong_transformer_data_batch_74.npz with 13811 samples
+2025-04-09 14:55:49,305 [INFO] Saved batch 75 to ./training_data/mahjong_transformer_data_batch_75.npz with 12801 samples
+2025-04-09 14:55:50,224 [INFO] Saved batch 76 to ./training_data/mahjong_transformer_data_batch_76.npz with 15253 samples
+2025-04-09 14:55:51,056 [INFO] Saved batch 77 to ./training_data/mahjong_transformer_data_batch_77.npz with 14245 samples
+2025-04-09 14:55:51,844 [INFO] Saved batch 78 to ./training_data/mahjong_transformer_data_batch_78.npz with 13320 samples
+2025-04-09 14:55:52,659 [INFO] Saved batch 79 to ./training_data/mahjong_transformer_data_batch_79.npz with 14001 samples
+2025-04-09 14:55:53,507 [INFO] Saved batch 80 to ./training_data/mahjong_transformer_data_batch_80.npz with 14152 samples
+2025-04-09 14:55:54,329 [INFO] Saved batch 81 to ./training_data/mahjong_transformer_data_batch_81.npz with 13797 samples
+2025-04-09 14:55:55,205 [INFO] Saved batch 82 to ./training_data/mahjong_transformer_data_batch_82.npz with 14270 samples
+2025-04-09 14:55:55,940 [INFO] Saved batch 83 to ./training_data/mahjong_transformer_data_batch_83.npz with 12462 samples
+2025-04-09 14:55:56,757 [INFO] Saved batch 84 to ./training_data/mahjong_transformer_data_batch_84.npz with 14142 samples
+2025-04-09 14:55:57,481 [INFO] Saved batch 85 to ./training_data/mahjong_transformer_data_batch_85.npz with 12437 samples
+2025-04-09 14:55:58,271 [INFO] Saved batch 86 to ./training_data/mahjong_transformer_data_batch_86.npz with 13591 samples
+2025-04-09 14:55:59,119 [INFO] Saved batch 87 to ./training_data/mahjong_transformer_data_batch_87.npz with 14287 samples
+2025-04-09 14:55:59,962 [INFO] Saved batch 88 to ./training_data/mahjong_transformer_data_batch_88.npz with 13787 samples
+2025-04-09 14:56:00,773 [INFO] Saved batch 89 to ./training_data/mahjong_transformer_data_batch_89.npz with 13786 samples
+2025-04-09 14:56:01,682 [INFO] Saved batch 90 to ./training_data/mahjong_transformer_data_batch_90.npz with 14181 samples
+2025-04-09 14:56:02,518 [INFO] Saved batch 91 to ./training_data/mahjong_transformer_data_batch_91.npz with 13921 samples
+2025-04-09 14:56:03,382 [INFO] Saved batch 92 to ./training_data/mahjong_transformer_data_batch_92.npz with 14377 samples
+2025-04-09 14:56:04,339 [INFO] Saved batch 93 to ./training_data/mahjong_transformer_data_batch_93.npz with 15705 samples
+2025-04-09 14:56:05,095 [INFO] Saved batch 94 to ./training_data/mahjong_transformer_data_batch_94.npz with 12724 samples
+2025-04-09 14:56:05,915 [INFO] Saved batch 95 to ./training_data/mahjong_transformer_data_batch_95.npz with 13723 samples
+2025-04-09 14:56:06,779 [INFO] Saved batch 96 to ./training_data/mahjong_transformer_data_batch_96.npz with 14757 samples
+2025-04-09 14:56:07,672 [INFO] Saved batch 97 to ./training_data/mahjong_transformer_data_batch_97.npz with 15327 samples
+2025-04-09 14:56:08,611 [INFO] Saved batch 98 to ./training_data/mahjong_transformer_data_batch_98.npz with 15765 samples
+2025-04-09 14:56:09,450 [INFO] Saved batch 99 to ./training_data/mahjong_transformer_data_batch_99.npz with 14450 samples
+2025-04-09 14:56:10,322 [INFO] Saved batch 100 to ./training_data/mahjong_transformer_data_batch_100.npz with 14617 samples
+2025-04-09 14:56:11,139 [INFO] Saved batch 101 to ./training_data/mahjong_transformer_data_batch_101.npz with 13610 samples
+2025-04-09 14:56:12,050 [INFO] Saved batch 102 to ./training_data/mahjong_transformer_data_batch_102.npz with 15015 samples
+2025-04-09 14:56:12,956 [INFO] Saved batch 103 to ./training_data/mahjong_transformer_data_batch_103.npz with 14977 samples
+2025-04-09 14:56:13,839 [INFO] Saved batch 104 to ./training_data/mahjong_transformer_data_batch_104.npz with 15200 samples
+2025-04-09 14:56:14,635 [INFO] Saved batch 105 to ./training_data/mahjong_transformer_data_batch_105.npz with 13108 samples
+2025-04-09 14:56:15,551 [INFO] Saved batch 106 to ./training_data/mahjong_transformer_data_batch_106.npz with 15406 samples
+2025-04-09 14:56:16,330 [INFO] Saved batch 107 to ./training_data/mahjong_transformer_data_batch_107.npz with 13236 samples
+2025-04-09 14:56:17,132 [INFO] Saved batch 108 to ./training_data/mahjong_transformer_data_batch_108.npz with 13522 samples
+2025-04-09 14:56:17,879 [INFO] Saved batch 109 to ./training_data/mahjong_transformer_data_batch_109.npz with 12876 samples
+2025-04-09 14:56:18,692 [INFO] Saved batch 110 to ./training_data/mahjong_transformer_data_batch_110.npz with 14196 samples
+2025-04-09 14:56:19,539 [INFO] Saved batch 111 to ./training_data/mahjong_transformer_data_batch_111.npz with 14004 samples
+2025-04-09 14:56:20,407 [INFO] Saved batch 112 to ./training_data/mahjong_transformer_data_batch_112.npz with 14418 samples
+2025-04-09 14:56:21,149 [INFO] Saved batch 113 to ./training_data/mahjong_transformer_data_batch_113.npz with 12347 samples
+2025-04-09 14:56:22,005 [INFO] Saved batch 114 to ./training_data/mahjong_transformer_data_batch_114.npz with 13773 samples
+2025-04-09 14:56:22,895 [INFO] Saved batch 115 to ./training_data/mahjong_transformer_data_batch_115.npz with 14665 samples
+2025-04-09 14:56:23,684 [INFO] Saved batch 116 to ./training_data/mahjong_transformer_data_batch_116.npz with 13342 samples
+2025-04-09 14:56:24,469 [INFO] Saved batch 117 to ./training_data/mahjong_transformer_data_batch_117.npz with 13359 samples
+2025-04-09 14:56:25,263 [INFO] Saved batch 118 to ./training_data/mahjong_transformer_data_batch_118.npz with 13705 samples
+2025-04-09 14:56:26,031 [INFO] Saved batch 119 to ./training_data/mahjong_transformer_data_batch_119.npz with 13048 samples
+2025-04-09 14:56:26,910 [INFO] Saved batch 120 to ./training_data/mahjong_transformer_data_batch_120.npz with 14273 samples
+2025-04-09 14:56:27,786 [INFO] Saved batch 121 to ./training_data/mahjong_transformer_data_batch_121.npz with 14590 samples
+2025-04-09 14:56:28,635 [INFO] Saved batch 122 to ./training_data/mahjong_transformer_data_batch_122.npz with 14344 samples
+2025-04-09 14:56:29,475 [INFO] Saved batch 123 to ./training_data/mahjong_transformer_data_batch_123.npz with 13874 samples
+2025-04-09 14:56:30,247 [INFO] Saved batch 124 to ./training_data/mahjong_transformer_data_batch_124.npz with 12671 samples
+2025-04-09 14:56:31,110 [INFO] Saved batch 125 to ./training_data/mahjong_transformer_data_batch_125.npz with 14600 samples
+2025-04-09 14:56:32,065 [INFO] Saved batch 126 to ./training_data/mahjong_transformer_data_batch_126.npz with 15160 samples
+2025-04-09 14:56:32,930 [INFO] Saved batch 127 to ./training_data/mahjong_transformer_data_batch_127.npz with 13984 samples
+2025-04-09 14:56:33,740 [INFO] Saved batch 128 to ./training_data/mahjong_transformer_data_batch_128.npz with 13478 samples
+2025-04-09 14:56:34,619 [INFO] Saved batch 129 to ./training_data/mahjong_transformer_data_batch_129.npz with 14832 samples
+2025-04-09 14:56:35,412 [INFO] Saved batch 130 to ./training_data/mahjong_transformer_data_batch_130.npz with 13557 samples
+2025-04-09 14:56:36,178 [INFO] Saved batch 131 to ./training_data/mahjong_transformer_data_batch_131.npz with 13291 samples
+2025-04-09 14:56:37,002 [INFO] Saved batch 132 to ./training_data/mahjong_transformer_data_batch_132.npz with 14075 samples
+2025-04-09 14:56:37,813 [INFO] Saved batch 133 to ./training_data/mahjong_transformer_data_batch_133.npz with 13624 samples
+2025-04-09 14:56:38,701 [INFO] Saved batch 134 to ./training_data/mahjong_transformer_data_batch_134.npz with 15118 samples
+2025-04-09 14:56:39,464 [INFO] Saved batch 135 to ./training_data/mahjong_transformer_data_batch_135.npz with 13127 samples
+2025-04-09 14:56:40,224 [INFO] Saved batch 136 to ./training_data/mahjong_transformer_data_batch_136.npz with 13143 samples
+2025-04-09 14:56:41,003 [INFO] Saved batch 137 to ./training_data/mahjong_transformer_data_batch_137.npz with 13135 samples
+2025-04-09 14:56:41,752 [INFO] Saved batch 138 to ./training_data/mahjong_transformer_data_batch_138.npz with 12748 samples
+2025-04-09 14:56:42,604 [INFO] Saved batch 139 to ./training_data/mahjong_transformer_data_batch_139.npz with 13775 samples
+2025-04-09 14:56:43,411 [INFO] Saved batch 140 to ./training_data/mahjong_transformer_data_batch_140.npz with 13625 samples
+2025-04-09 14:56:44,286 [INFO] Saved batch 141 to ./training_data/mahjong_transformer_data_batch_141.npz with 14489 samples
+2025-04-09 14:56:45,095 [INFO] Saved batch 142 to ./training_data/mahjong_transformer_data_batch_142.npz with 13540 samples
+2025-04-09 14:56:45,943 [INFO] Saved batch 143 to ./training_data/mahjong_transformer_data_batch_143.npz with 14065 samples
+2025-04-09 14:56:46,780 [INFO] Saved batch 144 to ./training_data/mahjong_transformer_data_batch_144.npz with 14323 samples
+2025-04-09 14:56:47,566 [INFO] Saved batch 145 to ./training_data/mahjong_transformer_data_batch_145.npz with 13187 samples
+2025-04-09 14:56:48,279 [INFO] Saved batch 146 to ./training_data/mahjong_transformer_data_batch_146.npz with 12037 samples
+2025-04-09 14:56:49,219 [INFO] Saved batch 147 to ./training_data/mahjong_transformer_data_batch_147.npz with 15459 samples
+2025-04-09 14:56:50,057 [INFO] Saved batch 148 to ./training_data/mahjong_transformer_data_batch_148.npz with 13860 samples
+2025-04-09 14:56:50,977 [INFO] Saved batch 149 to ./training_data/mahjong_transformer_data_batch_149.npz with 14435 samples
+2025-04-09 14:56:51,775 [INFO] Saved batch 150 to ./training_data/mahjong_transformer_data_batch_150.npz with 13570 samples
+2025-04-09 14:56:52,536 [INFO] Saved batch 151 to ./training_data/mahjong_transformer_data_batch_151.npz with 12915 samples
+2025-04-09 14:56:53,380 [INFO] Saved batch 152 to ./training_data/mahjong_transformer_data_batch_152.npz with 14245 samples
+2025-04-09 14:56:54,213 [INFO] Saved batch 153 to ./training_data/mahjong_transformer_data_batch_153.npz with 13815 samples
+2025-04-09 14:56:55,050 [INFO] Saved batch 154 to ./training_data/mahjong_transformer_data_batch_154.npz with 14487 samples
+2025-04-09 14:56:55,891 [INFO] Saved batch 155 to ./training_data/mahjong_transformer_data_batch_155.npz with 14105 samples
+2025-04-09 14:56:56,733 [INFO] Saved batch 156 to ./training_data/mahjong_transformer_data_batch_156.npz with 14340 samples
+2025-04-09 14:56:57,558 [INFO] Saved batch 157 to ./training_data/mahjong_transformer_data_batch_157.npz with 14192 samples
+2025-04-09 14:56:58,519 [INFO] Saved batch 158 to ./training_data/mahjong_transformer_data_batch_158.npz with 15888 samples
+2025-04-09 14:56:59,341 [INFO] Saved batch 159 to ./training_data/mahjong_transformer_data_batch_159.npz with 14016 samples
+2025-04-09 14:57:00,142 [INFO] Saved batch 160 to ./training_data/mahjong_transformer_data_batch_160.npz with 13300 samples
+2025-04-09 14:57:00,929 [INFO] Saved batch 161 to ./training_data/mahjong_transformer_data_batch_161.npz with 13425 samples
+2025-04-09 14:57:01,769 [INFO] Saved batch 162 to ./training_data/mahjong_transformer_data_batch_162.npz with 14222 samples
+2025-04-09 14:57:02,546 [INFO] Saved batch 163 to ./training_data/mahjong_transformer_data_batch_163.npz with 13023 samples
+2025-04-09 14:57:03,420 [INFO] Saved batch 164 to ./training_data/mahjong_transformer_data_batch_164.npz with 15026 samples
+2025-04-09 14:57:04,252 [INFO] Saved batch 165 to ./training_data/mahjong_transformer_data_batch_165.npz with 13834 samples
+2025-04-09 14:57:05,063 [INFO] Saved batch 166 to ./training_data/mahjong_transformer_data_batch_166.npz with 14001 samples
+2025-04-09 14:57:05,895 [INFO] Saved batch 167 to ./training_data/mahjong_transformer_data_batch_167.npz with 13523 samples
+2025-04-09 14:57:06,683 [INFO] Saved batch 168 to ./training_data/mahjong_transformer_data_batch_168.npz with 13312 samples
+2025-04-09 14:57:07,526 [INFO] Saved batch 169 to ./training_data/mahjong_transformer_data_batch_169.npz with 13886 samples
+2025-04-09 14:57:08,272 [INFO] Saved batch 170 to ./training_data/mahjong_transformer_data_batch_170.npz with 12412 samples
+2025-04-09 14:57:09,119 [INFO] Saved batch 171 to ./training_data/mahjong_transformer_data_batch_171.npz with 14341 samples
+2025-04-09 14:57:09,935 [INFO] Saved batch 172 to ./training_data/mahjong_transformer_data_batch_172.npz with 14026 samples
+2025-04-09 14:57:10,742 [INFO] Saved batch 173 to ./training_data/mahjong_transformer_data_batch_173.npz with 13893 samples
+2025-04-09 14:57:11,542 [INFO] Saved batch 174 to ./training_data/mahjong_transformer_data_batch_174.npz with 13286 samples
+2025-04-09 14:57:12,347 [INFO] Saved batch 175 to ./training_data/mahjong_transformer_data_batch_175.npz with 13954 samples
+2025-04-09 14:57:13,353 [INFO] Saved batch 176 to ./training_data/mahjong_transformer_data_batch_176.npz with 16819 samples
+2025-04-09 14:57:14,143 [INFO] Saved batch 177 to ./training_data/mahjong_transformer_data_batch_177.npz with 13688 samples
+2025-04-09 14:57:15,057 [INFO] Saved batch 178 to ./training_data/mahjong_transformer_data_batch_178.npz with 15026 samples
+2025-04-09 14:57:15,933 [INFO] Saved batch 179 to ./training_data/mahjong_transformer_data_batch_179.npz with 14883 samples
+2025-04-09 14:57:16,787 [INFO] Saved batch 180 to ./training_data/mahjong_transformer_data_batch_180.npz with 13963 samples
+2025-04-09 14:57:17,574 [INFO] Saved batch 181 to ./training_data/mahjong_transformer_data_batch_181.npz with 13172 samples
+2025-04-09 14:57:18,487 [INFO] Saved batch 182 to ./training_data/mahjong_transformer_data_batch_182.npz with 14914 samples
+2025-04-09 14:57:19,382 [INFO] Saved batch 183 to ./training_data/mahjong_transformer_data_batch_183.npz with 15324 samples
+2025-04-09 14:57:20,185 [INFO] Saved batch 184 to ./training_data/mahjong_transformer_data_batch_184.npz with 13553 samples
+2025-04-09 14:57:21,059 [INFO] Saved batch 185 to ./training_data/mahjong_transformer_data_batch_185.npz with 14837 samples
+2025-04-09 14:57:21,908 [INFO] Saved batch 186 to ./training_data/mahjong_transformer_data_batch_186.npz with 14521 samples
+2025-04-09 14:57:22,805 [INFO] Saved batch 187 to ./training_data/mahjong_transformer_data_batch_187.npz with 15248 samples
+2025-04-09 14:57:23,633 [INFO] Saved batch 188 to ./training_data/mahjong_transformer_data_batch_188.npz with 13897 samples
+2025-04-09 14:57:24,431 [INFO] Saved batch 189 to ./training_data/mahjong_transformer_data_batch_189.npz with 13830 samples
+2025-04-09 14:57:25,189 [INFO] Saved batch 190 to ./training_data/mahjong_transformer_data_batch_190.npz with 12996 samples
+2025-04-09 14:57:26,022 [INFO] Saved batch 191 to ./training_data/mahjong_transformer_data_batch_191.npz with 13838 samples
+2025-04-09 14:57:26,979 [INFO] Saved batch 192 to ./training_data/mahjong_transformer_data_batch_192.npz with 15629 samples
+2025-04-09 14:57:27,816 [INFO] Saved batch 193 to ./training_data/mahjong_transformer_data_batch_193.npz with 14153 samples
+2025-04-09 14:57:28,599 [INFO] Saved batch 194 to ./training_data/mahjong_transformer_data_batch_194.npz with 13179 samples
+2025-04-09 14:57:29,369 [INFO] Saved batch 195 to ./training_data/mahjong_transformer_data_batch_195.npz with 13300 samples
+2025-04-09 14:57:30,193 [INFO] Saved batch 196 to ./training_data/mahjong_transformer_data_batch_196.npz with 13932 samples
+2025-04-09 14:57:31,128 [INFO] Saved batch 197 to ./training_data/mahjong_transformer_data_batch_197.npz with 15353 samples
+2025-04-09 14:57:32,064 [INFO] Saved batch 198 to ./training_data/mahjong_transformer_data_batch_198.npz with 14831 samples
+2025-04-09 14:57:32,971 [INFO] Saved batch 199 to ./training_data/mahjong_transformer_data_batch_199.npz with 15116 samples
+2025-04-09 14:57:33,801 [INFO] Saved batch 200 to ./training_data/mahjong_transformer_data_batch_200.npz with 13940 samples
+2025-04-09 14:57:34,633 [INFO] Saved batch 201 to ./training_data/mahjong_transformer_data_batch_201.npz with 14127 samples
+2025-04-09 14:57:35,532 [INFO] Saved batch 202 to ./training_data/mahjong_transformer_data_batch_202.npz with 15222 samples
+2025-04-09 14:57:36,363 [INFO] Saved batch 203 to ./training_data/mahjong_transformer_data_batch_203.npz with 14198 samples
+2025-04-09 14:57:37,183 [INFO] Saved batch 204 to ./training_data/mahjong_transformer_data_batch_204.npz with 13847 samples
+2025-04-09 14:57:38,009 [INFO] Saved batch 205 to ./training_data/mahjong_transformer_data_batch_205.npz with 14212 samples
+2025-04-09 14:57:38,862 [INFO] Saved batch 206 to ./training_data/mahjong_transformer_data_batch_206.npz with 13321 samples
+2025-04-09 14:57:39,694 [INFO] Saved batch 207 to ./training_data/mahjong_transformer_data_batch_207.npz with 13821 samples
+2025-04-09 14:57:40,547 [INFO] Saved batch 208 to ./training_data/mahjong_transformer_data_batch_208.npz with 14641 samples
+2025-04-09 14:57:41,470 [INFO] Saved batch 209 to ./training_data/mahjong_transformer_data_batch_209.npz with 15454 samples
+2025-04-09 14:57:42,282 [INFO] Saved batch 210 to ./training_data/mahjong_transformer_data_batch_210.npz with 13874 samples
+2025-04-09 14:57:43,093 [INFO] Saved batch 211 to ./training_data/mahjong_transformer_data_batch_211.npz with 14028 samples
+2025-04-09 14:57:43,934 [INFO] Saved batch 212 to ./training_data/mahjong_transformer_data_batch_212.npz with 14575 samples
+2025-04-09 14:57:44,944 [INFO] Saved batch 213 to ./training_data/mahjong_transformer_data_batch_213.npz with 16863 samples
+2025-04-09 14:57:45,762 [INFO] Saved batch 214 to ./training_data/mahjong_transformer_data_batch_214.npz with 13507 samples
+2025-04-09 14:57:46,596 [INFO] Saved batch 215 to ./training_data/mahjong_transformer_data_batch_215.npz with 14203 samples
+2025-04-09 14:57:47,378 [INFO] Saved batch 216 to ./training_data/mahjong_transformer_data_batch_216.npz with 13548 samples
+2025-04-09 14:57:48,212 [INFO] Saved batch 217 to ./training_data/mahjong_transformer_data_batch_217.npz with 13252 samples
+2025-04-09 14:57:49,008 [INFO] Saved batch 218 to ./training_data/mahjong_transformer_data_batch_218.npz with 13540 samples
+2025-04-09 14:57:49,807 [INFO] Saved batch 219 to ./training_data/mahjong_transformer_data_batch_219.npz with 13378 samples
+2025-04-09 14:57:50,772 [INFO] Saved batch 220 to ./training_data/mahjong_transformer_data_batch_220.npz with 15563 samples
+2025-04-09 14:57:51,583 [INFO] Saved batch 221 to ./training_data/mahjong_transformer_data_batch_221.npz with 13576 samples
+2025-04-09 14:57:52,874 [INFO] Saved batch 222 to ./training_data/mahjong_transformer_data_batch_222.npz with 13455 samples
+2025-04-09 14:57:53,680 [INFO] Saved batch 223 to ./training_data/mahjong_transformer_data_batch_223.npz with 13305 samples
+2025-04-09 14:57:54,603 [INFO] Saved batch 224 to ./training_data/mahjong_transformer_data_batch_224.npz with 15263 samples
+2025-04-09 14:57:55,362 [INFO] Saved batch 225 to ./training_data/mahjong_transformer_data_batch_225.npz with 12929 samples
+2025-04-09 14:57:56,110 [INFO] Saved batch 226 to ./training_data/mahjong_transformer_data_batch_226.npz with 12732 samples
+2025-04-09 14:57:56,957 [INFO] Saved batch 227 to ./training_data/mahjong_transformer_data_batch_227.npz with 14425 samples
+2025-04-09 14:57:57,737 [INFO] Saved batch 228 to ./training_data/mahjong_transformer_data_batch_228.npz with 13253 samples
+2025-04-09 14:57:58,601 [INFO] Saved batch 229 to ./training_data/mahjong_transformer_data_batch_229.npz with 14655 samples
+2025-04-09 14:57:59,541 [INFO] Saved batch 230 to ./training_data/mahjong_transformer_data_batch_230.npz with 15571 samples
+2025-04-09 14:58:00,335 [INFO] Saved batch 231 to ./training_data/mahjong_transformer_data_batch_231.npz with 13252 samples
+2025-04-09 14:58:01,217 [INFO] Saved batch 232 to ./training_data/mahjong_transformer_data_batch_232.npz with 14539 samples
+2025-04-09 14:58:02,008 [INFO] Saved batch 233 to ./training_data/mahjong_transformer_data_batch_233.npz with 13524 samples
+2025-04-09 14:58:02,991 [INFO] Saved batch 234 to ./training_data/mahjong_transformer_data_batch_234.npz with 15440 samples
+2025-04-09 14:58:03,868 [INFO] Saved batch 235 to ./training_data/mahjong_transformer_data_batch_235.npz with 13319 samples
+2025-04-09 14:58:04,655 [INFO] Saved batch 236 to ./training_data/mahjong_transformer_data_batch_236.npz with 13425 samples
+2025-04-09 14:58:05,493 [INFO] Saved batch 237 to ./training_data/mahjong_transformer_data_batch_237.npz with 13937 samples
+2025-04-09 14:58:06,280 [INFO] Saved batch 238 to ./training_data/mahjong_transformer_data_batch_238.npz with 13534 samples
+2025-04-09 14:58:07,134 [INFO] Saved batch 239 to ./training_data/mahjong_transformer_data_batch_239.npz with 13839 samples
+2025-04-09 14:58:07,896 [INFO] Saved batch 240 to ./training_data/mahjong_transformer_data_batch_240.npz with 12581 samples
+2025-04-09 14:58:08,754 [INFO] Saved batch 241 to ./training_data/mahjong_transformer_data_batch_241.npz with 14426 samples
+2025-04-09 14:58:09,584 [INFO] Saved batch 242 to ./training_data/mahjong_transformer_data_batch_242.npz with 14009 samples
+2025-04-09 14:58:10,372 [INFO] Saved batch 243 to ./training_data/mahjong_transformer_data_batch_243.npz with 13519 samples
+2025-04-09 14:58:11,234 [INFO] Saved batch 244 to ./training_data/mahjong_transformer_data_batch_244.npz with 14393 samples
+2025-04-09 14:58:12,104 [INFO] Saved batch 245 to ./training_data/mahjong_transformer_data_batch_245.npz with 14761 samples
+2025-04-09 14:58:12,996 [INFO] Saved batch 246 to ./training_data/mahjong_transformer_data_batch_246.npz with 15168 samples
+2025-04-09 14:58:13,764 [INFO] Saved batch 247 to ./training_data/mahjong_transformer_data_batch_247.npz with 13157 samples
+2025-04-09 14:58:14,652 [INFO] Saved batch 248 to ./training_data/mahjong_transformer_data_batch_248.npz with 15176 samples
+2025-04-09 14:58:15,476 [INFO] Saved batch 249 to ./training_data/mahjong_transformer_data_batch_249.npz with 14150 samples
+2025-04-09 14:58:16,377 [INFO] Saved batch 250 to ./training_data/mahjong_transformer_data_batch_250.npz with 15104 samples
+2025-04-09 14:58:17,251 [INFO] Saved batch 251 to ./training_data/mahjong_transformer_data_batch_251.npz with 13909 samples
+2025-04-09 14:58:18,133 [INFO] Saved batch 252 to ./training_data/mahjong_transformer_data_batch_252.npz with 15072 samples
+2025-04-09 14:58:18,985 [INFO] Saved batch 253 to ./training_data/mahjong_transformer_data_batch_253.npz with 13894 samples
+2025-04-09 14:58:19,854 [INFO] Saved batch 254 to ./training_data/mahjong_transformer_data_batch_254.npz with 14915 samples
+2025-04-09 14:58:20,835 [INFO] Saved batch 255 to ./training_data/mahjong_transformer_data_batch_255.npz with 16523 samples
+2025-04-09 14:58:21,817 [INFO] Saved batch 256 to ./training_data/mahjong_transformer_data_batch_256.npz with 16184 samples
+2025-04-09 14:58:22,655 [INFO] Saved batch 257 to ./training_data/mahjong_transformer_data_batch_257.npz with 13558 samples
+2025-04-09 14:58:23,612 [INFO] Saved batch 258 to ./training_data/mahjong_transformer_data_batch_258.npz with 16216 samples
+2025-04-09 14:58:24,406 [INFO] Saved batch 259 to ./training_data/mahjong_transformer_data_batch_259.npz with 13535 samples
+2025-04-09 14:58:25,243 [INFO] Saved batch 260 to ./training_data/mahjong_transformer_data_batch_260.npz with 14253 samples
+2025-04-09 14:58:26,068 [INFO] Saved batch 261 to ./training_data/mahjong_transformer_data_batch_261.npz with 13714 samples
+2025-04-09 14:58:26,939 [INFO] Saved batch 262 to ./training_data/mahjong_transformer_data_batch_262.npz with 14699 samples
+2025-04-09 14:58:27,721 [INFO] Saved batch 263 to ./training_data/mahjong_transformer_data_batch_263.npz with 13445 samples
+2025-04-09 14:58:28,588 [INFO] Saved batch 264 to ./training_data/mahjong_transformer_data_batch_264.npz with 14464 samples
+2025-04-09 14:58:29,517 [INFO] Saved batch 265 to ./training_data/mahjong_transformer_data_batch_265.npz with 15375 samples
+2025-04-09 14:58:30,293 [INFO] Saved batch 266 to ./training_data/mahjong_transformer_data_batch_266.npz with 12803 samples
+2025-04-09 14:58:31,196 [INFO] Saved batch 267 to ./training_data/mahjong_transformer_data_batch_267.npz with 15401 samples
+2025-04-09 14:58:32,149 [INFO] Saved batch 268 to ./training_data/mahjong_transformer_data_batch_268.npz with 15688 samples
+2025-04-09 14:58:32,999 [INFO] Saved batch 269 to ./training_data/mahjong_transformer_data_batch_269.npz with 13910 samples
+2025-04-09 14:58:33,838 [INFO] Saved batch 270 to ./training_data/mahjong_transformer_data_batch_270.npz with 13653 samples
+2025-04-09 14:58:34,624 [INFO] Saved batch 271 to ./training_data/mahjong_transformer_data_batch_271.npz with 13350 samples
+2025-04-09 14:58:35,359 [INFO] Saved batch 272 to ./training_data/mahjong_transformer_data_batch_272.npz with 12603 samples
+2025-04-09 14:58:36,100 [INFO] Saved batch 273 to ./training_data/mahjong_transformer_data_batch_273.npz with 12777 samples
+2025-04-09 14:58:36,982 [INFO] Saved batch 274 to ./training_data/mahjong_transformer_data_batch_274.npz with 14795 samples
+2025-04-09 14:58:37,825 [INFO] Saved batch 275 to ./training_data/mahjong_transformer_data_batch_275.npz with 14572 samples
+2025-04-09 14:58:38,650 [INFO] Saved batch 276 to ./training_data/mahjong_transformer_data_batch_276.npz with 12963 samples
+2025-04-09 14:58:39,510 [INFO] Saved batch 277 to ./training_data/mahjong_transformer_data_batch_277.npz with 14454 samples
+2025-04-09 14:58:40,363 [INFO] Saved batch 278 to ./training_data/mahjong_transformer_data_batch_278.npz with 14592 samples
+2025-04-09 14:58:41,129 [INFO] Saved batch 279 to ./training_data/mahjong_transformer_data_batch_279.npz with 13013 samples
+2025-04-09 14:58:41,954 [INFO] Saved batch 280 to ./training_data/mahjong_transformer_data_batch_280.npz with 14096 samples
+2025-04-09 14:58:42,780 [INFO] Saved batch 281 to ./training_data/mahjong_transformer_data_batch_281.npz with 14113 samples
+2025-04-09 14:58:43,532 [INFO] Saved batch 282 to ./training_data/mahjong_transformer_data_batch_282.npz with 12527 samples
+2025-04-09 14:58:44,471 [INFO] Saved batch 283 to ./training_data/mahjong_transformer_data_batch_283.npz with 15407 samples
+2025-04-09 14:58:45,321 [INFO] Saved batch 284 to ./training_data/mahjong_transformer_data_batch_284.npz with 13759 samples
+2025-04-09 14:58:46,158 [INFO] Saved batch 285 to ./training_data/mahjong_transformer_data_batch_285.npz with 13546 samples
+2025-04-09 14:58:47,041 [INFO] Saved batch 286 to ./training_data/mahjong_transformer_data_batch_286.npz with 14755 samples
+2025-04-09 14:58:47,837 [INFO] Saved batch 287 to ./training_data/mahjong_transformer_data_batch_287.npz with 13047 samples
+2025-04-09 14:58:48,656 [INFO] Saved batch 288 to ./training_data/mahjong_transformer_data_batch_288.npz with 13824 samples
+2025-04-09 14:58:49,414 [INFO] Saved batch 289 to ./training_data/mahjong_transformer_data_batch_289.npz with 13034 samples
+2025-04-09 14:58:50,234 [INFO] Saved batch 290 to ./training_data/mahjong_transformer_data_batch_290.npz with 14019 samples
+2025-04-09 14:58:51,133 [INFO] Saved batch 291 to ./training_data/mahjong_transformer_data_batch_291.npz with 15170 samples
+2025-04-09 14:58:51,957 [INFO] Saved batch 292 to ./training_data/mahjong_transformer_data_batch_292.npz with 13819 samples
+2025-04-09 14:58:52,777 [INFO] Saved batch 293 to ./training_data/mahjong_transformer_data_batch_293.npz with 13949 samples
+2025-04-09 14:58:53,534 [INFO] Saved batch 294 to ./training_data/mahjong_transformer_data_batch_294.npz with 12851 samples
+2025-04-09 14:58:54,250 [INFO] Saved batch 295 to ./training_data/mahjong_transformer_data_batch_295.npz with 12183 samples
+2025-04-09 14:58:55,098 [INFO] Saved batch 296 to ./training_data/mahjong_transformer_data_batch_296.npz with 14357 samples
+2025-04-09 14:58:55,989 [INFO] Saved batch 297 to ./training_data/mahjong_transformer_data_batch_297.npz with 14564 samples
+2025-04-09 14:58:56,827 [INFO] Saved batch 298 to ./training_data/mahjong_transformer_data_batch_298.npz with 14399 samples
+2025-04-09 14:58:57,642 [INFO] Saved batch 299 to ./training_data/mahjong_transformer_data_batch_299.npz with 13743 samples
+2025-04-09 14:58:58,466 [INFO] Saved batch 300 to ./training_data/mahjong_transformer_data_batch_300.npz with 13875 samples
+2025-04-09 14:58:59,294 [INFO] Saved batch 301 to ./training_data/mahjong_transformer_data_batch_301.npz with 14060 samples
+2025-04-09 14:59:00,132 [INFO] Saved batch 302 to ./training_data/mahjong_transformer_data_batch_302.npz with 14457 samples
+2025-04-09 14:59:00,948 [INFO] Saved batch 303 to ./training_data/mahjong_transformer_data_batch_303.npz with 12884 samples
+2025-04-09 14:59:01,818 [INFO] Saved batch 304 to ./training_data/mahjong_transformer_data_batch_304.npz with 14777 samples
+2025-04-09 14:59:02,743 [INFO] Saved batch 305 to ./training_data/mahjong_transformer_data_batch_305.npz with 15511 samples
+2025-04-09 14:59:03,680 [INFO] Saved batch 306 to ./training_data/mahjong_transformer_data_batch_306.npz with 15362 samples
+2025-04-09 14:59:04,522 [INFO] Saved batch 307 to ./training_data/mahjong_transformer_data_batch_307.npz with 14047 samples
+2025-04-09 14:59:05,422 [INFO] Saved batch 308 to ./training_data/mahjong_transformer_data_batch_308.npz with 15030 samples
+2025-04-09 14:59:06,302 [INFO] Saved batch 309 to ./training_data/mahjong_transformer_data_batch_309.npz with 15136 samples
+2025-04-09 14:59:07,102 [INFO] Saved batch 310 to ./training_data/mahjong_transformer_data_batch_310.npz with 13345 samples
+2025-04-09 14:59:08,092 [INFO] Saved batch 311 to ./training_data/mahjong_transformer_data_batch_311.npz with 16661 samples
+2025-04-09 14:59:08,919 [INFO] Saved batch 312 to ./training_data/mahjong_transformer_data_batch_312.npz with 13785 samples
+2025-04-09 14:59:09,726 [INFO] Saved batch 313 to ./training_data/mahjong_transformer_data_batch_313.npz with 13635 samples
+2025-04-09 14:59:10,458 [INFO] Saved batch 314 to ./training_data/mahjong_transformer_data_batch_314.npz with 12655 samples
+2025-04-09 14:59:11,250 [INFO] Saved batch 315 to ./training_data/mahjong_transformer_data_batch_315.npz with 13267 samples
+2025-04-09 14:59:12,124 [INFO] Saved batch 316 to ./training_data/mahjong_transformer_data_batch_316.npz with 14426 samples
+2025-04-09 14:59:12,955 [INFO] Saved batch 317 to ./training_data/mahjong_transformer_data_batch_317.npz with 13934 samples
+2025-04-09 14:59:13,720 [INFO] Saved batch 318 to ./training_data/mahjong_transformer_data_batch_318.npz with 12735 samples
+2025-04-09 14:59:14,593 [INFO] Saved batch 319 to ./training_data/mahjong_transformer_data_batch_319.npz with 14669 samples
+2025-04-09 14:59:15,409 [INFO] Saved batch 320 to ./training_data/mahjong_transformer_data_batch_320.npz with 13592 samples
+2025-04-09 14:59:16,357 [INFO] Saved batch 321 to ./training_data/mahjong_transformer_data_batch_321.npz with 15777 samples
+2025-04-09 14:59:17,157 [INFO] Saved batch 322 to ./training_data/mahjong_transformer_data_batch_322.npz with 13570 samples
+2025-04-09 14:59:18,025 [INFO] Saved batch 323 to ./training_data/mahjong_transformer_data_batch_323.npz with 14484 samples
+2025-04-09 14:59:18,821 [INFO] Saved batch 324 to ./training_data/mahjong_transformer_data_batch_324.npz with 13635 samples
+2025-04-09 14:59:19,583 [INFO] Saved batch 325 to ./training_data/mahjong_transformer_data_batch_325.npz with 13126 samples
+2025-04-09 14:59:20,455 [INFO] Saved batch 326 to ./training_data/mahjong_transformer_data_batch_326.npz with 14957 samples
+2025-04-09 14:59:21,217 [INFO] Saved batch 327 to ./training_data/mahjong_transformer_data_batch_327.npz with 12922 samples
+2025-04-09 14:59:22,048 [INFO] Saved batch 328 to ./training_data/mahjong_transformer_data_batch_328.npz with 13845 samples
+2025-04-09 14:59:22,863 [INFO] Saved batch 329 to ./training_data/mahjong_transformer_data_batch_329.npz with 13883 samples
+2025-04-09 14:59:23,757 [INFO] Saved batch 330 to ./training_data/mahjong_transformer_data_batch_330.npz with 13549 samples
+2025-04-09 14:59:24,558 [INFO] Saved batch 331 to ./training_data/mahjong_transformer_data_batch_331.npz with 13690 samples
+2025-04-09 14:59:25,443 [INFO] Saved batch 332 to ./training_data/mahjong_transformer_data_batch_332.npz with 14842 samples
+2025-04-09 14:59:26,238 [INFO] Saved batch 333 to ./training_data/mahjong_transformer_data_batch_333.npz with 13447 samples
+2025-04-09 14:59:27,031 [INFO] Saved batch 334 to ./training_data/mahjong_transformer_data_batch_334.npz with 13543 samples
+2025-04-09 14:59:27,792 [INFO] Saved batch 335 to ./training_data/mahjong_transformer_data_batch_335.npz with 13092 samples
+2025-04-09 14:59:28,658 [INFO] Saved batch 336 to ./training_data/mahjong_transformer_data_batch_336.npz with 14537 samples
+2025-04-09 14:59:29,480 [INFO] Saved batch 337 to ./training_data/mahjong_transformer_data_batch_337.npz with 14131 samples
+2025-04-09 14:59:30,328 [INFO] Saved batch 338 to ./training_data/mahjong_transformer_data_batch_338.npz with 14348 samples
+2025-04-09 14:59:31,068 [INFO] Saved batch 339 to ./training_data/mahjong_transformer_data_batch_339.npz with 12482 samples
+2025-04-09 14:59:31,955 [INFO] Saved batch 340 to ./training_data/mahjong_transformer_data_batch_340.npz with 14658 samples
+2025-04-09 14:59:32,790 [INFO] Saved batch 341 to ./training_data/mahjong_transformer_data_batch_341.npz with 14463 samples
+2025-04-09 14:59:33,566 [INFO] Saved batch 342 to ./training_data/mahjong_transformer_data_batch_342.npz with 13010 samples
+2025-04-09 14:59:34,440 [INFO] Saved batch 343 to ./training_data/mahjong_transformer_data_batch_343.npz with 14951 samples
+2025-04-09 14:59:35,294 [INFO] Saved batch 344 to ./training_data/mahjong_transformer_data_batch_344.npz with 14707 samples
+2025-04-09 14:59:36,049 [INFO] Saved batch 345 to ./training_data/mahjong_transformer_data_batch_345.npz with 12888 samples
+2025-04-09 14:59:36,844 [INFO] Saved batch 346 to ./training_data/mahjong_transformer_data_batch_346.npz with 13598 samples
+2025-04-09 14:59:37,585 [INFO] Saved batch 347 to ./training_data/mahjong_transformer_data_batch_347.npz with 12661 samples
+2025-04-09 14:59:38,445 [INFO] Saved batch 348 to ./training_data/mahjong_transformer_data_batch_348.npz with 14688 samples
+2025-04-09 14:59:39,285 [INFO] Saved batch 349 to ./training_data/mahjong_transformer_data_batch_349.npz with 13800 samples
+2025-04-09 14:59:40,122 [INFO] Saved batch 350 to ./training_data/mahjong_transformer_data_batch_350.npz with 14208 samples
+2025-04-09 14:59:41,015 [INFO] Saved batch 351 to ./training_data/mahjong_transformer_data_batch_351.npz with 14981 samples
+2025-04-09 14:59:41,838 [INFO] Saved batch 352 to ./training_data/mahjong_transformer_data_batch_352.npz with 13817 samples
+2025-04-09 14:59:42,760 [INFO] Saved batch 353 to ./training_data/mahjong_transformer_data_batch_353.npz with 15537 samples
+2025-04-09 14:59:43,601 [INFO] Saved batch 354 to ./training_data/mahjong_transformer_data_batch_354.npz with 14245 samples
+2025-04-09 14:59:44,447 [INFO] Saved batch 355 to ./training_data/mahjong_transformer_data_batch_355.npz with 14333 samples
+2025-04-09 14:59:45,364 [INFO] Saved batch 356 to ./training_data/mahjong_transformer_data_batch_356.npz with 14813 samples
+2025-04-09 14:59:46,201 [INFO] Saved batch 357 to ./training_data/mahjong_transformer_data_batch_357.npz with 13658 samples
+2025-04-09 14:59:47,008 [INFO] Saved batch 358 to ./training_data/mahjong_transformer_data_batch_358.npz with 13468 samples
+2025-04-09 14:59:47,901 [INFO] Saved batch 359 to ./training_data/mahjong_transformer_data_batch_359.npz with 14313 samples
+2025-04-09 14:59:48,796 [INFO] Saved batch 360 to ./training_data/mahjong_transformer_data_batch_360.npz with 14982 samples
+2025-04-09 14:59:49,778 [INFO] Saved batch 361 to ./training_data/mahjong_transformer_data_batch_361.npz with 15868 samples
+2025-04-09 14:59:50,688 [INFO] Saved batch 362 to ./training_data/mahjong_transformer_data_batch_362.npz with 14921 samples
+2025-04-09 14:59:51,629 [INFO] Saved batch 363 to ./training_data/mahjong_transformer_data_batch_363.npz with 15681 samples
+2025-04-09 14:59:52,450 [INFO] Saved batch 364 to ./training_data/mahjong_transformer_data_batch_364.npz with 13810 samples
+2025-04-09 14:59:53,339 [INFO] Saved batch 365 to ./training_data/mahjong_transformer_data_batch_365.npz with 14870 samples
+2025-04-09 14:59:54,150 [INFO] Saved batch 366 to ./training_data/mahjong_transformer_data_batch_366.npz with 13800 samples
+2025-04-09 14:59:55,005 [INFO] Saved batch 367 to ./training_data/mahjong_transformer_data_batch_367.npz with 14099 samples
+2025-04-09 14:59:55,969 [INFO] Saved batch 368 to ./training_data/mahjong_transformer_data_batch_368.npz with 15673 samples
+2025-04-09 14:59:56,864 [INFO] Saved batch 369 to ./training_data/mahjong_transformer_data_batch_369.npz with 14613 samples
+2025-04-09 14:59:57,743 [INFO] Saved batch 370 to ./training_data/mahjong_transformer_data_batch_370.npz with 14077 samples
+2025-04-09 14:59:58,580 [INFO] Saved batch 371 to ./training_data/mahjong_transformer_data_batch_371.npz with 14061 samples
+2025-04-09 14:59:59,382 [INFO] Saved batch 372 to ./training_data/mahjong_transformer_data_batch_372.npz with 13195 samples
+2025-04-09 15:00:00,285 [INFO] Saved batch 373 to ./training_data/mahjong_transformer_data_batch_373.npz with 14789 samples
+2025-04-09 15:00:01,218 [INFO] Saved batch 374 to ./training_data/mahjong_transformer_data_batch_374.npz with 13801 samples
+2025-04-09 15:00:02,502 [INFO] Saved batch 375 to ./training_data/mahjong_transformer_data_batch_375.npz with 14907 samples
+2025-04-09 15:00:03,342 [INFO] Saved batch 376 to ./training_data/mahjong_transformer_data_batch_376.npz with 13378 samples
+2025-04-09 15:00:04,346 [INFO] Saved batch 377 to ./training_data/mahjong_transformer_data_batch_377.npz with 16392 samples
+2025-04-09 15:00:05,196 [INFO] Saved batch 378 to ./training_data/mahjong_transformer_data_batch_378.npz with 14386 samples
+2025-04-09 15:00:06,002 [INFO] Saved batch 379 to ./training_data/mahjong_transformer_data_batch_379.npz with 13490 samples
+2025-04-09 15:00:06,885 [INFO] Saved batch 380 to ./training_data/mahjong_transformer_data_batch_380.npz with 15051 samples
+2025-04-09 15:00:07,938 [INFO] Saved batch 381 to ./training_data/mahjong_transformer_data_batch_381.npz with 13870 samples
+2025-04-09 15:00:08,802 [INFO] Saved batch 382 to ./training_data/mahjong_transformer_data_batch_382.npz with 14424 samples
+2025-04-09 15:00:09,633 [INFO] Saved batch 383 to ./training_data/mahjong_transformer_data_batch_383.npz with 13653 samples
+2025-04-09 15:00:10,476 [INFO] Saved batch 384 to ./training_data/mahjong_transformer_data_batch_384.npz with 13814 samples
+2025-04-09 15:00:11,285 [INFO] Saved batch 385 to ./training_data/mahjong_transformer_data_batch_385.npz with 13895 samples
+2025-04-09 15:00:12,256 [INFO] Saved batch 386 to ./training_data/mahjong_transformer_data_batch_386.npz with 16054 samples
+2025-04-09 15:00:13,068 [INFO] Saved batch 387 to ./training_data/mahjong_transformer_data_batch_387.npz with 13439 samples
+2025-04-09 15:00:14,079 [INFO] Saved batch 388 to ./training_data/mahjong_transformer_data_batch_388.npz with 16810 samples
+2025-04-09 15:00:14,905 [INFO] Saved batch 389 to ./training_data/mahjong_transformer_data_batch_389.npz with 13681 samples
+2025-04-09 15:00:15,687 [INFO] Saved batch 390 to ./training_data/mahjong_transformer_data_batch_390.npz with 13258 samples
+2025-04-09 15:00:16,527 [INFO] Saved batch 391 to ./training_data/mahjong_transformer_data_batch_391.npz with 13810 samples
+2025-04-09 15:00:17,278 [INFO] Saved batch 392 to ./training_data/mahjong_transformer_data_batch_392.npz with 12417 samples
+2025-04-09 15:00:18,115 [INFO] Saved batch 393 to ./training_data/mahjong_transformer_data_batch_393.npz with 13934 samples
+2025-04-09 15:00:19,040 [INFO] Saved batch 394 to ./training_data/mahjong_transformer_data_batch_394.npz with 15354 samples
+2025-04-09 15:00:19,829 [INFO] Saved batch 395 to ./training_data/mahjong_transformer_data_batch_395.npz with 13221 samples
+2025-04-09 15:00:20,695 [INFO] Saved batch 396 to ./training_data/mahjong_transformer_data_batch_396.npz with 13968 samples
+2025-04-09 15:00:21,543 [INFO] Saved batch 397 to ./training_data/mahjong_transformer_data_batch_397.npz with 14351 samples
+2025-04-09 15:00:22,355 [INFO] Saved batch 398 to ./training_data/mahjong_transformer_data_batch_398.npz with 13773 samples
+2025-04-09 15:00:23,194 [INFO] Saved batch 399 to ./training_data/mahjong_transformer_data_batch_399.npz with 14432 samples
+2025-04-09 15:00:23,986 [INFO] Saved batch 400 to ./training_data/mahjong_transformer_data_batch_400.npz with 13368 samples
+2025-04-09 15:00:24,793 [INFO] Saved batch 401 to ./training_data/mahjong_transformer_data_batch_401.npz with 13666 samples
+2025-04-09 15:00:25,596 [INFO] Saved batch 402 to ./training_data/mahjong_transformer_data_batch_402.npz with 13614 samples
+2025-04-09 15:00:26,384 [INFO] Saved batch 403 to ./training_data/mahjong_transformer_data_batch_403.npz with 13316 samples
+2025-04-09 15:00:27,237 [INFO] Saved batch 404 to ./training_data/mahjong_transformer_data_batch_404.npz with 14064 samples
+2025-04-09 15:00:28,045 [INFO] Saved batch 405 to ./training_data/mahjong_transformer_data_batch_405.npz with 13522 samples
+2025-04-09 15:00:28,780 [INFO] Saved batch 406 to ./training_data/mahjong_transformer_data_batch_406.npz with 12503 samples
+2025-04-09 15:00:29,574 [INFO] Saved batch 407 to ./training_data/mahjong_transformer_data_batch_407.npz with 13232 samples
+2025-04-09 15:00:30,470 [INFO] Saved batch 408 to ./training_data/mahjong_transformer_data_batch_408.npz with 14346 samples
+2025-04-09 15:00:31,282 [INFO] Saved batch 409 to ./training_data/mahjong_transformer_data_batch_409.npz with 13086 samples
+2025-04-09 15:00:32,134 [INFO] Saved batch 410 to ./training_data/mahjong_transformer_data_batch_410.npz with 14348 samples
+2025-04-09 15:00:33,021 [INFO] Saved batch 411 to ./training_data/mahjong_transformer_data_batch_411.npz with 14897 samples
+2025-04-09 15:00:33,866 [INFO] Saved batch 412 to ./training_data/mahjong_transformer_data_batch_412.npz with 14148 samples
+2025-04-09 15:00:34,732 [INFO] Saved batch 413 to ./training_data/mahjong_transformer_data_batch_413.npz with 14783 samples
+2025-04-09 15:00:35,168 [INFO] Saved batch 414 to ./training_data/mahjong_transformer_data_batch_414.npz with 7344 samples
+2025-04-09 15:00:35,171 [INFO] Processing complete.
+2025-04-09 15:00:35,171 [INFO] Processed 20726 files.
+2025-04-09 15:00:35,171 [INFO] Extracted and saved 5829119 samples in 415 batches.
+2025-04-09 15:00:35,171 [INFO] Data saved in ./training_data/ with prefix 'mahjong_transformer_data'
+2025-04-09 15:00:35,171 [INFO] Next step: Combine batches if needed and run train.py
+2025-04-17 01:08:07,664 [INFO] Found 20726 XML files to process
+2025-04-17 01:08:07,664 [INFO] Starting processing with 8 workers...
+2025-04-17 01:13:24,727 [INFO] Found 20726 XML files to process
+2025-04-17 01:13:24,727 [INFO] Starting processing with 8 workers...
+2025-04-17 01:13:51,610 [INFO] Found 20726 XML files to process
+2025-04-17 01:13:51,610 [INFO] Starting processing with 8 workers...
+2025-04-17 01:16:40,209 [INFO] Found 56 XML files to process
+2025-04-17 01:16:40,209 [INFO] Starting processing with 8 workers...
+2025-04-17 01:16:40,374 [ERROR] Error processing .: [Errno 21] Is a directory: '.'
+2025-04-17 01:16:40,374 [ERROR] Error processing .: [Errno 21] Is a directory: '.'
+2025-04-17 01:16:40,375 [ERROR] Error processing : [Errno 21] Is a directory: '/'
+2025-04-17 01:16:40,376 [ERROR] Error processing : [Errno 21] Is a directory: '/'
+2025-04-17 01:16:40,376 [ERROR] Error processing : [Errno 21] Is a directory: '/'
+2025-04-17 01:16:40,379 [ERROR] Error processing .: [Errno 21] Is a directory: '.'
+2025-04-17 01:16:40,391 [INFO] Collecting results and saving batches...
+2025-04-17 01:16:40,392 [INFO] Processing complete.
+2025-04-17 01:16:40,392 [INFO] Processed 56 files.
+2025-04-17 01:16:40,392 [INFO] Extracted and saved 0 samples in 0 batches.
+2025-04-17 01:16:40,392 [INFO] Data saved in ./training_data/debug with prefix 'mahjong_transformer_data'
+2025-04-17 01:16:40,392 [INFO] Next step: Combine batches if needed and run train.py
+2025-04-17 01:20:16,633 [INFO] Found 1 XML files to process
+2025-04-17 01:20:16,633 [INFO] Starting processing with 8 workers...
+2025-04-17 01:20:16,935 [INFO] Collecting results and saving batches...
+2025-04-17 01:20:17,012 [INFO] Saved batch 0 to ./training_data/mahjong_transformer_data_batch_0.npz with 370 samples
+2025-04-17 01:20:17,012 [INFO] Processing complete.
+2025-04-17 01:20:17,012 [INFO] Processed 1 files.
+2025-04-17 01:20:17,012 [INFO] Extracted and saved 370 samples in 1 batches.
+2025-04-17 01:20:17,012 [INFO] Data saved in ./training_data/ with prefix 'mahjong_transformer_data'
+2025-04-17 01:20:17,012 [INFO] Next step: Combine batches if needed and run train.py
+2025-04-17 03:14:08,990 [INFO] Found 68184 XML files to process
+2025-04-17 03:14:08,990 [INFO] Starting processing with 8 workers...
+2025-04-17 03:20:34,243 [INFO] Found 68791 XML files to process
+2025-04-17 03:20:34,243 [INFO] Starting processing with 8 workers...
+2025-04-17 03:21:19,804 [INFO] Found 1 XML files to process
+2025-04-17 03:21:19,804 [INFO] Starting processing with 8 workers...
+2025-04-17 03:21:19,920 [INFO] Collecting results and saving batches...
+2025-04-17 03:21:19,920 [INFO] Processing complete.
+2025-04-17 03:21:19,920 [INFO] Processed 1 files.
+2025-04-17 03:21:19,920 [INFO] Extracted and saved 0 samples in 0 batches.
+2025-04-17 03:21:19,921 [INFO] Data saved in ./training_data/ with prefix 'mahjong_transformer_data'
+2025-04-17 03:21:19,921 [INFO] Next step: Combine batches if needed and run train.py
+2025-04-17 03:21:36,452 [INFO] Found 1 XML files to process
+2025-04-17 03:21:36,452 [INFO] Starting processing with 8 workers...
+2025-04-17 03:21:36,602 [INFO] Collecting results and saving batches...
+2025-04-17 03:21:36,602 [INFO] Processing complete.
+2025-04-17 03:21:36,602 [INFO] Processed 1 files.
+2025-04-17 03:21:36,602 [INFO] Extracted and saved 0 samples in 0 batches.
+2025-04-17 03:21:36,602 [INFO] Data saved in ./training_data/ with prefix 'mahjong_transformer_data'
+2025-04-17 03:21:36,602 [INFO] Next step: Combine batches if needed and run train.py
+2025-04-17 03:47:21,995 [INFO] Found 1 XML files to process
+2025-04-17 03:47:21,995 [INFO] Starting processing with 8 workers...
+2025-04-17 03:47:22,073 [INFO] Collecting results and saving batches...
+2025-04-17 03:53:18,404 [INFO] Found 1 XML files to process
+2025-04-17 03:53:18,404 [INFO] Starting processing with 8 workers...
+2025-04-17 03:53:18,455 [INFO] Collecting results and saving batches...
+2025-04-17 03:53:18,455 [INFO] Processing complete.
+2025-04-17 03:53:18,456 [INFO] Processed 1 files.
+2025-04-17 03:53:18,456 [INFO] Extracted and saved 0 samples in 0 batches.
+2025-04-17 03:53:18,456 [INFO] Data saved in ./training_data/ with prefix 'mahjong_transformer_data'
+2025-04-17 03:53:18,456 [INFO] Next step: Combine batches if needed and run train.py
+2025-04-17 04:01:26,814 [INFO] Found 1 XML files to process
+2025-04-17 04:01:26,814 [INFO] Starting processing with 8 workers...
+2025-04-17 04:01:26,866 [INFO] Collecting results and saving batches...
+2025-04-17 04:01:26,866 [INFO] Processing complete.
+2025-04-17 04:01:26,866 [INFO] Processed 1 files.
+2025-04-17 04:01:26,866 [INFO] Extracted and saved 0 samples in 0 batches.
+2025-04-17 04:01:26,866 [INFO] Data saved in ./training_data/ with prefix 'mahjong_transformer_data'
+2025-04-17 04:01:26,866 [INFO] Next step: Combine batches if needed and run train.py
+2025-04-17 04:02:56,847 [INFO] Found 1 XML files to process
+2025-04-17 04:02:56,847 [INFO] Starting processing with 8 workers...
+2025-04-17 04:02:56,904 [INFO] Collecting results and saving batches...
+2025-04-17 04:02:56,904 [INFO] Processing complete.
+2025-04-17 04:02:56,904 [INFO] Processed 1 files.
+2025-04-17 04:02:56,904 [INFO] Extracted and saved 0 samples in 0 batches.
+2025-04-17 04:02:56,904 [INFO] Data saved in ./training_data/ with prefix 'mahjong_transformer_data'
+2025-04-17 04:02:56,904 [INFO] Next step: Combine batches if needed and run train.py
+2025-04-17 04:43:24,494 [INFO] Found 1 XML files to process
+2025-04-17 04:43:24,494 [INFO] Starting processing with 8 workers...
+2025-04-17 04:43:24,560 [INFO] Collecting results and saving batches...
+2025-04-17 04:43:24,560 [INFO] Processing complete.
+2025-04-17 04:43:24,560 [INFO] Processed 1 files.
+2025-04-17 04:43:24,560 [INFO] Extracted and saved 0 samples in 0 batches.
+2025-04-17 04:43:24,560 [INFO] Data saved in ./training_data/ with prefix 'mahjong_transformer_data'
+2025-04-17 04:43:24,560 [INFO] Next step: Combine batches if needed and run train.py
+2025-04-17 04:53:23,736 [INFO] Found 1 XML files to process
+2025-04-17 04:53:23,736 [INFO] Starting processing with 8 workers...
+2025-04-17 04:53:23,746 [ERROR] Error processing 2009022011gm-00a9-0000-d7935c6d.xml: name 'parse_full_mahjong_log' is not defined
+2025-04-17 04:53:23,749 [INFO] Collecting results and saving batches...
+2025-04-17 04:53:23,749 [INFO] Processing complete.
+2025-04-17 04:53:23,749 [INFO] Processed 1 files.
+2025-04-17 04:53:23,749 [INFO] Extracted and saved 0 samples in 0 batches.
+2025-04-17 04:53:23,749 [INFO] Data saved in ./training_data/ with prefix 'mahjong_transformer_data'
+2025-04-17 04:53:23,749 [INFO] Next step: Combine batches if needed and run train.py
+2025-04-17 05:14:41,221 [INFO] Found 1 XML files to process
+2025-04-17 05:14:41,221 [INFO] Starting processing with 8 workers...
+2025-04-17 05:14:41,233 [ERROR] Error processing 2009022011gm-00a9-0000-d7935c6d.xml: name 'parse_full_mahjong_log' is not defined
+2025-04-17 05:14:41,235 [INFO] Collecting results and saving batches...
+2025-04-17 05:14:41,235 [INFO] Processing complete.
+2025-04-17 05:14:41,235 [INFO] Processed 1 files.
+2025-04-17 05:14:41,235 [INFO] Extracted and saved 0 samples in 0 batches.
+2025-04-17 05:14:41,235 [INFO] Data saved in ./training_data/ with prefix 'mahjong_transformer_data'
+2025-04-17 05:14:41,235 [INFO] Next step: Combine batches if needed and run train.py
+2025-04-17 05:19:02,931 [INFO] Found 1 XML files to process
+2025-04-17 05:19:02,931 [INFO] Starting processing with 8 workers...
+2025-04-17 05:19:02,942 [ERROR] Error processing 2009022011gm-00a9-0000-d7935c6d.xml: name 'parse_full_mahjong_log' is not defined
+2025-04-17 05:19:02,945 [INFO] Collecting results and saving batches...
+2025-04-17 05:19:02,945 [INFO] Processing complete.
+2025-04-17 05:19:02,945 [INFO] Processed 1 files.
+2025-04-17 05:19:02,945 [INFO] Extracted and saved 0 samples in 0 batches.
+2025-04-17 05:19:02,945 [INFO] Data saved in ./training_data/ with prefix 'mahjong_transformer_data'
+2025-04-17 05:19:02,945 [INFO] Next step: Combine batches if needed and run train.py
+2025-04-17 05:24:01,124 [INFO] Found 1 XML files to process
+2025-04-17 05:24:01,124 [INFO] Starting processing with 8 workers...
+2025-04-17 05:24:01,136 [ERROR] Error processing 2009022011gm-00a9-0000-d7935c6d.xml: name 'parse_full_mahjong_log' is not defined
+2025-04-17 05:24:01,138 [INFO] Collecting results and saving batches...
+2025-04-17 05:24:01,139 [INFO] Processing complete.
+2025-04-17 05:24:01,139 [INFO] Processed 1 files.
+2025-04-17 05:24:01,139 [INFO] Extracted and saved 0 samples in 0 batches.
+2025-04-17 05:24:01,139 [INFO] Data saved in ./training_data/ with prefix 'mahjong_transformer_data'
+2025-04-17 05:24:01,139 [INFO] Next step: Combine batches if needed and run train.py
+2025-04-17 05:24:45,955 [INFO] Found 1 XML files to process
+2025-04-17 05:24:45,955 [INFO] Starting processing with 8 workers...
+2025-04-17 05:24:45,966 [ERROR] Error processing 2009022011gm-00a9-0000-d7935c6d.xml: name 'parse_full_mahjong_log' is not defined
+2025-04-17 05:24:45,968 [INFO] Collecting results and saving batches...
+2025-04-17 05:24:45,968 [INFO] Processing complete.
+2025-04-17 05:24:45,969 [INFO] Processed 1 files.
+2025-04-17 05:24:45,969 [INFO] Extracted and saved 0 samples in 0 batches.
+2025-04-17 05:24:45,969 [INFO] Data saved in ./training_data/ with prefix 'mahjong_transformer_data'
+2025-04-17 05:24:45,969 [INFO] Next step: Combine batches if needed and run train.py
+2025-04-17 05:25:39,133 [INFO] Found 1 XML files to process
+2025-04-17 05:25:39,133 [INFO] Starting processing with 8 workers...
+2025-04-17 05:25:39,144 [ERROR] Error processing 2009022011gm-00a9-0000-d7935c6d.xml: name 'parse_full_mahjong_log' is not defined
+2025-04-17 05:25:39,146 [INFO] Collecting results and saving batches...
+2025-04-17 05:25:39,146 [INFO] Processing complete.
+2025-04-17 05:25:39,146 [INFO] Processed 1 files.
+2025-04-17 05:25:39,146 [INFO] Extracted and saved 0 samples in 0 batches.
+2025-04-17 05:25:39,146 [INFO] Data saved in ./training_data/ with prefix 'mahjong_transformer_data'
+2025-04-17 05:25:39,146 [INFO] --- Warning Summary ---
+2025-04-17 05:25:39,146 [INFO] Next step: Combine batches if needed and run train.py
+2025-04-17 05:25:49,981 [INFO] Found 1 XML files to process
+2025-04-17 05:25:49,981 [INFO] Starting processing with 8 workers...
+2025-04-17 05:25:49,992 [ERROR] Error processing 2009022011gm-00a9-0000-d7935c6d.xml: name 'parse_full_mahjong_log' is not defined
+2025-04-17 05:25:49,994 [INFO] Collecting results and saving batches...
+2025-04-17 05:25:49,995 [INFO] Processing complete.
+2025-04-17 05:25:49,995 [INFO] Processed 1 files.
+2025-04-17 05:25:49,995 [INFO] Extracted and saved 0 samples in 0 batches.
+2025-04-17 05:25:49,995 [INFO] Data saved in ./training_data/ with prefix 'mahjong_transformer_data'
+2025-04-17 05:25:49,995 [INFO] --- Warning Summary ---
+2025-04-17 05:25:49,995 [INFO] Next step: Combine batches if needed and run train.py
