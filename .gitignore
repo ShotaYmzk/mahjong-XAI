@@ -16,6 +16,7 @@ build/
 
 # Logs
 *.log
+nohup.out
 
 # Local configuration
 .env
