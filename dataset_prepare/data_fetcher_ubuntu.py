@@ -13,7 +13,7 @@ import html # ← これを追加！
 # 例: /home/ubuntu/Documents/Tenhou-dataset
 HTML_BASE_DIR = "/home/ubuntu/Documents/Tenhou-dataset"
 # XMLファイルを保存するディレクトリ
-XML_SAVE_DIR = "../xml_logs"
+XML_SAVE_DIR = "/home/ubuntu/Documents/xml_logs"
 # 処理したい年の範囲
 YEAR_RANGE = range(2009, 2024) # ★必要に応じて変更★
 # --- 設定ここまで ---
