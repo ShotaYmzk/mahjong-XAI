@@ -6,9 +6,6 @@ import requests
 from time import sleep
 import html # ← これを追加！
 
-# --- 設定 ---
-# ... (以下、設定や関数の定義が続く) ...
-# --- 設定 ---
 # ★重要: 事前に展開した .html ファイルが年ごとに入っている親ディレクトリのパスを指定★
 # 例: /home/ubuntu/Documents/Tenhou-dataset
 HTML_BASE_DIR = "/home/ubuntu/Documents/Tenhou-dataset"

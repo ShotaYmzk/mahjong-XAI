@@ -30,4 +30,9 @@ nohup.out
 
 # OS specific files
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Additional ignored files
+*.xml
+*.npz
+*.pyc 
