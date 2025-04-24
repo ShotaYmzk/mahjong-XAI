@@ -31,3 +31,7 @@ nohup.out
 # OS specific files
 .DS_Store
 Thumbs.db 
+
+# Data files
+*.npz
+training_data/ 
