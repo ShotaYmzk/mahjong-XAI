@@ -25,7 +25,7 @@ print(f"  Allocated before:    {allocated_before/1024**3:.2f} GB")
 # 1) メモリを先に確保して負荷をかける
 #    → 全体の50%を占める大きさのテンソルを作成
 # ───────────────────────────────────────────────────────────
-fill_bytes = int(total_memory * 0.5)
+fill_bytes = int(total_memory * 0.9)
 # float32 1要素4バイト なので要素数 = fill_bytes / 4
 num_elems = fill_bytes // 4
 fill_dim = int(math.sqrt(num_elems))

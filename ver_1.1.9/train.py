@@ -62,11 +62,11 @@ INTERACTIVE_PLOT = False                                # プロットを対話�
 
 # --- トレーニングハイパーパラメータ ---
 BATCH_SIZE = 1024           # 1回のパラメータ更新で使うサンプル数 (メモリに応じて調整)
-NUM_EPOCHS = 50             # トレーニングを行う総エポック数
+NUM_EPOCHS = 100             # トレーニングを行う総エポック数
 LEARNING_RATE = 5e-4        # 学習率の初期値
 WEIGHT_DECAY = 0.05         # AdamWのWeight Decay (正則化)
 CLIP_GRAD_NORM = 1.0        # 勾配クリッピングの上限値 (0以下で無効)
-ACCUMULATION_STEPS = 4      # 勾配を累積するステップ数 (実質バッチサイズ = BATCH_SIZE * ACCUMULATION_STEPS)
+ACCUMULATION_STEPS = 6      # 勾配を累積するステップ数 (実質バッチサイズ = BATCH_SIZE * ACCUMULATION_STEPS)
                             # メモリ不足時にBATCH_SIZEを減らし、これを増やす
 
 # --- Transformerモデルハイパーパラメータ ---
