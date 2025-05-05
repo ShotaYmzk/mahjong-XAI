@@ -31,9 +31,9 @@ except ImportError as e:
     sys.exit(1)
 
 # --- Configuration ---
-XML_LOG_DIR = "/home/ubuntu/Documents/Mahjong-XAI/xml_logs" # <<< ADJUST: Directory containing Tenhou XML logs
+XML_LOG_DIR = "/home/ubuntu/Documents/XML/xml_logs" # <<< ADJUST: Directory containing Tenhou XML logs
 OUTPUT_DIR = "./training_data/"     # Directory to save the processed HDF5 file
-OUTPUT_HDF5_FILENAME = "mahjong_imitation_data_v119.hdf5" # ★変更点: 出力HDF5ファイル名
+OUTPUT_HDF5_FILENAME = "mahjong_imitation_data_v1110.hdf5" # ★変更点: 出力HDF5ファイル名
 OUTPUT_HDF5_PATH = os.path.join(OUTPUT_DIR, OUTPUT_HDF5_FILENAME) # ★変更点: 出力HDF5ファイルのフルパス
 
 NUM_PROCESSES = max(1, cpu_count() // 2) # Use half the CPU cores, minimum 1

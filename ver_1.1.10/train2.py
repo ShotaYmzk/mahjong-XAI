@@ -52,34 +52,34 @@ except ImportError as e:
 # ===============================================================================
 # --- データ関連 ---
 # HDF5 ファイルのパスを指定
-DATA_HDF5_PATH = "./training_data/mahjong_imitation_data_v119.hdf5" # ★変更点: NPZパターンからHDF5パスへ
+DATA_HDF5_PATH = "./training_data/mahjong_imitation_data_v1110.hdf5" # ★変更点: NPZパターンからHDF5パスへ
 VALIDATION_SPLIT = 0.05                                 # データセットからバリデーション用に分割する割合
 
 # --- モデル保存関連 ---
-MODEL_SAVE_PATH = "./trained_model/mahjong_transformer_v119_large_compiled.pth" # 最良モデルの保存パス (compile版を示す名前に変更)
-CHECKPOINT_DIR = "./checkpoints_v119_large_compiled/"       # チェックポイントの保存ディレクトリ (compile版を示す名前に変更)
+MODEL_SAVE_PATH = "./trained_model/mahjong_transformer_v1110_large_compiled.pth" # 最良モデルの保存パス (compile版を示す名前に変更)
+CHECKPOINT_DIR = "./checkpoints_v1110_large_compiled/"       # チェックポイントの保存ディレクトリ (compile版を示す名前に変更)
 
 # --- ログ・プロット関連 ---
 LOG_DIR = "./logs"                                      # ログファイルの保存ディレクトリ
-PLOT_DIR = "./plots_v119_large_compiled"                # プロット画像の保存ディレクトリ (compile版を示す名前に変更)
-PLOT_EVERY_EPOCH = 1                                    # 何エポックごとにプロットを更新・保存するか
+PLOT_DIR = "./plots_v1110_large_compiled"                # プロット画像の保存ディレクトリ (compile版を示す名前に変更)
+PLOT_EVERY_EPOCH = 3                                    # 何エポックごとにプロットを更新・保存するか
 INTERACTIVE_PLOT = False                                # プロットを対話的に表示するか (通常はFalse)
 PROFILER_LOG_DIR = "./profiler_logs"                    # プロファイラログの出力先 ★追加
 
 # --- トレーニングハイパーパラメータ ---
-BATCH_SIZE = 1024           # 1回のパラメータ更新で使うサンプル数 (メモリに応じて調整)
-NUM_EPOCHS = 100             # トレーニングを行う総エポック数
+BATCH_SIZE = 2048           # 1回のパラメータ更新で使うサンプル数 (メモリに応じて調整)
+NUM_EPOCHS = 125             # トレーニングを行う総エポック数
 LEARNING_RATE = 5e-4        # 学習率の初期値
 WEIGHT_DECAY = 0.05         # AdamWのWeight Decay (正則化)
 CLIP_GRAD_NORM = 1.0        # 勾配クリッピングの上限値 (0以下で無効)
-ACCUMULATION_STEPS = 6      # 勾配を累積するステップ数 (実質バッチサイズ = BATCH_SIZE * ACCUMULATION_STEPS)
+ACCUMULATION_STEPS = 2      # 勾配を累積するステップ数 (実質バッチサイズ = BATCH_SIZE * ACCUMULATION_STEPS)
                             # メモリ不足時にBATCH_SIZEを減らし、これを増やす
 
 # --- Transformerモデルハイパーパラメータ ---
 D_MODEL = 256               # モデル内部の基本次元数 ★変更点: ユーザー提供コードに合わせた
 NHEAD = 8                   # Multi-Head Attentionのヘッド数 (D_MODELを割り切れる必要あり)
 D_HID = 2048                # Transformer内部のFeedForward層の中間次元数 (通常 D_MODEL * 4)
-NLAYERS = 6                 # Transformer Encoder Layerの数
+NLAYERS = 4                 # Transformer Encoder Layerの数
 DROPOUT = 0.1               # ドロップアウト率
 ACTIVATION = 'gelu'         # Transformer内部の活性化関数 ('relu' または 'gelu')
 
