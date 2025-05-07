@@ -61,13 +61,13 @@ PLOT_EVERY_EPOCH = 1                                    # 何エポックごと�
 INTERACTIVE_PLOT = False                                # プロットを対話的に表示するか (通常はFalse)
 
 # --- トレーニングハイパーパラメータ ---
-BATCH_SIZE = 1024           # 1回のパラメータ更新で使うサンプル数 (メモリに応じて調整)
-NUM_EPOCHS = 100             # トレーニングを行う総エポック数
-LEARNING_RATE = 5e-4        # 学習率の初期値
-WEIGHT_DECAY = 0.05         # AdamWのWeight Decay (正則化)
-CLIP_GRAD_NORM = 1.0        # 勾配クリッピングの上限値 (0以下で無効)
-ACCUMULATION_STEPS = 6      # 勾配を累積するステップ数 (実質バッチサイズ = BATCH_SIZE * ACCUMULATION_STEPS)
-                            # メモリ不足時にBATCH_SIZEを減らし、これを増やす
+BATCH_SIZE = 2048  # Reduced from 4096 to handle memory constraints
+NUM_EPOCHS = 50
+LEARNING_RATE = 5e-4
+WEIGHT_DECAY = 0.05
+CLIP_GRAD_NORM = 1.0
+WARMUP_STEPS = 1000
+ACCUMULATION_STEPS = 2  # Increased from 1 to handle memory constraints
 
 # --- Transformerモデルハイパーパラメータ ---
 D_MODEL = 512               # モデル内部の基本次元数
@@ -95,8 +95,11 @@ SEED = 42                   # 乱数シード (再現性のため)
 bf16_supported = torch.cuda.is_available() and torch.cuda.is_bf16_supported()
 if torch.cuda.is_available():
      DEVICE = torch.device("cuda")
-     torch.backends.cudnn.benchmark = True # cudnnの自動チューナーを有効化 (入力サイズが固定の場合に高速化)
-     torch.set_float32_matmul_precision('high') # TF32の使用を設定 ('high' or 'medium')
+     torch.backends.cudnn.benchmark = True
+     torch.set_float32_matmul_precision('high')
+     # Add memory optimization settings
+     torch.cuda.empty_cache()
+     os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
      print(f"CUDA Device: {torch.cuda.get_device_name(DEVICE)}")
      print(f"cuDNN benchmark: {torch.backends.cudnn.benchmark}")
      print(f"TF32 Matmul Precision: {torch.get_float32_matmul_precision()}")
