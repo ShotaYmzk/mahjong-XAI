@@ -67,21 +67,21 @@ INTERACTIVE_PLOT = False                                # プロットを対話�
 PROFILER_LOG_DIR = "./profiler_logs"                    # プロファイラログの出力先 ★追加
 
 # --- トレーニングハイパーパラメータ ---
-BATCH_SIZE = 2048           # 1回のパラメータ更新で使うサンプル数 (メモリに応じて調整)
+BATCH_SIZE = 4098           # 1回のパラメータ更新で使うサンプル数 (メモリに応じて調整)
 NUM_EPOCHS = 125             # トレーニングを行う総エポック数
 LEARNING_RATE = 5e-4        # 学習率の初期値
 WEIGHT_DECAY = 0.05         # AdamWのWeight Decay (正則化)
 CLIP_GRAD_NORM = 1.0        # 勾配クリッピングの上限値 (0以下で無効)
-ACCUMULATION_STEPS = 2      # 勾配を累積するステップ数 (実質バッチサイズ = BATCH_SIZE * ACCUMULATION_STEPS)
+ACCUMULATION_STEPS = 1      # 勾配を累積するステップ数 (実質バッチサイズ = BATCH_SIZE * ACCUMULATION_STEPS)
                             # メモリ不足時にBATCH_SIZEを減らし、これを増やす
 
 # --- Transformerモデルハイパーパラメータ ---
 D_MODEL = 256               # モデル内部の基本次元数 ★変更点: ユーザー提供コードに合わせた
-NHEAD = 8                   # Multi-Head Attentionのヘッド数 (D_MODELを割り切れる必要あり)
-D_HID = 2048                # Transformer内部のFeedForward層の中間次元数 (通常 D_MODEL * 4)
+NHEAD = 4                   # Multi-Head Attentionのヘッド数 (D_MODELを割り切れる必要あり)
+D_HID = 1024                # Transformer内部のFeedForward層の中間次元数 (通常 D_MODEL * 4)
 NLAYERS = 4                 # Transformer Encoder Layerの数
 DROPOUT = 0.1               # ドロップアウト率
-ACTIVATION = 'gelu'         # Transformer内部の活性化関数 ('relu' または 'gelu')
+ACTIVATION = 'relu'         # Transformer内部の活性化関数 ('relu' または 'gelu')
 
 # --- 高度なトレーニング機能 ---
 USE_AMP = True              # 自動混合精度 (AMP) を使用するか (GPUが対応していればTrue推奨)

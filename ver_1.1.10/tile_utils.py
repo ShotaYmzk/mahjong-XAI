@@ -74,3 +74,12 @@ def tile_id_to_string(tile: int) -> str:
             return honors[honor_index]
         else:
             return "?" # Should not happen with valid IDs
+        
+def is_aka_dora(tile: int) -> bool:
+    """
+    赤ドラ(aka dora)かどうかを判定する関数
+    Returns True if the given tile ID is a red five (aka dora), otherwise False.
+    """
+    # Tenhou における赤ドラの tile IDs
+    AKA_DORA_IDS = {16, 52, 88}
+    return tile in AKA_DORA_IDS

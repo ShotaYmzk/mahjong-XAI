@@ -4,6 +4,9 @@ from collections import defaultdict, deque
 import sys
 import traceback # For detailed error reporting
 import os # For checking file existence if needed
+# game_state.py 内で
+from .tile_utils import tile_id_to_index, tile_id_to_string
+
 
 # --- Dependency Imports ---
 try:
