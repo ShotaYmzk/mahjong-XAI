@@ -733,34 +733,66 @@ def init_plots():
 
 def update_plots(fig, axs, epoch, metrics):
     """収集したメトリクスでプロットを更新し、保存する"""
-    epochs = list(range(1, epoch + 2)) # X軸用エポックリスト (1から開始)
-
-    # Lossプロット
-    axs[0,0].clear(); axs[0,0].plot(epochs, metrics['train_loss'], 'b-', label='Train'); axs[0,0].plot(epochs, metrics['val_loss'], 'r-', label='Val'); axs[0,0].legend(); axs[0,0].grid(True); axs[0,0].set_title('Loss (Train/Val)')
-
-    # Accuracyプロット
-    axs[0,1].clear(); axs[0,1].plot(epochs, metrics['train_acc'], 'b-', label='Train'); axs[0,1].plot(epochs, metrics['val_acc'], 'r-', label='Val'); axs[0,1].legend(); axs[0,1].grid(True); axs[0,1].set_title('Accuracy (Train/Val)')
-
-    # Top-3 Accuracyプロット
-    axs[1,0].clear(); axs[1,0].plot(epochs, metrics['train_top3'], 'b-', label='Train'); axs[1,0].plot(epochs, metrics['val_top3'], 'r-', label='Val'); axs[1,0].legend(); axs[1,0].grid(True); axs[1,0].set_title('Top-3 Accuracy (Train/Val)')
-
-    # Learning Rateプロット
-    axs[1,1].clear(); axs[1,1].plot(epochs, metrics['lr'], 'g-'); axs[1,1].grid(True); axs[1,1].set_title('Learning Rate')
-
-    plt.tight_layout() # 再度レイアウト調整
-
-    # プロットをファイルに保存
-    plot_path = os.path.join(PLOT_DIR, f'training_metrics_epoch_{epoch+1}.png')
-    latest_path = os.path.join(PLOT_DIR, 'latest_training_metrics.png')
     try:
-        fig.savefig(plot_path)
-        fig.savefig(latest_path) # 最新のプロットを別名で保存
-    except Exception as e:
-        logging.warning(f"Failed to save plot: {e}")
+        epochs = list(range(1, epoch + 2))  # X軸用エポックリスト (1から開始)
+        
+        # 各メトリクスの長さを確認
+        for key in ['train_loss', 'val_loss', 'train_acc', 'val_acc', 'train_top3', 'val_top3', 'lr']:
+            if len(metrics[key]) != len(epochs):
+                logging.warning(f"Metrics length mismatch for {key}: metrics={len(metrics[key])}, epochs={len(epochs)}")
+                # 短い方に合わせる
+                min_len = min(len(metrics[key]), len(epochs))
+                metrics[key] = metrics[key][:min_len]
+                epochs = epochs[:min_len]
 
-    # 対話モードなら画面に表示
-    if INTERACTIVE_PLOT:
-        plt.pause(0.1)
+        # Lossプロット
+        axs[0,0].clear()
+        axs[0,0].plot(epochs, metrics['train_loss'], 'b-', label='Train')
+        axs[0,0].plot(epochs, metrics['val_loss'], 'r-', label='Val')
+        axs[0,0].legend()
+        axs[0,0].grid(True)
+        axs[0,0].set_title('Loss (Train/Val)')
+
+        # Accuracyプロット
+        axs[0,1].clear()
+        axs[0,1].plot(epochs, metrics['train_acc'], 'b-', label='Train')
+        axs[0,1].plot(epochs, metrics['val_acc'], 'r-', label='Val')
+        axs[0,1].legend()
+        axs[0,1].grid(True)
+        axs[0,1].set_title('Accuracy (Train/Val)')
+
+        # Top-3 Accuracyプロット
+        axs[1,0].clear()
+        axs[1,0].plot(epochs, metrics['train_top3'], 'b-', label='Train')
+        axs[1,0].plot(epochs, metrics['val_top3'], 'r-', label='Val')
+        axs[1,0].legend()
+        axs[1,0].grid(True)
+        axs[1,0].set_title('Top-3 Accuracy (Train/Val)')
+
+        # Learning Rateプロット
+        axs[1,1].clear()
+        axs[1,1].plot(epochs, metrics['lr'], 'g-')
+        axs[1,1].grid(True)
+        axs[1,1].set_title('Learning Rate')
+
+        plt.tight_layout()  # 再度レイアウト調整
+
+        # プロットをファイルに保存
+        plot_path = os.path.join(PLOT_DIR, f'training_metrics_epoch_{epoch+1}.png')
+        latest_path = os.path.join(PLOT_DIR, 'latest_training_metrics.png')
+        try:
+            fig.savefig(plot_path)
+            fig.savefig(latest_path)  # 最新のプロットを別名で保存
+        except Exception as e:
+            logging.warning(f"Failed to save plot: {e}")
+
+        # 対話モードなら画面に表示
+        if INTERACTIVE_PLOT:
+            plt.pause(0.1)
+            
+    except Exception as e:
+        logging.error(f"Error updating plots: {e}", exc_info=True)
+        # エラーが発生してもトレーニングは継続
 
 # ==============================================================================
 # =                            Main Training Loop                            =
@@ -942,7 +974,17 @@ def train_model(resume_training=False):
         latest_checkpoint = find_latest_checkpoint(CHECKPOINT_DIR)
         if latest_checkpoint:
             logging.info(f"Resuming training from checkpoint: {latest_checkpoint}")
+            checkpoint = torch.load(latest_checkpoint, map_location=DEVICE)
             start_epoch = load_checkpoint(latest_checkpoint, model, optimizer, lr_scheduler, scaler, ema)
+            # メトリクスの履歴を復元
+            if 'metrics' in checkpoint:
+                metrics = checkpoint['metrics']
+                best_val_acc = checkpoint.get('best_val_acc', 0.0)
+                best_epoch = checkpoint.get('best_epoch', 0)
+                epochs_without_improvement = checkpoint.get('epochs_without_improvement', 0)
+                logging.info(f"Restored metrics history from checkpoint. Current epoch: {start_epoch}")
+            else:
+                logging.warning("No metrics history found in checkpoint. Starting with empty metrics.")
             logging.info(f"Resuming from epoch {start_epoch}")
         else:
             logging.warning("No checkpoint found. Starting training from scratch.")
@@ -1086,15 +1128,18 @@ def train_model(resume_training=False):
         checkpoint_path = os.path.join(CHECKPOINT_DIR, f"checkpoint_epoch_{epoch+1}.pth")
         save_dict = {
             'epoch': epoch+1,
-            # torch.compile を使っている場合、元のモデルの状態を保存するには ._orig_mod を使う
             'model_state_dict': model.state_dict() if not USE_TORCH_COMPILE else model._orig_mod.state_dict(),
             'optimizer_state_dict': optimizer.state_dict(),
             'scheduler_state_dict': lr_scheduler.state_dict(),
             'scaler_state_dict': scaler.state_dict(),
             'val_acc': epoch_val_acc,
-            'event_dim': event_dim, # モデル再構築のため次元を保存
+            'event_dim': event_dim,
             'static_dim': static_dim,
-            'seq_len': seq_len # モデル再構築のためシーケンス長を保存
+            'seq_len': seq_len,
+            'metrics': metrics,  # メトリクスの履歴を保存
+            'best_val_acc': best_val_acc,
+            'best_epoch': best_epoch,
+            'epochs_without_improvement': epochs_without_improvement
         }
         if ema:
             # EMAのシャドウパラメータも保存
@@ -1169,6 +1214,7 @@ def train_model(resume_training=False):
     logging.info("Training process completed.")
     logging.info("="*30)
 
+def list_checkpoint_accuracies(checkpoint_dir):
 
 # ==============================================================================
 # =                              Script Execution                            =

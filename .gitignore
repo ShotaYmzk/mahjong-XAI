@@ -34,4 +34,7 @@ Thumbs.db
 
 # Data files
 *.npz
+*.xml
+*.pth
+*.hdf5
 training_data/ 
