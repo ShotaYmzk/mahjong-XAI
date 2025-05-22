@@ -902,7 +902,7 @@ def train_model():
     logging.info(f"Using Optimizer: AdamW (LR={LEARNING_RATE}, WD={WEIGHT_DECAY})")
 
     # 学習率スケジューラ
-    scheduler_t0 = max(1, NUM_EPOCHS//5)
+    scheduler_t0 = max(1, NUM_EPOCHS)
     lr_scheduler = CosineAnnealingWarmRestarts(
         optimizer, T_0=scheduler_t0, T_mult=1, eta_min=LEARNING_RATE/100)
     logging.info(f"Using LR Scheduler: CosineAnnealingWarmRestarts (T_0={scheduler_t0})")

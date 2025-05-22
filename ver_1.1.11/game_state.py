@@ -446,3 +446,19 @@ class GameState:
             if not has_drawn: return []
             options = sorted(list(set(tile_id_to_index(t) for t in hand if tile_id_to_index(t) != -1)))
             return options
+
+    def get_model_input(self, player_id: int) -> tuple[np.ndarray, np.ndarray]:
+        """
+        Get both event sequence and static features for model input.
+        
+        Args:
+            player_id: The player ID (0-3) to get features for
+            
+        Returns:
+            tuple: (event_sequence_features, static_features)
+            - event_sequence_features: shape (seq_len, event_dim)
+            - static_features: shape (static_dim,)
+        """
+        event_seq = self.get_event_sequence_features()
+        static_feat = self.get_static_features(player_id)
+        return event_seq, static_feat
