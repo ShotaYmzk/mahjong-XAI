@@ -52,7 +52,7 @@ except ImportError as e:
 # ===============================================================================
 # --- データ関連 ---
 # HDF5 ファイルのパスを指定
-DATA_HDF5_PATH = "./training_data/mahjong_imitation_data_v1110.hdf5" # ★変更点: NPZパターンからHDF5パスへ
+DATA_HDF5_PATH = "/home/ubuntu/Documents/Mahjong-XAI/ver_1.1.11/training_data/mahjong_imitation_data_v1110.hdf5" # ★変更点: NPZパターンからHDF5パスへ
 TRAINING_SPLIT = 0.9                                 # データセットからトレーニング用に分割する割合
 VALIDATION_SPLIT = 0.1                               # データセットからバリデーション用に分割する割合
 # 残りの (1 - TRAINING_SPLIT - VALIDATION_SPLIT) はテスト用として使用可能
@@ -82,7 +82,7 @@ D_MODEL = 256               # モデル内部の基本次元数 ★変更点: �
 NHEAD = 4                   # Multi-Head Attentionのヘッド数 (D_MODELを割り切れる必要あり)
 D_HID = 1024                # Transformer内部のFeedForward層の中間次元数 (通常 D_MODEL * 4)
 NLAYERS = 5                 # Transformer Encoder Layerの数
-DROPOUT = 0.1               # ドロップアウト率
+DROPOUT = 0.0               # ドロップアウト率
 ACTIVATION = 'relu'         # Transformer内部の活性化関数 ('relu' または 'gelu')
 
 # --- 高度なトレーニング機能 ---
@@ -91,7 +91,7 @@ USE_TORCH_COMPILE = True    # torch.compile を使用するか (PyTorch 2.0以�
 COMPILE_MODE = "default"    # torch.compile のモード ('default', 'reduce-overhead', 'max-autotune')
 USE_EMA = False             # Exponential Moving Average を使用するか (オプション)
 EMA_DECAY = 0.999           # EMAの減衰率
-LABEL_SMOOTHING = 0.1       # ラベルスムージングの度合い (0.0で無効)
+LABEL_SMOOTHING = 0.0       # ラベルスムージングの度合い (0.0で無効)
 PROFILE_DATALOADER_STEPS = 10 # DataLoaderのプロファイルを行うステップ数 (0で無効) ★追加
 
 # --- その他 ---
@@ -902,10 +902,11 @@ def train_model():
     logging.info(f"Using Optimizer: AdamW (LR={LEARNING_RATE}, WD={WEIGHT_DECAY})")
 
     # 学習率スケジューラ
-    scheduler_t0 = max(1, NUM_EPOCHS)
+    # 1周期でcosineスケジューラが最小値に到達するようにT_0=NUM_EPOCHS(=125)に固定
+    scheduler_t0 = NUM_EPOCHS  # 1サイクル=125エポック
     lr_scheduler = CosineAnnealingWarmRestarts(
         optimizer, T_0=scheduler_t0, T_mult=1, eta_min=LEARNING_RATE/100)
-    logging.info(f"Using LR Scheduler: CosineAnnealingWarmRestarts (T_0={scheduler_t0})")
+    logging.info(f"Using LR Scheduler: CosineAnnealingWarmRestarts (T_0={scheduler_t0}, T_mult=1, eta_min={LEARNING_RATE/100})")
 
     # AMP スケーラー
     scaler = GradScaler(enabled=(USE_AMP and DEVICE.type=='cuda'))
