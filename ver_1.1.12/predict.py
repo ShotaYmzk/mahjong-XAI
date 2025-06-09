@@ -762,10 +762,13 @@ if __name__ == "__main__":
         top_n = 5
         indices_sorted = np.argsort(all_probabilities)[::-1]
         print(f"予測確率 Top {top_n}:")
-        for i_loop in range(top_n):
+        for i_loop in range(min(top_n, len(indices_sorted))):
             idx = indices_sorted[i_loop]
             prob = all_probabilities[idx]
-            tile_str = tile_id_to_string(tile_index_to_id(idx))
+            if 0 <= idx <= 33:
+                tile_str = tile_id_to_string(tile_index_to_id(idx))
+            else:
+                tile_str = f"Index:{idx}"
             print(f"  {i_loop+1}. {tile_str} ({prob:.4f})")
 
         if shap_available:

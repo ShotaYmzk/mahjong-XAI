@@ -83,3 +83,20 @@ def is_aka_dora(tile: int) -> bool:
     # Tenhou における赤ドラの tile IDs
     AKA_DORA_IDS = {16, 52, 88}
     return tile in AKA_DORA_IDS
+
+def tile_index_to_str(index: int) -> str:
+    """
+    牌種インデックス（0～33）を天鳳パイプ形式の文字列（例: '1m', '2p', '東'）に変換する関数。
+    Converts tile type index (0-33) to a string in Tenhou's pipe format (e.g., '1m', '2p', '東').
+    Returns '?' for invalid indices.
+    """
+    if not isinstance(index, int) or not (0 <= index <= 33):
+        return "?"
+    if index < 27:
+        suits = ["m", "p", "s"]
+        suit = suits[index // 9]
+        num = (index % 9) + 1
+        return f"{num}{suit}"
+    else:
+        honors = ["東", "南", "西", "北", "白", "發", "中"]
+        return honors[index - 27]

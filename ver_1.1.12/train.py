@@ -66,7 +66,7 @@ LOG_DIR = "./logs"                                      # ログファイルの�
 PLOT_DIR = "./plots_v1112_large_compiled"               # プロット画像の保存ディレクトリ (compile版を示す名前に変更)
 PLOT_EVERY_EPOCH = 1                                    # 何エポックごとにプロットを更新・保存するか
 INTERACTIVE_PLOT = False                                # プロットを対話的に表示するか (通常はFalse)
-PROFILER_LOG_DIR = "./profiler_logs_v1112_large_compiled_2"                    # プロファイラログの出力先 ★追加
+PROFILER_LOG_DIR = "./profiler_logs_v1112_large_compiled"                    # プロファイラログの出力先 ★追加
 
 # --- トレーニングハイパーパラメータ ---
 BATCH_SIZE = 1024           # 1回のパラメータ更新で使うサンプル数 (メモリに応じて調整)
@@ -909,7 +909,8 @@ def train_model(resume_training=False):
     logging.info(f"Dataset split: Train samples={len(train_dataset)}, Validation samples={len(val_dataset)}")
 
     # --- DataLoaderの準備 ---
-    num_workers = min(os.cpu_count() // 2 if os.cpu_count() else 1, 8)
+    # num_workersを自動最適化: 利用可能なCPUコア数の最大値(最大16)を使う
+    num_workers = min(os.cpu_count() if os.cpu_count() else 1, 16)
     logging.info(f"Setting up DataLoaders with {num_workers} workers...")
     pin_memory = (DEVICE.type == 'cuda') # GPU使用時のみ有効
     train_loader = DataLoader(
@@ -1016,6 +1017,7 @@ def train_model(resume_training=False):
 
     for epoch in range(start_epoch, NUM_EPOCHS):
         epoch_start_time = time.time()
+        logging.info(f"=== Epoch {epoch+1}/{NUM_EPOCHS} started ===")
         # ============ トレーニングフェーズ ============
         model.train()
         train_loss_accum = train_acc_accum = train_top3_accum = 0.0
@@ -1050,15 +1052,17 @@ def train_model(resume_training=False):
             if (i + 1) % ACCUMULATION_STEPS == 0 or (i + 1) == len(train_loader):
                 if CLIP_GRAD_NORM > 0:
                     scaler.unscale_(optimizer)
-                    torch.nn.utils.clip_grad_norm_(model.parameters(), CLIP_GRAD_NORM)
+                    grad_norm = torch.nn.utils.clip_grad_norm_(model.parameters(), CLIP_GRAD_NORM)
+                    if grad_norm > CLIP_GRAD_NORM:
+                        logging.warning(f"Gradient norm clipped at epoch {epoch+1}, batch {i}: {grad_norm:.2f} > {CLIP_GRAD_NORM}")
                 scaler.step(optimizer)
                 scaler.update()
                 optimizer.zero_grad(set_to_none=True)
                 if ema:
                     ema.update()
+                logging.info(f"[Epoch {epoch+1} Batch {i+1}] Optimizer step. LR: {optimizer.param_groups[0]['lr']:.2e}")
 
             with torch.no_grad():
-                # calculate_accuracy 関数が train_model 関数より前に定義されていることを確認
                 acc1, acc3 = calculate_accuracy(outputs, labels)
 
             bs = labels.size(0)
@@ -1067,12 +1071,12 @@ def train_model(resume_training=False):
             train_top3_accum += acc3 * bs
             num_train_samples += bs
 
-            # プログレスバーに情報を表示 (現在のバッチではなく、累積平均を表示)
-            # ロスはバッチ数で平均、精度はサンプル数で平均
             avg_loss_display = train_loss_accum / (i + 1)
             avg_acc_display = train_acc_accum / num_train_samples if num_train_samples > 0 else 0.0
             pbar.set_postfix({'Loss': f'{avg_loss_display:.4f}', 'Acc': f'{avg_acc_display:.3f}',
                               'LR': f'{optimizer.param_groups[0]["lr"]:.2e}'})
+
+        logging.info(f"[Epoch {epoch+1}] Training finished. Avg Loss: {avg_loss_display:.4f}, Avg Acc: {avg_acc_display:.4f}")
 
         # エポック終了時の平均メトリクスを計算
         epoch_train_loss = train_loss_accum / len(train_loader) if len(train_loader) > 0 else 0.0 # ロスはバッチ数で平均
@@ -1084,6 +1088,7 @@ def train_model(resume_training=False):
         metrics['lr'].append(optimizer.param_groups[0]['lr'])
 
         # ============ バリデーションフェーズ ============
+        logging.info(f"[Epoch {epoch+1}] Validation started.")
         model.eval()
         if ema: ema.apply_shadow()
         val_loss_accum = val_acc_accum = val_top3_accum = 0.0
@@ -1124,11 +1129,13 @@ def train_model(resume_training=False):
         metrics['val_acc'].append(epoch_val_acc)
         metrics['val_top3'].append(epoch_val_top3)
 
+        logging.info(f"[Epoch {epoch+1}] Validation finished. Val Loss: {epoch_val_loss:.4f}, Val Acc: {epoch_val_acc:.4f}, Val Top3: {epoch_val_top3:.4f}")
+
         epoch_duration = time.time() - epoch_start_time
         logging.info(
             f"Epoch {epoch+1}/{NUM_EPOCHS} - Time: {epoch_duration:.1f}s - "
             f"Train L:{epoch_train_loss:.4f} A:{epoch_train_acc:.4f} T3:{epoch_train_top3:.4f} | "
-            f"Val L:{epoch_val_loss:.4f} A:{epoch_val_acc:.4f} T3:{epoch_val_top3:.4f}"
+            f"Val L:{epoch_val_loss:.4f} A:{epoch_val_acc:.4f} T3:{epoch_val_top3:.4f} | LR: {optimizer.param_groups[0]['lr']:.2e}"
         )
 
         lr_scheduler.step()
@@ -1163,21 +1170,17 @@ def train_model(resume_training=False):
         except Exception as e:
              logging.error(f"Failed to save checkpoint {checkpoint_path}: {e}", exc_info=True)
 
-
         # --- 最良モデルの保存 & アーリーストッピング ---
-        # バリデーションセットが0サンプルの場合はスキップ
         if num_val_samples > 0 and epoch_val_acc > best_val_acc:
             best_val_acc = epoch_val_acc
             best_epoch = epoch + 1 # 1-based index
             epochs_without_improvement = 0
-            # EMAを使用している場合はEMAのシャドウ重みを保存、そうでなければモデルの元の重みを保存
             save_model_state = ema.shadow if ema else (model._orig_mod.state_dict() if USE_TORCH_COMPILE else model.state_dict())
             best_model_save_dict = {
                  'model_state_dict': save_model_state,
                  'event_dim': event_dim, # 次元情報も一緒に保存
                  'static_dim': static_dim,
                  'seq_len': seq_len, # シーケンス長も保存
-                 # プロットに必要な全履歴を保存
                  'metrics': metrics,
                  'best_val_acc': best_val_acc,
                  'best_epoch': best_epoch,
@@ -1190,16 +1193,16 @@ def train_model(resume_training=False):
                  logging.error(f"Failed to save best model to {MODEL_SAVE_PATH}: {e}", exc_info=True)
 
         else:
-            if num_val_samples > 0: # バリデーションサンプルがある場合のみカウント
+            if num_val_samples > 0:
                 epochs_without_improvement += 1
                 logging.info(f"Validation accuracy did not improve for {epochs_without_improvement} epoch(s). Best was {best_val_acc:.4f} at epoch {best_epoch}.")
                 if epochs_without_improvement >= EARLY_STOPPING_PATIENCE:
                     logging.info(f"Early stopping triggered after {EARLY_STOPPING_PATIENCE} epochs without improvement.")
-                    break # トレーニングループを終了
+                    break
             else:
-                 # バリデーションサンプルがない場合は早期終了のカウントはしないが、警告は出す
                  logging.warning(f"No validation samples processed in epoch {epoch+1}. Cannot evaluate for early stopping.")
 
+        logging.info(f"=== Epoch {epoch+1}/{NUM_EPOCHS} finished ===")
 
     # --- トレーニング終了処理 ---
     total_duration = time.time() - total_start_time
@@ -1233,6 +1236,7 @@ def train_model(resume_training=False):
     logging.info("="*30)
 
 def list_checkpoint_accuracies(checkpoint_dir):
+    pass
 
 # ==============================================================================
 # =                              Script Execution                            =
