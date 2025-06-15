@@ -178,14 +178,14 @@ def reconstruct_game_state_at_tsumo(xml_path, target_round_index, target_tsumo_c
 # --- 説明生成関数 ---
 def get_explanation_models():
     try:
-        pca = joblib.load('pca_model.joblib')
-        kmeans = joblib.load('kmeans_model.joblib')
-        labels = joblib.load('concept_labels.joblib')
+        pca = joblib.load('pca_model_2.joblib')
+        kmeans = joblib.load('kmeans_model_2.joblib')
+        labels = joblib.load('concept_labels_2.joblib')
         logging.info("説明モデル（PCA, k-means, Labels）を正常にロードしました。")
         return pca, kmeans, labels
     except FileNotFoundError as e:
         logging.error(f"説明モデルファイルが見つかりません: {e}")
-        logging.error("analyze_clusters.py を先に実行して、モデルファイルを生成してください。")
+        logging.error("analyze_clusters2.py を先に実行して、モデルファイルを生成してください。")
         return None, None, None
 
 def analyze_and_explain(probabilities, attention_weights, activation_vector):

@@ -12,8 +12,8 @@ HDF5_PATH = './activation_dataset.hdf5'
 N_COMPONENTS_PCA = 50  # PCAで削減する次元数
 N_CLUSTERS = 25        # k-meansのクラスタ数
 BATCH_SIZE_KMEANS = 4096 # MiniBatchKMeansのバッチサイズ
-Z_SCORE_THRESHOLD = 1.5 # 概念ラベルを付与するZスコアのしきい値
-SAFETY_Z_SCORE_THRESHOLD = 1.0 # Safetyラベル用のZスコアのしきい値
+Z_SCORE_THRESHOLD = 1.0 # 概念ラベルを付与するZスコアのしきい値
+SAFETY_Z_SCORE_THRESHOLD = 0.8 # Safetyラベル用のZスコアのしきい値
 CHUNK_SIZE = 1000000   # 一度に処理するデータポイント数
 
 # --- ロギング設定 ---
@@ -69,8 +69,8 @@ def main():
         logging.info(f"チャンク {chunk_idx + 1} の処理完了")
     
     logging.info(f"PCA完了。累積寄与率: {np.sum(pca.explained_variance_ratio_):.4f}")
-    joblib.dump(pca, 'pca_model.joblib')
-    logging.info("PCAモデルを 'pca_model.joblib' に保存しました。")
+    joblib.dump(pca, 'pca_model_2.joblib')
+    logging.info("PCAモデルを 'pca_model_2.joblib' に保存しました。")
 
     # 2. k-meansによるクラスタリング
     logging.info(f"MiniBatchKMeansによるクラスタリングを開始... (クラスタ数: {N_CLUSTERS})")
@@ -82,8 +82,8 @@ def main():
         kmeans.partial_fit(activations_pca_chunk)
         logging.info(f"チャンク {chunk_idx + 1} のクラスタリング完了")
     
-    joblib.dump(kmeans, 'kmeans_model.joblib')
-    logging.info("k-meansモデルを 'kmeans_model.joblib' に保存しました。")
+    joblib.dump(kmeans, 'kmeans_model_2.joblib')
+    logging.info("k-meansモデルを 'kmeans_model_2.joblib' に保存しました。")
 
     # 3. クラスタごとの統計情報を計算
     logging.info("クラスタごとの統計情報を計算中...")
@@ -143,8 +143,6 @@ def main():
             labels.append('Speed')
         if row['deal_in_rate_zscore'] < -SAFETY_Z_SCORE_THRESHOLD:
             labels.append('Safety')
-        if row['avg_dora_count_zscore'] > Z_SCORE_THRESHOLD:
-            labels.append('Value')
         
         if not labels:
             labels.append('Normal')
@@ -160,8 +158,8 @@ def main():
     print(stats_df[['cluster', 'size', 'avg_shanten_change', 'avg_ukeire_count', 'deal_in_rate', 'avg_dora_count', 'concept_labels']].sort_values(by='cluster'))
 
     # 概念ラベルを保存
-    joblib.dump(concept_labels, 'concept_labels.joblib')
-    logging.info("概念ラベルを 'concept_labels.joblib' に保存しました。")
+    joblib.dump(concept_labels, 'concept_labels_2.joblib')
+    logging.info("概念ラベルを 'concept_labels_2.joblib' に保存しました。")
     logging.info("すべての処理が完了しました。")
 
 
