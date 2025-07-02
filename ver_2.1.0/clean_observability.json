@@ -1,0 +1,465 @@
+{
+  "metadata": {
+    "timestamp": "2025-06-29T09:06:11.534530",
+    "xml_file": "test_log.xml",
+    "round_index": 2,
+    "tsumo_count": 10,
+    "analysis_version": "2.1.0_enhanced"
+  },
+  "game_situation": {
+    "round_info": "東2局",
+    "player_wind": "南",
+    "current_player": 2,
+    "tsumo_tile": "9p",
+    "actual_discard": "9p",
+    "dora_indicators": [
+      "7p"
+    ],
+    "remaining_tiles": 60,
+    "kyotaku": 0,
+    "honba": 0
+  },
+  "players_state": {
+    "player_0": {
+      "discards": [
+        {
+          "tile": "2s",
+          "tsumogiri": false
+        },
+        {
+          "tile": "1s",
+          "tsumogiri": false
+        }
+      ],
+      "melds": [],
+      "reach_status": 0,
+      "score": 25000,
+      "hand": "hidden"
+    },
+    "player_1": {
+      "discards": [
+        {
+          "tile": "北",
+          "tsumogiri": false
+        },
+        {
+          "tile": "南",
+          "tsumogiri": false
+        },
+        {
+          "tile": "白",
+          "tsumogiri": false
+        }
+      ],
+      "melds": [],
+      "reach_status": 0,
+      "score": 25000,
+      "hand": "hidden"
+    },
+    "player_2": {
+      "discards": [
+        {
+          "tile": "9s",
+          "tsumogiri": false
+        },
+        {
+          "tile": "北",
+          "tsumogiri": false
+        }
+      ],
+      "melds": [],
+      "reach_status": 0,
+      "score": 13000,
+      "hand": [
+        "6m",
+        "7m",
+        "9m",
+        "9m",
+        "3p",
+        "4p",
+        "4p",
+        "8p",
+        "8p",
+        "9p",
+        "3s",
+        "6s",
+        "7s",
+        "西"
+      ]
+    },
+    "player_3": {
+      "discards": [
+        {
+          "tile": "南",
+          "tsumogiri": false
+        },
+        {
+          "tile": "北",
+          "tsumogiri": false
+        }
+      ],
+      "melds": [],
+      "reach_status": 0,
+      "score": 37000,
+      "hand": "hidden"
+    }
+  },
+  "prediction": {
+    "predicted_tile": "西",
+    "predicted_probability": 0.8219612240791321,
+    "top_predictions": [
+      {
+        "rank": 1,
+        "tile": "西",
+        "probability": 0.8219612240791321
+      },
+      {
+        "rank": 2,
+        "tile": "9p",
+        "probability": 0.031079452484846115
+      },
+      {
+        "rank": 3,
+        "tile": "4p",
+        "probability": 0.029924817383289337
+      },
+      {
+        "rank": 4,
+        "tile": "9m",
+        "probability": 0.01114774402230978
+      },
+      {
+        "rank": 5,
+        "tile": "3p",
+        "probability": 0.007832336239516735
+      },
+      {
+        "rank": 6,
+        "tile": "中",
+        "probability": 0.007751824799925089
+      },
+      {
+        "rank": 7,
+        "tile": "3s",
+        "probability": 0.0057409778237342834
+      },
+      {
+        "rank": 8,
+        "tile": "1m",
+        "probability": 0.005516586825251579
+      },
+      {
+        "rank": 9,
+        "tile": "2p",
+        "probability": 0.004917520098388195
+      },
+      {
+        "rank": 10,
+        "tile": "4m",
+        "probability": 0.004344240762293339
+      }
+    ]
+  },
+  "analysis": {
+    "attention_weights": {
+      "layer_1": {
+        "layer": 1,
+        "top_attended_events": [
+          {
+            "position": 12,
+            "event_token": "DIS_P1_白",
+            "attention_weight": 0.0739193707704544
+          },
+          {
+            "position": 10,
+            "event_token": "DIS_P3_北",
+            "attention_weight": 0.07360795140266418
+          },
+          {
+            "position": 3,
+            "event_token": "TSU_P2_西",
+            "attention_weight": 0.07355602085590363
+          },
+          {
+            "position": 9,
+            "event_token": "DIS_P2_北",
+            "attention_weight": 0.07350528240203857
+          },
+          {
+            "position": 2,
+            "event_token": "DIS_P1_北",
+            "attention_weight": 0.07314027100801468
+          },
+          {
+            "position": 7,
+            "event_token": "DIS_P1_南",
+            "attention_weight": 0.07293366640806198
+          },
+          {
+            "position": 5,
+            "event_token": "DIS_P3_南",
+            "attention_weight": 0.07290402799844742
+          },
+          {
+            "position": 4,
+            "event_token": "DIS_P2_9s",
+            "attention_weight": 0.07246512919664383
+          },
+          {
+            "position": 13,
+            "event_token": "TSU_P2_9p",
+            "attention_weight": 0.07015717774629593
+          },
+          {
+            "position": 6,
+            "event_token": "DIS_P0_2s",
+            "attention_weight": 0.06953535974025726
+          }
+        ]
+      },
+      "layer_2": {
+        "layer": 2,
+        "top_attended_events": [
+          {
+            "position": 1,
+            "event_token": "INI_P1",
+            "attention_weight": 0.07669670134782791
+          },
+          {
+            "position": 3,
+            "event_token": "TSU_P2_西",
+            "attention_weight": 0.07440328598022461
+          },
+          {
+            "position": 10,
+            "event_token": "DIS_P3_北",
+            "attention_weight": 0.0724726989865303
+          },
+          {
+            "position": 12,
+            "event_token": "DIS_P1_白",
+            "attention_weight": 0.07241993397474289
+          },
+          {
+            "position": 9,
+            "event_token": "DIS_P2_北",
+            "attention_weight": 0.07179561257362366
+          },
+          {
+            "position": 2,
+            "event_token": "DIS_P1_北",
+            "attention_weight": 0.07140065729618073
+          },
+          {
+            "position": 11,
+            "event_token": "DIS_P0_1s",
+            "attention_weight": 0.07134973257780075
+          },
+          {
+            "position": 8,
+            "event_token": "TSU_P2_6m",
+            "attention_weight": 0.07094740122556686
+          },
+          {
+            "position": 0,
+            "event_token": "DOR_7p",
+            "attention_weight": 0.07087484002113342
+          },
+          {
+            "position": 4,
+            "event_token": "DIS_P2_9s",
+            "attention_weight": 0.0705048143863678
+          }
+        ]
+      },
+      "layer_3": {
+        "layer": 3,
+        "top_attended_events": [
+          {
+            "position": 1,
+            "event_token": "INI_P1",
+            "attention_weight": 0.07948273420333862
+          },
+          {
+            "position": 3,
+            "event_token": "TSU_P2_西",
+            "attention_weight": 0.07804034650325775
+          },
+          {
+            "position": 2,
+            "event_token": "DIS_P1_北",
+            "attention_weight": 0.07510492950677872
+          },
+          {
+            "position": 4,
+            "event_token": "DIS_P2_9s",
+            "attention_weight": 0.07447860389947891
+          },
+          {
+            "position": 5,
+            "event_token": "DIS_P3_南",
+            "attention_weight": 0.0728200227022171
+          },
+          {
+            "position": 0,
+            "event_token": "DOR_7p",
+            "attention_weight": 0.07040121406316757
+          },
+          {
+            "position": 10,
+            "event_token": "DIS_P3_北",
+            "attention_weight": 0.07003235071897507
+          },
+          {
+            "position": 8,
+            "event_token": "TSU_P2_6m",
+            "attention_weight": 0.06987737864255905
+          },
+          {
+            "position": 11,
+            "event_token": "DIS_P0_1s",
+            "attention_weight": 0.06980010122060776
+          },
+          {
+            "position": 12,
+            "event_token": "DIS_P1_白",
+            "attention_weight": 0.06975724548101425
+          }
+        ]
+      },
+      "layer_4": {
+        "layer": 4,
+        "top_attended_events": [
+          {
+            "position": 1,
+            "event_token": "INI_P1",
+            "attention_weight": 0.0790385901927948
+          },
+          {
+            "position": 4,
+            "event_token": "DIS_P2_9s",
+            "attention_weight": 0.07903740555047989
+          },
+          {
+            "position": 2,
+            "event_token": "DIS_P1_北",
+            "attention_weight": 0.07884220778942108
+          },
+          {
+            "position": 3,
+            "event_token": "TSU_P2_西",
+            "attention_weight": 0.0766177847981453
+          },
+          {
+            "position": 11,
+            "event_token": "DIS_P0_1s",
+            "attention_weight": 0.07307995855808258
+          },
+          {
+            "position": 12,
+            "event_token": "DIS_P1_白",
+            "attention_weight": 0.07090171426534653
+          },
+          {
+            "position": 8,
+            "event_token": "TSU_P2_6m",
+            "attention_weight": 0.07078208029270172
+          },
+          {
+            "position": 5,
+            "event_token": "DIS_P3_南",
+            "attention_weight": 0.07077724486589432
+          },
+          {
+            "position": 0,
+            "event_token": "DOR_7p",
+            "attention_weight": 0.06889068335294724
+          },
+          {
+            "position": 10,
+            "event_token": "DIS_P3_北",
+            "attention_weight": 0.06844845414161682
+          }
+        ]
+      }
+    },
+    "concept_labels": {
+      "cluster_id": 19,
+      "concept_labels": [
+        "Speed",
+        "Safety"
+      ],
+      "pca_components": [
+        -1.710533618927002,
+        0.07588788866996765,
+        0.04869997128844261,
+        0.04241175204515457,
+        0.03324944153428078,
+        -0.15094727277755737,
+        -0.017343927174806595,
+        -0.08857935667037964,
+        -0.27060332894325256,
+        0.12818153202533722
+      ]
+    },
+    "shap_explanation": {
+      "target_class": "西",
+      "target_index": 29,
+      "feature_importance": [
+        [
+          "静的_手牌_西",
+          0.5888565469047514
+        ],
+        [
+          "静的_手牌_中",
+          0.04376635683145619
+        ],
+        [
+          "Event_50_データB",
+          0.024812868166845407
+        ],
+        [
+          "Event_24_牌Idx",
+          0.024522839720792226
+        ],
+        [
+          "Event_4_牌Idx",
+          0.022311884958861168
+        ],
+        [
+          "Event_53_巡目",
+          0.018535236452967018
+        ],
+        [
+          "静的_手牌_4s",
+          0.013462445566642502
+        ],
+        [
+          "Event_57_プレイヤー",
+          0.011646248129889902
+        ],
+        [
+          "Event_20_データA",
+          0.011182146640953372
+        ],
+        [
+          "Event_18_プレイヤー",
+          0.0019619323119093503
+        ]
+      ],
+      "shap_values": {
+        "Event_4_牌Idx": 0.022311884958861168,
+        "Event_18_プレイヤー": 0.0019619323119093503,
+        "Event_20_データA": 0.011182146640953372,
+        "Event_24_牌Idx": 0.024522839720792226,
+        "Event_50_データB": 0.024812868166845407,
+        "Event_53_巡目": 0.018535236452967018,
+        "Event_57_プレイヤー": 0.011646248129889902,
+        "静的_手牌_4s": 0.013462445566642502,
+        "静的_手牌_西": 0.5888565469047514,
+        "静的_手牌_中": 0.04376635683145619
+      },
+      "calculation_time": 1.590003490447998
+    }
+  }
+}

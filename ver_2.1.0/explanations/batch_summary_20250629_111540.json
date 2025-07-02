@@ -1,0 +1,49 @@
+{
+  "total_files": 3,
+  "successful": 3,
+  "failed": 0,
+  "total_tokens_generated": 6000,
+  "average_generation_time": 113.65736969312032,
+  "peak_memory_usage_gb": 4.628937244415283,
+  "results": [
+    {
+      "file": "prompt_comparative_clean_observability_20250629_100632.txt",
+      "result": {
+        "explanation": "「1s」を考えるべきか、どうして？に関して教えてください。について詳しく説明してください。",
+        "input_tokens": 1403,
+        "output_tokens": 2000,
+        "generation_time": 113.12816262245178,
+        "success": true,
+        "error": null,
+        "timestamp": "2025-06-29T11:11:52.204247",
+        "output_file": "explanations/prompt_comparative_clean_observability_20250629_100632_explanation_20250629_111152.md"
+      }
+    },
+    {
+      "file": "prompt_quantitative_clean_observability_20250629_100632.txt",
+      "result": {
+        "explanation": "東2局（南家）で、リーチがかけられていない状態で、60枚の待ち牌がある場合、一般的に「オリる」か「テンパる」判断が求められます。ここでは、その中盤以降における一般的な考え方を説明します。\n\nまず、40符門（ヨンフウメン）を超えており、河に10符以上（仮に15符など）見えている場合は、比較的安全な牌として西を優先的に捨てていきます。西が4連形などで倒されにくいからです。\n\n次に、40符門を切っていなかった場合や、西が安易に捨てられそうな場合に、河の状態から敢えてテンパることを選ぶことがあります。例えば、(1)待ちの形が良く（両面待ちなど）、(2)山に待ち牌がたくさんある、(user)西も捨てやすいけど鳴いても大丈夫そう()、(3)国士無双を狙っているなら西は捨てない、といった具合です。",
+        "input_tokens": 813,
+        "output_tokens": 2000,
+        "generation_time": 113.97821354866028,
+        "success": true,
+        "error": null,
+        "timestamp": "2025-06-29T11:13:46.183080",
+        "output_file": "explanations/prompt_quantitative_clean_observability_20250629_100632_explanation_20250629_111346.md"
+      }
+    },
+    {
+      "file": "prompt_tactical_clean_observability_20250629_100632.txt",
+      "result": {
+        "explanation": "「西」を出すべき理由はいくつかあります。まず、西は両面待ち（リャンメン待ち）なので、[東]を引けばさらに良い形になります。また、南が役牌だと嫌われるので、その可能性も考慮に入ります。さらに、西って一般的に「副露牌」とか「アガリ連荘」みたいな意味合いで怖いと思われやすいけど、実は両嵌張（リャンカン）してるので和了できます。",
+        "input_tokens": 1465,
+        "output_tokens": 2000,
+        "generation_time": 113.8657329082489,
+        "success": true,
+        "error": null,
+        "timestamp": "2025-06-29T11:15:40.049430",
+        "output_file": "explanations/prompt_tactical_clean_observability_20250629_100632_explanation_20250629_111540.md"
+      }
+    }
+  ]
+}

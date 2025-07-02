@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "source_prompt_file": "prompt_tactical_clean_observability_20250629_100632.txt",
+    "generation_timestamp": "2025-06-29T11:29:08.859142",
+    "model_version": "MahjongExplainerGemma v2.1.0"
+  },
+  "generation_stats": {
+    "input_tokens": 1465,
+    "output_tokens": 3000,
+    "generation_time": 166.49829697608948,
+    "success": true
+  },
+  "explanation": "「西（シャー）」という牌について、その特徴や扱い方、そして他の牌との関係性を教えてください。"
+}

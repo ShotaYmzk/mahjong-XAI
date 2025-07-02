@@ -1,0 +1,64 @@
+{
+  "concept_level": {
+    "weights": {
+      "Safety": 0.8,
+      "Speed": 0.2
+    },
+    "dominant": "Speed",
+    "cluster_id": 19
+  },
+  "feature_categories": {
+    "hand_tiles": {
+      "静的_手牌_西": 0.5888565469047514,
+      "静的_手牌_中": 0.04376635683145619,
+      "静的_手牌_4s": 0.013462445566642502
+    },
+    "opponent_actions": {},
+    "game_context": {
+      "Event_53_巡目": 0.018535236452967018
+    },
+    "strategic_factors": {
+      "Event_50_データB": 0.024812868166845407,
+      "Event_24_牌Idx": 0.024522839720792226,
+      "Event_4_牌Idx": 0.022311884958861168,
+      "Event_57_プレイヤー": 0.011646248129889902,
+      "Event_20_データA": 0.011182146640953372,
+      "Event_18_プレイヤー": 0.0019619323119093503
+    }
+  },
+  "attention_events": [
+    {
+      "event": "INI_P1",
+      "weight": 0.079,
+      "interpretation": "INI_P1"
+    },
+    {
+      "event": "DIS_P2_9s",
+      "weight": 0.079,
+      "interpretation": "プレイヤーがP2_9sを捨てた"
+    },
+    {
+      "event": "DIS_P1_北",
+      "weight": 0.079,
+      "interpretation": "プレイヤーがP1_北を捨てた"
+    },
+    {
+      "event": "TSU_P2_西",
+      "weight": 0.077,
+      "interpretation": "プレイヤーがP2_西をツモした"
+    },
+    {
+      "event": "DIS_P0_1s",
+      "weight": 0.073,
+      "interpretation": "プレイヤーがP0_1sを捨てた"
+    }
+  ],
+  "situation": {
+    "round_info": "東2局",
+    "player_position": "南家",
+    "reach_players": 0,
+    "dora_count": 1,
+    "remaining_tiles": 60
+  },
+  "prediction_confidence": "西"
+}
