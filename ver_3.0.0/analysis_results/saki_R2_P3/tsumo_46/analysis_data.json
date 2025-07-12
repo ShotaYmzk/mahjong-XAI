@@ -1,0 +1,1233 @@
+{
+  "metadata": {
+    "timestamp": "2025-07-12T03:26:30.530524",
+    "analysis_version": "2.1.0_batch"
+  },
+  "game_situation": {
+    "round_info": "東2局",
+    "player_wind": "西",
+    "current_player": 3,
+    "tsumo_tile": "發",
+    "actual_discard": "發",
+    "dora_indicators": [
+      "3s"
+    ],
+    "remaining_tiles": 24,
+    "kyotaku": 0,
+    "honba": 0
+  },
+  "players_state": {
+    "player_0": {
+      "hand": [
+        "1m",
+        "2m",
+        "2m",
+        "7m",
+        "7m",
+        "2p",
+        "2p",
+        "7p",
+        "7p",
+        "8s",
+        "8s",
+        "南",
+        "南"
+      ],
+      "discards": [
+        {
+          "tile": "東",
+          "tsumogiri": false
+        },
+        {
+          "tile": "中",
+          "tsumogiri": false
+        },
+        {
+          "tile": "發",
+          "tsumogiri": false
+        },
+        {
+          "tile": "3s",
+          "tsumogiri": false
+        },
+        {
+          "tile": "西",
+          "tsumogiri": false
+        },
+        {
+          "tile": "3m",
+          "tsumogiri": false
+        },
+        {
+          "tile": "9m",
+          "tsumogiri": false
+        },
+        {
+          "tile": "6s",
+          "tsumogiri": false
+        },
+        {
+          "tile": "9s",
+          "tsumogiri": false
+        },
+        {
+          "tile": "5m",
+          "tsumogiri": false
+        },
+        {
+          "tile": "4p",
+          "tsumogiri": false
+        }
+      ],
+      "melds": [],
+      "reach_status": 0,
+      "score": 23000
+    },
+    "player_1": {
+      "hand": [
+        "4m",
+        "7p"
+      ],
+      "discards": [
+        {
+          "tile": "西",
+          "tsumogiri": false
+        },
+        {
+          "tile": "中",
+          "tsumogiri": false
+        },
+        {
+          "tile": "東",
+          "tsumogiri": false
+        },
+        {
+          "tile": "白",
+          "tsumogiri": false
+        },
+        {
+          "tile": "9m",
+          "tsumogiri": false
+        },
+        {
+          "tile": "2s",
+          "tsumogiri": false
+        },
+        {
+          "tile": "1p",
+          "tsumogiri": false
+        },
+        {
+          "tile": "9s",
+          "tsumogiri": false
+        },
+        {
+          "tile": "8s",
+          "tsumogiri": false
+        },
+        {
+          "tile": "9s",
+          "tsumogiri": false
+        },
+        {
+          "tile": "1m",
+          "tsumogiri": false
+        },
+        {
+          "tile": "3m",
+          "tsumogiri": false
+        },
+        {
+          "tile": "7m",
+          "tsumogiri": false
+        }
+      ],
+      "melds": [
+        {
+          "type": "チー",
+          "tiles": [
+            "4s",
+            "5s",
+            "6s"
+          ],
+          "from_who": 0
+        },
+        {
+          "type": "ポン",
+          "tiles": [
+            "3p",
+            "3p",
+            "3p"
+          ],
+          "from_who": 3
+        },
+        {
+          "type": "チー",
+          "tiles": [
+            "5m",
+            "6m",
+            "7m"
+          ],
+          "from_who": 0
+        },
+        {
+          "type": "チー",
+          "tiles": [
+            "4p",
+            "5p",
+            "6p"
+          ],
+          "from_who": 0
+        }
+      ],
+      "reach_status": 0,
+      "score": 29000
+    },
+    "player_2": {
+      "hand": [
+        "2m",
+        "3m",
+        "5m",
+        "5m",
+        "6m",
+        "7m",
+        "8m",
+        "8m",
+        "4p",
+        "0p",
+        "5p",
+        "6s",
+        "7s"
+      ],
+      "discards": [
+        {
+          "tile": "中",
+          "tsumogiri": false
+        },
+        {
+          "tile": "2s",
+          "tsumogiri": false
+        },
+        {
+          "tile": "南",
+          "tsumogiri": false
+        },
+        {
+          "tile": "9p",
+          "tsumogiri": false
+        },
+        {
+          "tile": "6s",
+          "tsumogiri": false
+        },
+        {
+          "tile": "2s",
+          "tsumogiri": false
+        },
+        {
+          "tile": "南",
+          "tsumogiri": false
+        },
+        {
+          "tile": "北",
+          "tsumogiri": false
+        },
+        {
+          "tile": "1s",
+          "tsumogiri": false
+        },
+        {
+          "tile": "8p",
+          "tsumogiri": false
+        },
+        {
+          "tile": "8p",
+          "tsumogiri": false
+        },
+        {
+          "tile": "白",
+          "tsumogiri": false
+        },
+        {
+          "tile": "東",
+          "tsumogiri": false
+        }
+      ],
+      "melds": [],
+      "reach_status": 0,
+      "score": 24000
+    },
+    "player_3": {
+      "hand": [
+        "3m",
+        "4m",
+        "2p",
+        "3p",
+        "4p",
+        "8p",
+        "9p",
+        "2s",
+        "3s",
+        "4s",
+        "6s",
+        "7s",
+        "8s",
+        "發"
+      ],
+      "discards": [
+        {
+          "tile": "2p",
+          "tsumogiri": false
+        },
+        {
+          "tile": "北",
+          "tsumogiri": false
+        },
+        {
+          "tile": "西",
+          "tsumogiri": false
+        },
+        {
+          "tile": "6p",
+          "tsumogiri": false
+        },
+        {
+          "tile": "中",
+          "tsumogiri": false
+        },
+        {
+          "tile": "8m",
+          "tsumogiri": false
+        },
+        {
+          "tile": "4s",
+          "tsumogiri": false
+        },
+        {
+          "tile": "6m",
+          "tsumogiri": false
+        },
+        {
+          "tile": "3p",
+          "tsumogiri": false
+        },
+        {
+          "tile": "北",
+          "tsumogiri": false
+        },
+        {
+          "tile": "4s",
+          "tsumogiri": false
+        },
+        {
+          "tile": "1p",
+          "tsumogiri": false
+        }
+      ],
+      "melds": [],
+      "reach_status": 0,
+      "score": 24000
+    }
+  },
+  "prediction": {
+    "predicted_tile": "發",
+    "predicted_probability": 0.4609980285167694,
+    "top_predictions": [
+      {
+        "rank": 1,
+        "tile": "發",
+        "probability": 0.4609980285167694
+      },
+      {
+        "rank": 2,
+        "tile": "東",
+        "probability": 0.04189824312925339
+      },
+      {
+        "rank": 3,
+        "tile": "中",
+        "probability": 0.04046544060111046
+      },
+      {
+        "rank": 4,
+        "tile": "西",
+        "probability": 0.033326636999845505
+      },
+      {
+        "rank": 5,
+        "tile": "4p",
+        "probability": 0.032453157007694244
+      },
+      {
+        "rank": 6,
+        "tile": "2p",
+        "probability": 0.030620072036981583
+      },
+      {
+        "rank": 7,
+        "tile": "3p",
+        "probability": 0.022668570280075073
+      },
+      {
+        "rank": 8,
+        "tile": "8p",
+        "probability": 0.02232685498893261
+      },
+      {
+        "rank": 9,
+        "tile": "5m",
+        "probability": 0.021988743916153908
+      },
+      {
+        "rank": 10,
+        "tile": "8s",
+        "probability": 0.021373124793171883
+      }
+    ]
+  },
+  "analysis": {
+    "attention": {
+      "layer_1": {
+        "layer": 1,
+        "top_attended_events": [
+          {
+            "position": 59,
+            "event_token": "TSU_P3_發",
+            "attention_weight": 0.01782803237438202
+          },
+          {
+            "position": 20,
+            "event_token": "DIS_P2_北",
+            "attention_weight": 0.01762927882373333
+          },
+          {
+            "position": 50,
+            "event_token": "DIS_P2_白",
+            "attention_weight": 0.017611660063266754
+          },
+          {
+            "position": 49,
+            "event_token": "TSU_P2_白",
+            "attention_weight": 0.01759842410683632
+          },
+          {
+            "position": 19,
+            "event_token": "TSU_P2_東",
+            "attention_weight": 0.01757168397307396
+          },
+          {
+            "position": 15,
+            "event_token": "TSU_P0_9s",
+            "attention_weight": 0.01753043569624424
+          },
+          {
+            "position": 12,
+            "event_token": "DIS_P2_南",
+            "attention_weight": 0.017515985295176506
+          },
+          {
+            "position": 35,
+            "event_token": "TSU_P3_北",
+            "attention_weight": 0.017505120486021042
+          },
+          {
+            "position": 17,
+            "event_token": "TSU_P1_8s",
+            "attention_weight": 0.017481748014688492
+          },
+          {
+            "position": 58,
+            "event_token": "DIS_P2_東",
+            "attention_weight": 0.017481200397014618
+          }
+        ]
+      },
+      "layer_2": {
+        "layer": 2,
+        "top_attended_events": [
+          {
+            "position": 55,
+            "event_token": "N_P1_4p",
+            "attention_weight": 0.019962377846240997
+          },
+          {
+            "position": 47,
+            "event_token": "N_P1_5m",
+            "attention_weight": 0.0194040946662426
+          },
+          {
+            "position": 52,
+            "event_token": "DIS_P3_1p",
+            "attention_weight": 0.018491869792342186
+          },
+          {
+            "position": 56,
+            "event_token": "DIS_P1_7m",
+            "attention_weight": 0.01820179633796215
+          },
+          {
+            "position": 46,
+            "event_token": "DIS_P0_5m",
+            "attention_weight": 0.018147101625800133
+          },
+          {
+            "position": 48,
+            "event_token": "DIS_P1_3m",
+            "attention_weight": 0.018023623153567314
+          },
+          {
+            "position": 54,
+            "event_token": "DIS_P0_4p",
+            "attention_weight": 0.017974767833948135
+          },
+          {
+            "position": 58,
+            "event_token": "DIS_P2_東",
+            "attention_weight": 0.01774822175502777
+          },
+          {
+            "position": 50,
+            "event_token": "DIS_P2_白",
+            "attention_weight": 0.017650403082370758
+          },
+          {
+            "position": 31,
+            "event_token": "N_P1_3p",
+            "attention_weight": 0.017640244215726852
+          }
+        ]
+      },
+      "layer_3": {
+        "layer": 3,
+        "top_attended_events": [
+          {
+            "position": 52,
+            "event_token": "DIS_P3_1p",
+            "attention_weight": 0.01964431069791317
+          },
+          {
+            "position": 44,
+            "event_token": "DIS_P3_4s",
+            "attention_weight": 0.018477728590369225
+          },
+          {
+            "position": 50,
+            "event_token": "DIS_P2_白",
+            "attention_weight": 0.018389098346233368
+          },
+          {
+            "position": 55,
+            "event_token": "N_P1_4p",
+            "attention_weight": 0.018210723996162415
+          },
+          {
+            "position": 58,
+            "event_token": "DIS_P2_東",
+            "attention_weight": 0.018169350922107697
+          },
+          {
+            "position": 36,
+            "event_token": "DIS_P3_北",
+            "attention_weight": 0.01812223345041275
+          },
+          {
+            "position": 25,
+            "event_token": "N_P1_6s",
+            "attention_weight": 0.01791122555732727
+          },
+          {
+            "position": 56,
+            "event_token": "DIS_P1_7m",
+            "attention_weight": 0.017909882590174675
+          },
+          {
+            "position": 1,
+            "event_token": "TSU_P1_7m",
+            "attention_weight": 0.01790337637066841
+          },
+          {
+            "position": 22,
+            "event_token": "DIS_P3_6m",
+            "attention_weight": 0.017808817327022552
+          }
+        ]
+      },
+      "layer_4": {
+        "layer": 4,
+        "top_attended_events": [
+          {
+            "position": 52,
+            "event_token": "DIS_P3_1p",
+            "attention_weight": 0.02080439403653145
+          },
+          {
+            "position": 4,
+            "event_token": "DIS_P2_2s",
+            "attention_weight": 0.019032029435038567
+          },
+          {
+            "position": 24,
+            "event_token": "DIS_P0_6s",
+            "attention_weight": 0.01902233436703682
+          },
+          {
+            "position": 25,
+            "event_token": "N_P1_6s",
+            "attention_weight": 0.0185055211186409
+          },
+          {
+            "position": 2,
+            "event_token": "DIS_P1_2s",
+            "attention_weight": 0.01821836084127426
+          },
+          {
+            "position": 50,
+            "event_token": "DIS_P2_白",
+            "attention_weight": 0.018019700422883034
+          },
+          {
+            "position": 20,
+            "event_token": "DIS_P2_北",
+            "attention_weight": 0.017979394644498825
+          },
+          {
+            "position": 22,
+            "event_token": "DIS_P3_6m",
+            "attention_weight": 0.017972875386476517
+          },
+          {
+            "position": 54,
+            "event_token": "DIS_P0_4p",
+            "attention_weight": 0.0178021602332592
+          },
+          {
+            "position": 18,
+            "event_token": "DIS_P1_9s",
+            "attention_weight": 0.017672784626483917
+          }
+        ]
+      }
+    },
+    "concept": {
+      "cluster_id": 10,
+      "concept_labels": [
+        "Normal"
+      ],
+      "pca_components": [
+        -0.07151460647583008,
+        0.04740611091256142,
+        0.06431809067726135,
+        0.1187668889760971,
+        0.05738570913672447,
+        -0.01723814755678177,
+        0.05200834572315216,
+        -0.014813285320997238,
+        0.06426127254962921,
+        -0.0021965298801660538
+      ]
+    },
+    "shap": {
+      "feature_importance": [
+        [
+          "静的_手牌_發",
+          0.2904891167728474
+        ],
+        [
+          "Event_30_データB",
+          0.05193460735041299
+        ],
+        [
+          "Event_31_タイプ",
+          -0.04924430535418162
+        ],
+        [
+          "静的_全見え牌_9p",
+          0.04360266182172512
+        ],
+        [
+          "Event_21_タイプ",
+          0.033908977137180066
+        ],
+        [
+          "Event_30_巡目",
+          0.02352229637798573
+        ],
+        [
+          "静的_供託",
+          0.023131891552288213
+        ],
+        [
+          "Event_28_牌Idx",
+          -0.00047041828821039653
+        ],
+        [
+          "Event_0_タイプ",
+          0.0
+        ],
+        [
+          "Event_0_プレイヤー",
+          0.0
+        ],
+        [
+          "Event_0_牌Idx",
+          0.0
+        ],
+        [
+          "Event_0_巡目",
+          0.0
+        ],
+        [
+          "Event_0_データA",
+          0.0
+        ],
+        [
+          "Event_0_データB",
+          0.0
+        ],
+        [
+          "Event_1_タイプ",
+          0.0
+        ],
+        [
+          "Event_1_プレイヤー",
+          0.0
+        ],
+        [
+          "Event_1_牌Idx",
+          0.0
+        ],
+        [
+          "Event_1_巡目",
+          0.0
+        ],
+        [
+          "Event_1_データA",
+          0.0
+        ],
+        [
+          "Event_1_データB",
+          0.0
+        ]
+      ],
+      "all_shap_values": {
+        "Event_0_タイプ": 0.0,
+        "Event_0_プレイヤー": 0.0,
+        "Event_0_牌Idx": 0.0,
+        "Event_0_巡目": 0.0,
+        "Event_0_データA": 0.0,
+        "Event_0_データB": 0.0,
+        "Event_1_タイプ": 0.0,
+        "Event_1_プレイヤー": 0.0,
+        "Event_1_牌Idx": 0.0,
+        "Event_1_巡目": 0.0,
+        "Event_1_データA": 0.0,
+        "Event_1_データB": 0.0,
+        "Event_2_タイプ": 0.0,
+        "Event_2_プレイヤー": 0.0,
+        "Event_2_牌Idx": 0.0,
+        "Event_2_巡目": 0.0,
+        "Event_2_データA": 0.0,
+        "Event_2_データB": 0.0,
+        "Event_3_タイプ": 0.0,
+        "Event_3_プレイヤー": 0.0,
+        "Event_3_牌Idx": 0.0,
+        "Event_3_巡目": 0.0,
+        "Event_3_データA": 0.0,
+        "Event_3_データB": 0.0,
+        "Event_4_タイプ": 0.0,
+        "Event_4_プレイヤー": 0.0,
+        "Event_4_牌Idx": 0.0,
+        "Event_4_巡目": 0.0,
+        "Event_4_データA": 0.0,
+        "Event_4_データB": 0.0,
+        "Event_5_タイプ": 0.0,
+        "Event_5_プレイヤー": 0.0,
+        "Event_5_牌Idx": 0.0,
+        "Event_5_巡目": 0.0,
+        "Event_5_データA": 0.0,
+        "Event_5_データB": 0.0,
+        "Event_6_タイプ": 0.0,
+        "Event_6_プレイヤー": 0.0,
+        "Event_6_牌Idx": 0.0,
+        "Event_6_巡目": 0.0,
+        "Event_6_データA": 0.0,
+        "Event_6_データB": 0.0,
+        "Event_7_タイプ": 0.0,
+        "Event_7_プレイヤー": 0.0,
+        "Event_7_牌Idx": 0.0,
+        "Event_7_巡目": 0.0,
+        "Event_7_データA": 0.0,
+        "Event_7_データB": 0.0,
+        "Event_8_タイプ": 0.0,
+        "Event_8_プレイヤー": 0.0,
+        "Event_8_牌Idx": 0.0,
+        "Event_8_巡目": 0.0,
+        "Event_8_データA": 0.0,
+        "Event_8_データB": 0.0,
+        "Event_9_タイプ": 0.0,
+        "Event_9_プレイヤー": 0.0,
+        "Event_9_牌Idx": 0.0,
+        "Event_9_巡目": 0.0,
+        "Event_9_データA": 0.0,
+        "Event_9_データB": 0.0,
+        "Event_10_タイプ": 0.0,
+        "Event_10_プレイヤー": 0.0,
+        "Event_10_牌Idx": 0.0,
+        "Event_10_巡目": 0.0,
+        "Event_10_データA": 0.0,
+        "Event_10_データB": 0.0,
+        "Event_11_タイプ": 0.0,
+        "Event_11_プレイヤー": 0.0,
+        "Event_11_牌Idx": 0.0,
+        "Event_11_巡目": 0.0,
+        "Event_11_データA": 0.0,
+        "Event_11_データB": 0.0,
+        "Event_12_タイプ": 0.0,
+        "Event_12_プレイヤー": 0.0,
+        "Event_12_牌Idx": 0.0,
+        "Event_12_巡目": 0.0,
+        "Event_12_データA": 0.0,
+        "Event_12_データB": 0.0,
+        "Event_13_タイプ": 0.0,
+        "Event_13_プレイヤー": 0.0,
+        "Event_13_牌Idx": 0.0,
+        "Event_13_巡目": 0.0,
+        "Event_13_データA": 0.0,
+        "Event_13_データB": 0.0,
+        "Event_14_タイプ": 0.0,
+        "Event_14_プレイヤー": 0.0,
+        "Event_14_牌Idx": 0.0,
+        "Event_14_巡目": 0.0,
+        "Event_14_データA": 0.0,
+        "Event_14_データB": 0.0,
+        "Event_15_タイプ": 0.0,
+        "Event_15_プレイヤー": 0.0,
+        "Event_15_牌Idx": 0.0,
+        "Event_15_巡目": 0.0,
+        "Event_15_データA": 0.0,
+        "Event_15_データB": 0.0,
+        "Event_16_タイプ": 0.0,
+        "Event_16_プレイヤー": 0.0,
+        "Event_16_牌Idx": 0.0,
+        "Event_16_巡目": 0.0,
+        "Event_16_データA": 0.0,
+        "Event_16_データB": 0.0,
+        "Event_17_タイプ": 0.0,
+        "Event_17_プレイヤー": 0.0,
+        "Event_17_牌Idx": 0.0,
+        "Event_17_巡目": 0.0,
+        "Event_17_データA": 0.0,
+        "Event_17_データB": 0.0,
+        "Event_18_タイプ": 0.0,
+        "Event_18_プレイヤー": 0.0,
+        "Event_18_牌Idx": 0.0,
+        "Event_18_巡目": 0.0,
+        "Event_18_データA": 0.0,
+        "Event_18_データB": 0.0,
+        "Event_19_タイプ": 0.0,
+        "Event_19_プレイヤー": 0.0,
+        "Event_19_牌Idx": 0.0,
+        "Event_19_巡目": 0.0,
+        "Event_19_データA": 0.0,
+        "Event_19_データB": 0.0,
+        "Event_20_タイプ": 0.0,
+        "Event_20_プレイヤー": 0.0,
+        "Event_20_牌Idx": 0.0,
+        "Event_20_巡目": 0.0,
+        "Event_20_データA": 0.0,
+        "Event_20_データB": 0.0,
+        "Event_21_タイプ": 0.033908977137180066,
+        "Event_21_プレイヤー": 0.0,
+        "Event_21_牌Idx": 0.0,
+        "Event_21_巡目": 0.0,
+        "Event_21_データA": 0.0,
+        "Event_21_データB": 0.0,
+        "Event_22_タイプ": 0.0,
+        "Event_22_プレイヤー": 0.0,
+        "Event_22_牌Idx": 0.0,
+        "Event_22_巡目": 0.0,
+        "Event_22_データA": 0.0,
+        "Event_22_データB": 0.0,
+        "Event_23_タイプ": 0.0,
+        "Event_23_プレイヤー": 0.0,
+        "Event_23_牌Idx": 0.0,
+        "Event_23_巡目": 0.0,
+        "Event_23_データA": 0.0,
+        "Event_23_データB": 0.0,
+        "Event_24_タイプ": 0.0,
+        "Event_24_プレイヤー": 0.0,
+        "Event_24_牌Idx": 0.0,
+        "Event_24_巡目": 0.0,
+        "Event_24_データA": 0.0,
+        "Event_24_データB": 0.0,
+        "Event_25_タイプ": 0.0,
+        "Event_25_プレイヤー": 0.0,
+        "Event_25_牌Idx": 0.0,
+        "Event_25_巡目": 0.0,
+        "Event_25_データA": 0.0,
+        "Event_25_データB": 0.0,
+        "Event_26_タイプ": 0.0,
+        "Event_26_プレイヤー": 0.0,
+        "Event_26_牌Idx": 0.0,
+        "Event_26_巡目": 0.0,
+        "Event_26_データA": 0.0,
+        "Event_26_データB": 0.0,
+        "Event_27_タイプ": 0.0,
+        "Event_27_プレイヤー": 0.0,
+        "Event_27_牌Idx": 0.0,
+        "Event_27_巡目": 0.0,
+        "Event_27_データA": 0.0,
+        "Event_27_データB": 0.0,
+        "Event_28_タイプ": 0.0,
+        "Event_28_プレイヤー": 0.0,
+        "Event_28_牌Idx": -0.00047041828821039653,
+        "Event_28_巡目": 0.0,
+        "Event_28_データA": 0.0,
+        "Event_28_データB": 0.0,
+        "Event_29_タイプ": 0.0,
+        "Event_29_プレイヤー": 0.0,
+        "Event_29_牌Idx": 0.0,
+        "Event_29_巡目": 0.0,
+        "Event_29_データA": 0.0,
+        "Event_29_データB": 0.0,
+        "Event_30_タイプ": 0.0,
+        "Event_30_プレイヤー": 0.0,
+        "Event_30_牌Idx": 0.0,
+        "Event_30_巡目": 0.02352229637798573,
+        "Event_30_データA": 0.0,
+        "Event_30_データB": 0.05193460735041299,
+        "Event_31_タイプ": -0.04924430535418162,
+        "Event_31_プレイヤー": 0.0,
+        "Event_31_牌Idx": 0.0,
+        "Event_31_巡目": 0.0,
+        "Event_31_データA": 0.0,
+        "Event_31_データB": 0.0,
+        "Event_32_タイプ": 0.0,
+        "Event_32_プレイヤー": 0.0,
+        "Event_32_牌Idx": 0.0,
+        "Event_32_巡目": 0.0,
+        "Event_32_データA": 0.0,
+        "Event_32_データB": 0.0,
+        "Event_33_タイプ": 0.0,
+        "Event_33_プレイヤー": 0.0,
+        "Event_33_牌Idx": 0.0,
+        "Event_33_巡目": 0.0,
+        "Event_33_データA": 0.0,
+        "Event_33_データB": 0.0,
+        "Event_34_タイプ": 0.0,
+        "Event_34_プレイヤー": 0.0,
+        "Event_34_牌Idx": 0.0,
+        "Event_34_巡目": 0.0,
+        "Event_34_データA": 0.0,
+        "Event_34_データB": 0.0,
+        "Event_35_タイプ": 0.0,
+        "Event_35_プレイヤー": 0.0,
+        "Event_35_牌Idx": 0.0,
+        "Event_35_巡目": 0.0,
+        "Event_35_データA": 0.0,
+        "Event_35_データB": 0.0,
+        "Event_36_タイプ": 0.0,
+        "Event_36_プレイヤー": 0.0,
+        "Event_36_牌Idx": 0.0,
+        "Event_36_巡目": 0.0,
+        "Event_36_データA": 0.0,
+        "Event_36_データB": 0.0,
+        "Event_37_タイプ": 0.0,
+        "Event_37_プレイヤー": 0.0,
+        "Event_37_牌Idx": 0.0,
+        "Event_37_巡目": 0.0,
+        "Event_37_データA": 0.0,
+        "Event_37_データB": 0.0,
+        "Event_38_タイプ": 0.0,
+        "Event_38_プレイヤー": 0.0,
+        "Event_38_牌Idx": 0.0,
+        "Event_38_巡目": 0.0,
+        "Event_38_データA": 0.0,
+        "Event_38_データB": 0.0,
+        "Event_39_タイプ": 0.0,
+        "Event_39_プレイヤー": 0.0,
+        "Event_39_牌Idx": 0.0,
+        "Event_39_巡目": 0.0,
+        "Event_39_データA": 0.0,
+        "Event_39_データB": 0.0,
+        "Event_40_タイプ": 0.0,
+        "Event_40_プレイヤー": 0.0,
+        "Event_40_牌Idx": 0.0,
+        "Event_40_巡目": 0.0,
+        "Event_40_データA": 0.0,
+        "Event_40_データB": 0.0,
+        "Event_41_タイプ": 0.0,
+        "Event_41_プレイヤー": 0.0,
+        "Event_41_牌Idx": 0.0,
+        "Event_41_巡目": 0.0,
+        "Event_41_データA": 0.0,
+        "Event_41_データB": 0.0,
+        "Event_42_タイプ": 0.0,
+        "Event_42_プレイヤー": 0.0,
+        "Event_42_牌Idx": 0.0,
+        "Event_42_巡目": 0.0,
+        "Event_42_データA": 0.0,
+        "Event_42_データB": 0.0,
+        "Event_43_タイプ": 0.0,
+        "Event_43_プレイヤー": 0.0,
+        "Event_43_牌Idx": 0.0,
+        "Event_43_巡目": 0.0,
+        "Event_43_データA": 0.0,
+        "Event_43_データB": 0.0,
+        "Event_44_タイプ": 0.0,
+        "Event_44_プレイヤー": 0.0,
+        "Event_44_牌Idx": 0.0,
+        "Event_44_巡目": 0.0,
+        "Event_44_データA": 0.0,
+        "Event_44_データB": 0.0,
+        "Event_45_タイプ": 0.0,
+        "Event_45_プレイヤー": 0.0,
+        "Event_45_牌Idx": 0.0,
+        "Event_45_巡目": 0.0,
+        "Event_45_データA": 0.0,
+        "Event_45_データB": 0.0,
+        "Event_46_タイプ": 0.0,
+        "Event_46_プレイヤー": 0.0,
+        "Event_46_牌Idx": 0.0,
+        "Event_46_巡目": 0.0,
+        "Event_46_データA": 0.0,
+        "Event_46_データB": 0.0,
+        "Event_47_タイプ": 0.0,
+        "Event_47_プレイヤー": 0.0,
+        "Event_47_牌Idx": 0.0,
+        "Event_47_巡目": 0.0,
+        "Event_47_データA": 0.0,
+        "Event_47_データB": 0.0,
+        "Event_48_タイプ": 0.0,
+        "Event_48_プレイヤー": 0.0,
+        "Event_48_牌Idx": 0.0,
+        "Event_48_巡目": 0.0,
+        "Event_48_データA": 0.0,
+        "Event_48_データB": 0.0,
+        "Event_49_タイプ": 0.0,
+        "Event_49_プレイヤー": 0.0,
+        "Event_49_牌Idx": 0.0,
+        "Event_49_巡目": 0.0,
+        "Event_49_データA": 0.0,
+        "Event_49_データB": 0.0,
+        "Event_50_タイプ": 0.0,
+        "Event_50_プレイヤー": 0.0,
+        "Event_50_牌Idx": 0.0,
+        "Event_50_巡目": 0.0,
+        "Event_50_データA": 0.0,
+        "Event_50_データB": 0.0,
+        "Event_51_タイプ": 0.0,
+        "Event_51_プレイヤー": 0.0,
+        "Event_51_牌Idx": 0.0,
+        "Event_51_巡目": 0.0,
+        "Event_51_データA": 0.0,
+        "Event_51_データB": 0.0,
+        "Event_52_タイプ": 0.0,
+        "Event_52_プレイヤー": 0.0,
+        "Event_52_牌Idx": 0.0,
+        "Event_52_巡目": 0.0,
+        "Event_52_データA": 0.0,
+        "Event_52_データB": 0.0,
+        "Event_53_タイプ": 0.0,
+        "Event_53_プレイヤー": 0.0,
+        "Event_53_牌Idx": 0.0,
+        "Event_53_巡目": 0.0,
+        "Event_53_データA": 0.0,
+        "Event_53_データB": 0.0,
+        "Event_54_タイプ": 0.0,
+        "Event_54_プレイヤー": 0.0,
+        "Event_54_牌Idx": 0.0,
+        "Event_54_巡目": 0.0,
+        "Event_54_データA": 0.0,
+        "Event_54_データB": 0.0,
+        "Event_55_タイプ": 0.0,
+        "Event_55_プレイヤー": 0.0,
+        "Event_55_牌Idx": 0.0,
+        "Event_55_巡目": 0.0,
+        "Event_55_データA": 0.0,
+        "Event_55_データB": 0.0,
+        "Event_56_タイプ": 0.0,
+        "Event_56_プレイヤー": 0.0,
+        "Event_56_牌Idx": 0.0,
+        "Event_56_巡目": 0.0,
+        "Event_56_データA": 0.0,
+        "Event_56_データB": 0.0,
+        "Event_57_タイプ": 0.0,
+        "Event_57_プレイヤー": 0.0,
+        "Event_57_牌Idx": 0.0,
+        "Event_57_巡目": 0.0,
+        "Event_57_データA": 0.0,
+        "Event_57_データB": 0.0,
+        "Event_58_タイプ": 0.0,
+        "Event_58_プレイヤー": 0.0,
+        "Event_58_牌Idx": 0.0,
+        "Event_58_巡目": 0.0,
+        "Event_58_データA": 0.0,
+        "Event_58_データB": 0.0,
+        "Event_59_タイプ": 0.0,
+        "Event_59_プレイヤー": 0.0,
+        "Event_59_牌Idx": 0.0,
+        "Event_59_巡目": 0.0,
+        "Event_59_データA": 0.0,
+        "Event_59_データB": 0.0,
+        "静的_局風": 0.0,
+        "静的_本場": 0.0,
+        "静的_供託": 0.023131891552288213,
+        "静的_親プレイヤーIdx": 0.0,
+        "静的_壁残枚数": 0.0,
+        "静的_自身が親か": 0.0,
+        "静的_巡目": 0.0,
+        "静的_ドラ表示牌数": 0.0,
+        "静的_リーチ状態": 0.0,
+        "静的_リーチ巡目": 0.0,
+        "静的_自身の捨て牌数": 0.0,
+        "静的_自身の副露数": 0.0,
+        "静的_自身の手牌数": 0.0,
+        "静的_手牌_1m": 0.0,
+        "静的_手牌_2m": 0.0,
+        "静的_手牌_3m": 0.0,
+        "静的_手牌_4m": 0.0,
+        "静的_手牌_5m": 0.0,
+        "静的_手牌_6m": 0.0,
+        "静的_手牌_7m": 0.0,
+        "静的_手牌_8m": 0.0,
+        "静的_手牌_9m": 0.0,
+        "静的_手牌_1p": 0.0,
+        "静的_手牌_2p": 0.0,
+        "静的_手牌_3p": 0.0,
+        "静的_手牌_4p": 0.0,
+        "静的_手牌_5p": 0.0,
+        "静的_手牌_6p": 0.0,
+        "静的_手牌_7p": 0.0,
+        "静的_手牌_8p": 0.0,
+        "静的_手牌_9p": 0.0,
+        "静的_手牌_1s": 0.0,
+        "静的_手牌_2s": 0.0,
+        "静的_手牌_3s": 0.0,
+        "静的_手牌_4s": 0.0,
+        "静的_手牌_5s": 0.0,
+        "静的_手牌_6s": 0.0,
+        "静的_手牌_7s": 0.0,
+        "静的_手牌_8s": 0.0,
+        "静的_手牌_9s": 0.0,
+        "静的_手牌_東": 0.0,
+        "静的_手牌_南": 0.0,
+        "静的_手牌_西": 0.0,
+        "静的_手牌_北": 0.0,
+        "静的_手牌_白": 0.0,
+        "静的_手牌_發": 0.2904891167728474,
+        "静的_手牌_中": 0.0,
+        "静的_ドラ表示_1m": 0.0,
+        "静的_ドラ表示_2m": 0.0,
+        "静的_ドラ表示_3m": 0.0,
+        "静的_ドラ表示_4m": 0.0,
+        "静的_ドラ表示_5m": 0.0,
+        "静的_ドラ表示_6m": 0.0,
+        "静的_ドラ表示_7m": 0.0,
+        "静的_ドラ表示_8m": 0.0,
+        "静的_ドラ表示_9m": 0.0,
+        "静的_ドラ表示_1p": 0.0,
+        "静的_ドラ表示_2p": 0.0,
+        "静的_ドラ表示_3p": 0.0,
+        "静的_ドラ表示_4p": 0.0,
+        "静的_ドラ表示_5p": 0.0,
+        "静的_ドラ表示_6p": 0.0,
+        "静的_ドラ表示_7p": 0.0,
+        "静的_ドラ表示_8p": 0.0,
+        "静的_ドラ表示_9p": 0.0,
+        "静的_ドラ表示_1s": 0.0,
+        "静的_ドラ表示_2s": 0.0,
+        "静的_ドラ表示_3s": 0.0,
+        "静的_ドラ表示_4s": 0.0,
+        "静的_ドラ表示_5s": 0.0,
+        "静的_ドラ表示_6s": 0.0,
+        "静的_ドラ表示_7s": 0.0,
+        "静的_ドラ表示_8s": 0.0,
+        "静的_ドラ表示_9s": 0.0,
+        "静的_ドラ表示_東": 0.0,
+        "静的_ドラ表示_南": 0.0,
+        "静的_ドラ表示_西": 0.0,
+        "静的_ドラ表示_北": 0.0,
+        "静的_ドラ表示_白": 0.0,
+        "静的_ドラ表示_發": 0.0,
+        "静的_ドラ表示_中": 0.0,
+        "静的_自捨牌_1m": 0.0,
+        "静的_自捨牌_2m": 0.0,
+        "静的_自捨牌_3m": 0.0,
+        "静的_自捨牌_4m": 0.0,
+        "静的_自捨牌_5m": 0.0,
+        "静的_自捨牌_6m": 0.0,
+        "静的_自捨牌_7m": 0.0,
+        "静的_自捨牌_8m": 0.0,
+        "静的_自捨牌_9m": 0.0,
+        "静的_自捨牌_1p": 0.0,
+        "静的_自捨牌_2p": 0.0,
+        "静的_自捨牌_3p": 0.0,
+        "静的_自捨牌_4p": 0.0,
+        "静的_自捨牌_5p": 0.0,
+        "静的_自捨牌_6p": 0.0,
+        "静的_自捨牌_7p": 0.0,
+        "静的_自捨牌_8p": 0.0,
+        "静的_自捨牌_9p": 0.0,
+        "静的_自捨牌_1s": 0.0,
+        "静的_自捨牌_2s": 0.0,
+        "静的_自捨牌_3s": 0.0,
+        "静的_自捨牌_4s": 0.0,
+        "静的_自捨牌_5s": 0.0,
+        "静的_自捨牌_6s": 0.0,
+        "静的_自捨牌_7s": 0.0,
+        "静的_自捨牌_8s": 0.0,
+        "静的_自捨牌_9s": 0.0,
+        "静的_自捨牌_東": 0.0,
+        "静的_自捨牌_南": 0.0,
+        "静的_自捨牌_西": 0.0,
+        "静的_自捨牌_北": 0.0,
+        "静的_自捨牌_白": 0.0,
+        "静的_自捨牌_發": 0.0,
+        "静的_自捨牌_中": 0.0,
+        "静的_全見え牌_1m": 0.0,
+        "静的_全見え牌_2m": 0.0,
+        "静的_全見え牌_3m": 0.0,
+        "静的_全見え牌_4m": 0.0,
+        "静的_全見え牌_5m": 0.0,
+        "静的_全見え牌_6m": 0.0,
+        "静的_全見え牌_7m": 0.0,
+        "静的_全見え牌_8m": 0.0,
+        "静的_全見え牌_9m": 0.0,
+        "静的_全見え牌_1p": 0.0,
+        "静的_全見え牌_2p": 0.0,
+        "静的_全見え牌_3p": 0.0,
+        "静的_全見え牌_4p": 0.0,
+        "静的_全見え牌_5p": 0.0,
+        "静的_全見え牌_6p": 0.0,
+        "静的_全見え牌_7p": 0.0,
+        "静的_全見え牌_8p": 0.0,
+        "静的_全見え牌_9p": 0.04360266182172512,
+        "静的_全見え牌_1s": 0.0,
+        "静的_全見え牌_2s": 0.0,
+        "静的_全見え牌_3s": 0.0,
+        "静的_全見え牌_4s": 0.0,
+        "静的_全見え牌_5s": 0.0,
+        "静的_全見え牌_6s": 0.0,
+        "静的_全見え牌_7s": 0.0,
+        "静的_全見え牌_8s": 0.0,
+        "静的_全見え牌_9s": 0.0,
+        "静的_全見え牌_東": 0.0,
+        "静的_全見え牌_南": 0.0,
+        "静的_全見え牌_西": 0.0,
+        "静的_全見え牌_北": 0.0,
+        "静的_全見え牌_白": 0.0,
+        "静的_全見え牌_發": 0.0,
+        "静的_全見え牌_中": 0.0,
+        "静的_自身_IsSelf": 0.0,
+        "静的_自身_ReachAccepted": 0.0,
+        "静的_下家_IsSelf": 0.0,
+        "静的_下家_ReachAccepted": 0.0,
+        "静的_対面_IsSelf": 0.0,
+        "静的_対面_ReachAccepted": 0.0,
+        "静的_上家_IsSelf": 0.0,
+        "静的_上家_ReachAccepted": 0.0
+      }
+    }
+  }
+}

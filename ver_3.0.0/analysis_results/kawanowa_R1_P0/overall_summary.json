@@ -1,0 +1,94 @@
+{
+  "overview": {
+    "total_moments": 12,
+    "correct_predictions": 2,
+    "accuracy": 0.16666666666666666,
+    "average_confidence": 0.48404012123743695
+  },
+  "moments": [
+    {
+      "tsumo_count": 1,
+      "predicted_tile": "北",
+      "actual_tile": "北",
+      "confidence": 0.7932717800140381,
+      "correct": true
+    },
+    {
+      "tsumo_count": 5,
+      "predicted_tile": "東",
+      "actual_tile": "1p",
+      "confidence": 0.3644520044326782,
+      "correct": false
+    },
+    {
+      "tsumo_count": 9,
+      "predicted_tile": "東",
+      "actual_tile": "1m",
+      "confidence": 0.3696364760398865,
+      "correct": false
+    },
+    {
+      "tsumo_count": 13,
+      "predicted_tile": "東",
+      "actual_tile": "中",
+      "confidence": 0.3978450298309326,
+      "correct": false
+    },
+    {
+      "tsumo_count": 19,
+      "predicted_tile": "東",
+      "actual_tile": "東",
+      "confidence": 0.6710960865020752,
+      "correct": true
+    },
+    {
+      "tsumo_count": 23,
+      "predicted_tile": "1s",
+      "actual_tile": "6m",
+      "confidence": 0.5323900580406189,
+      "correct": false
+    },
+    {
+      "tsumo_count": 26,
+      "predicted_tile": "1s",
+      "actual_tile": "8s",
+      "confidence": 0.5424093008041382,
+      "correct": false
+    },
+    {
+      "tsumo_count": 30,
+      "predicted_tile": "1s",
+      "actual_tile": "8m",
+      "confidence": 0.5140618681907654,
+      "correct": false
+    },
+    {
+      "tsumo_count": 35,
+      "predicted_tile": "1s",
+      "actual_tile": "2p",
+      "confidence": 0.4038379490375519,
+      "correct": false
+    },
+    {
+      "tsumo_count": 39,
+      "predicted_tile": "1s",
+      "actual_tile": "8s",
+      "confidence": 0.4319398105144501,
+      "correct": false
+    },
+    {
+      "tsumo_count": 43,
+      "predicted_tile": "1s",
+      "actual_tile": "3p",
+      "confidence": 0.3675519824028015,
+      "correct": false
+    },
+    {
+      "tsumo_count": 46,
+      "predicted_tile": "1s",
+      "actual_tile": "7m",
+      "confidence": 0.41998910903930664,
+      "correct": false
+    }
+  ]
+}

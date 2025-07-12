@@ -1,0 +1,115 @@
+{
+  "overview": {
+    "total_moments": 15,
+    "correct_predictions": 4,
+    "accuracy": 0.26666666666666666,
+    "average_confidence": 0.3341024599969387
+  },
+  "moments": [
+    {
+      "tsumo_count": 3,
+      "predicted_tile": "南",
+      "actual_tile": "南",
+      "confidence": 0.42450764775276184,
+      "correct": true
+    },
+    {
+      "tsumo_count": 7,
+      "predicted_tile": "白",
+      "actual_tile": "3p",
+      "confidence": 0.41280263662338257,
+      "correct": false
+    },
+    {
+      "tsumo_count": 11,
+      "predicted_tile": "白",
+      "actual_tile": "9s",
+      "confidence": 0.43307575583457947,
+      "correct": false
+    },
+    {
+      "tsumo_count": 15,
+      "predicted_tile": "白",
+      "actual_tile": "8p",
+      "confidence": 0.5013197064399719,
+      "correct": false
+    },
+    {
+      "tsumo_count": 19,
+      "predicted_tile": "白",
+      "actual_tile": "白",
+      "confidence": 0.43284451961517334,
+      "correct": true
+    },
+    {
+      "tsumo_count": 20,
+      "predicted_tile": "北",
+      "actual_tile": "4p",
+      "confidence": 0.6524915099143982,
+      "correct": false
+    },
+    {
+      "tsumo_count": 24,
+      "predicted_tile": "北",
+      "actual_tile": "北",
+      "confidence": 0.5808886885643005,
+      "correct": true
+    },
+    {
+      "tsumo_count": 28,
+      "predicted_tile": "1s",
+      "actual_tile": "3p",
+      "confidence": 0.30258607864379883,
+      "correct": false
+    },
+    {
+      "tsumo_count": 32,
+      "predicted_tile": "1s",
+      "actual_tile": "7s",
+      "confidence": 0.35454046726226807,
+      "correct": false
+    },
+    {
+      "tsumo_count": 36,
+      "predicted_tile": "1s",
+      "actual_tile": "4m",
+      "confidence": 0.5802724957466125,
+      "correct": false
+    },
+    {
+      "tsumo_count": 40,
+      "predicted_tile": "5s",
+      "actual_tile": "6p",
+      "confidence": 0.004496901761740446,
+      "correct": false
+    },
+    {
+      "tsumo_count": 44,
+      "predicted_tile": "5s",
+      "actual_tile": "9p",
+      "confidence": 0.0043429420329630375,
+      "correct": false
+    },
+    {
+      "tsumo_count": 48,
+      "predicted_tile": "中",
+      "actual_tile": "中",
+      "confidence": 0.3179956078529358,
+      "correct": true
+    },
+    {
+      "tsumo_count": 53,
+      "predicted_tile": "5s",
+      "actual_tile": "2p",
+      "confidence": 0.004635873716324568,
+      "correct": false
+    },
+    {
+      "tsumo_count": 57,
+      "predicted_tile": "5s",
+      "actual_tile": null,
+      "confidence": 0.004736068192869425,
+      "correct": false
+    }
+  ]
+}

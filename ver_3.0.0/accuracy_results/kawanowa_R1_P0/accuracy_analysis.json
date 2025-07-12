@@ -1,0 +1,753 @@
+{
+  "timestamp": "2025-07-11T05:56:20.434235",
+  "xml_file": "kawanowa.xml",
+  "round_index": 1,
+  "player_id": 0,
+  "all_rounds": false,
+  "total_moments": 12,
+  "analysis_results": [
+    {
+      "predicted_tile": "北",
+      "actual_tile": "北",
+      "confidence": 0.7932717800140381,
+      "correct": true,
+      "actual_rank": 1,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "北",
+          "probability": 0.7932717800140381
+        },
+        {
+          "rank": 2,
+          "tile": "中",
+          "probability": 0.05705776438117027
+        },
+        {
+          "rank": 3,
+          "tile": "1p",
+          "probability": 0.039670929312705994
+        },
+        {
+          "rank": 4,
+          "tile": "東",
+          "probability": 0.01649947464466095
+        },
+        {
+          "rank": 5,
+          "tile": "1s",
+          "probability": 0.009493441320955753
+        },
+        {
+          "rank": 6,
+          "tile": "8s",
+          "probability": 0.005556839518249035
+        },
+        {
+          "rank": 7,
+          "tile": "4p",
+          "probability": 0.005444148555397987
+        },
+        {
+          "rank": 8,
+          "tile": "6s",
+          "probability": 0.0052243685349822044
+        },
+        {
+          "rank": 9,
+          "tile": "6m",
+          "probability": 0.004402035381644964
+        },
+        {
+          "rank": 10,
+          "tile": "7s",
+          "probability": 0.004248505923897028
+        }
+      ],
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "東",
+      "actual_tile": "1p",
+      "confidence": 0.3644520044326782,
+      "correct": false,
+      "actual_rank": 4,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "東",
+          "probability": 0.3644520044326782
+        },
+        {
+          "rank": 2,
+          "tile": "中",
+          "probability": 0.2800167202949524
+        },
+        {
+          "rank": 3,
+          "tile": "1s",
+          "probability": 0.12068349123001099
+        },
+        {
+          "rank": 4,
+          "tile": "1p",
+          "probability": 0.042398713529109955
+        },
+        {
+          "rank": 5,
+          "tile": "6s",
+          "probability": 0.018473641946911812
+        },
+        {
+          "rank": 6,
+          "tile": "4p",
+          "probability": 0.014887150377035141
+        },
+        {
+          "rank": 7,
+          "tile": "8s",
+          "probability": 0.011514561250805855
+        },
+        {
+          "rank": 8,
+          "tile": "7m",
+          "probability": 0.010125608183443546
+        },
+        {
+          "rank": 9,
+          "tile": "6m",
+          "probability": 0.009574982337653637
+        },
+        {
+          "rank": 10,
+          "tile": "5m",
+          "probability": 0.009530824609100819
+        }
+      ],
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "東",
+      "actual_tile": "1m",
+      "confidence": 0.3696364760398865,
+      "correct": false,
+      "actual_rank": 4,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "東",
+          "probability": 0.3696364760398865
+        },
+        {
+          "rank": 2,
+          "tile": "中",
+          "probability": 0.2536473274230957
+        },
+        {
+          "rank": 3,
+          "tile": "1s",
+          "probability": 0.11075478792190552
+        },
+        {
+          "rank": 4,
+          "tile": "1m",
+          "probability": 0.07437171041965485
+        },
+        {
+          "rank": 5,
+          "tile": "6s",
+          "probability": 0.017008792608976364
+        },
+        {
+          "rank": 6,
+          "tile": "4p",
+          "probability": 0.015075813978910446
+        },
+        {
+          "rank": 7,
+          "tile": "5m",
+          "probability": 0.011499058455228806
+        },
+        {
+          "rank": 8,
+          "tile": "7m",
+          "probability": 0.01136414147913456
+        },
+        {
+          "rank": 9,
+          "tile": "6p",
+          "probability": 0.010515758767724037
+        },
+        {
+          "rank": 10,
+          "tile": "8s",
+          "probability": 0.009972046129405499
+        }
+      ],
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "東",
+      "actual_tile": "中",
+      "confidence": 0.3978450298309326,
+      "correct": false,
+      "actual_rank": 2,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "東",
+          "probability": 0.3978450298309326
+        },
+        {
+          "rank": 2,
+          "tile": "中",
+          "probability": 0.3123408854007721
+        },
+        {
+          "rank": 3,
+          "tile": "1s",
+          "probability": 0.08746042102575302
+        },
+        {
+          "rank": 4,
+          "tile": "2s",
+          "probability": 0.01974034495651722
+        },
+        {
+          "rank": 5,
+          "tile": "4p",
+          "probability": 0.014518948271870613
+        },
+        {
+          "rank": 6,
+          "tile": "6s",
+          "probability": 0.014508015476167202
+        },
+        {
+          "rank": 7,
+          "tile": "8s",
+          "probability": 0.010722980834543705
+        },
+        {
+          "rank": 8,
+          "tile": "7m",
+          "probability": 0.010259628295898438
+        },
+        {
+          "rank": 9,
+          "tile": "6p",
+          "probability": 0.009811684489250183
+        },
+        {
+          "rank": 10,
+          "tile": "5m",
+          "probability": 0.009508779272437096
+        }
+      ],
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "東",
+      "actual_tile": "東",
+      "confidence": 0.6710960865020752,
+      "correct": false,
+      "actual_rank": 1,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "東",
+          "probability": 0.6710960865020752
+        },
+        {
+          "rank": 2,
+          "tile": "1s",
+          "probability": 0.1413385272026062
+        },
+        {
+          "rank": 3,
+          "tile": "2s",
+          "probability": 0.024988071992993355
+        },
+        {
+          "rank": 4,
+          "tile": "8s",
+          "probability": 0.013739206828176975
+        },
+        {
+          "rank": 5,
+          "tile": "4p",
+          "probability": 0.01170913502573967
+        },
+        {
+          "rank": 6,
+          "tile": "中",
+          "probability": 0.011407207697629929
+        },
+        {
+          "rank": 7,
+          "tile": "6p",
+          "probability": 0.011138184927403927
+        },
+        {
+          "rank": 8,
+          "tile": "6s",
+          "probability": 0.010851365514099598
+        },
+        {
+          "rank": 9,
+          "tile": "7m",
+          "probability": 0.008651909418404102
+        },
+        {
+          "rank": 10,
+          "tile": "6m",
+          "probability": 0.007939070463180542
+        }
+      ],
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "1s",
+      "actual_tile": "6m",
+      "confidence": 0.5323900580406189,
+      "correct": false,
+      "actual_rank": 9,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "1s",
+          "probability": 0.5323900580406189
+        },
+        {
+          "rank": 2,
+          "tile": "2s",
+          "probability": 0.1096533015370369
+        },
+        {
+          "rank": 3,
+          "tile": "中",
+          "probability": 0.04573444277048111
+        },
+        {
+          "rank": 4,
+          "tile": "8s",
+          "probability": 0.04068012908101082
+        },
+        {
+          "rank": 5,
+          "tile": "6s",
+          "probability": 0.03649018332362175
+        },
+        {
+          "rank": 6,
+          "tile": "6p",
+          "probability": 0.019128335639834404
+        },
+        {
+          "rank": 7,
+          "tile": "東",
+          "probability": 0.018378181383013725
+        },
+        {
+          "rank": 8,
+          "tile": "西",
+          "probability": 0.017801925539970398
+        },
+        {
+          "rank": 9,
+          "tile": "6m",
+          "probability": 0.016054410487413406
+        },
+        {
+          "rank": 10,
+          "tile": "北",
+          "probability": 0.01571975089609623
+        }
+      ],
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "1s",
+      "actual_tile": "8s",
+      "confidence": 0.5424093008041382,
+      "correct": false,
+      "actual_rank": 4,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "1s",
+          "probability": 0.5424093008041382
+        },
+        {
+          "rank": 2,
+          "tile": "2s",
+          "probability": 0.10403021425008774
+        },
+        {
+          "rank": 3,
+          "tile": "中",
+          "probability": 0.049946609884500504
+        },
+        {
+          "rank": 4,
+          "tile": "8s",
+          "probability": 0.03146982192993164
+        },
+        {
+          "rank": 5,
+          "tile": "6s",
+          "probability": 0.030763685703277588
+        },
+        {
+          "rank": 6,
+          "tile": "6p",
+          "probability": 0.02148841693997383
+        },
+        {
+          "rank": 7,
+          "tile": "西",
+          "probability": 0.021467959508299828
+        },
+        {
+          "rank": 8,
+          "tile": "東",
+          "probability": 0.019935723394155502
+        },
+        {
+          "rank": 9,
+          "tile": "4p",
+          "probability": 0.016747793182730675
+        },
+        {
+          "rank": 10,
+          "tile": "北",
+          "probability": 0.01648418791592121
+        }
+      ],
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "1s",
+      "actual_tile": "8m",
+      "confidence": 0.5140618681907654,
+      "correct": false,
+      "actual_rank": null,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "1s",
+          "probability": 0.5140618681907654
+        },
+        {
+          "rank": 2,
+          "tile": "2s",
+          "probability": 0.11379805207252502
+        },
+        {
+          "rank": 3,
+          "tile": "中",
+          "probability": 0.061889246106147766
+        },
+        {
+          "rank": 4,
+          "tile": "6s",
+          "probability": 0.04054504260420799
+        },
+        {
+          "rank": 5,
+          "tile": "西",
+          "probability": 0.026046855375170708
+        },
+        {
+          "rank": 6,
+          "tile": "東",
+          "probability": 0.022853273898363113
+        },
+        {
+          "rank": 7,
+          "tile": "6p",
+          "probability": 0.022005870938301086
+        },
+        {
+          "rank": 8,
+          "tile": "4p",
+          "probability": 0.017784157767891884
+        },
+        {
+          "rank": 9,
+          "tile": "北",
+          "probability": 0.017628604546189308
+        },
+        {
+          "rank": 10,
+          "tile": "2p",
+          "probability": 0.015128648839890957
+        }
+      ],
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "1s",
+      "actual_tile": "2p",
+      "confidence": 0.4038379490375519,
+      "correct": false,
+      "actual_rank": 7,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "1s",
+          "probability": 0.4038379490375519
+        },
+        {
+          "rank": 2,
+          "tile": "2s",
+          "probability": 0.10192689299583435
+        },
+        {
+          "rank": 3,
+          "tile": "中",
+          "probability": 0.06948624551296234
+        },
+        {
+          "rank": 4,
+          "tile": "6s",
+          "probability": 0.06437882781028748
+        },
+        {
+          "rank": 5,
+          "tile": "6p",
+          "probability": 0.03882409632205963
+        },
+        {
+          "rank": 6,
+          "tile": "西",
+          "probability": 0.03143927827477455
+        },
+        {
+          "rank": 7,
+          "tile": "2p",
+          "probability": 0.029369495809078217
+        },
+        {
+          "rank": 8,
+          "tile": "東",
+          "probability": 0.02598395012319088
+        },
+        {
+          "rank": 9,
+          "tile": "4p",
+          "probability": 0.0252847783267498
+        },
+        {
+          "rank": 10,
+          "tile": "4m",
+          "probability": 0.023196887224912643
+        }
+      ],
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "1s",
+      "actual_tile": "8s",
+      "confidence": 0.4319398105144501,
+      "correct": false,
+      "actual_rank": 4,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "1s",
+          "probability": 0.4319398105144501
+        },
+        {
+          "rank": 2,
+          "tile": "2s",
+          "probability": 0.11070438474416733
+        },
+        {
+          "rank": 3,
+          "tile": "中",
+          "probability": 0.06580738723278046
+        },
+        {
+          "rank": 4,
+          "tile": "8s",
+          "probability": 0.048681147396564484
+        },
+        {
+          "rank": 5,
+          "tile": "6s",
+          "probability": 0.03714137524366379
+        },
+        {
+          "rank": 6,
+          "tile": "6p",
+          "probability": 0.03336349502205849
+        },
+        {
+          "rank": 7,
+          "tile": "西",
+          "probability": 0.02840457856655121
+        },
+        {
+          "rank": 8,
+          "tile": "東",
+          "probability": 0.024899384006857872
+        },
+        {
+          "rank": 9,
+          "tile": "4m",
+          "probability": 0.021970393136143684
+        },
+        {
+          "rank": 10,
+          "tile": "北",
+          "probability": 0.01999686099588871
+        }
+      ],
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "1s",
+      "actual_tile": "3p",
+      "confidence": 0.3675519824028015,
+      "correct": false,
+      "actual_rank": 5,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "1s",
+          "probability": 0.3675519824028015
+        },
+        {
+          "rank": 2,
+          "tile": "2s",
+          "probability": 0.11147505044937134
+        },
+        {
+          "rank": 3,
+          "tile": "中",
+          "probability": 0.07249901443719864
+        },
+        {
+          "rank": 4,
+          "tile": "6s",
+          "probability": 0.058792296797037125
+        },
+        {
+          "rank": 5,
+          "tile": "3p",
+          "probability": 0.05770370364189148
+        },
+        {
+          "rank": 6,
+          "tile": "6p",
+          "probability": 0.04041494056582451
+        },
+        {
+          "rank": 7,
+          "tile": "西",
+          "probability": 0.03364342078566551
+        },
+        {
+          "rank": 8,
+          "tile": "東",
+          "probability": 0.025792507454752922
+        },
+        {
+          "rank": 9,
+          "tile": "4m",
+          "probability": 0.023549597710371017
+        },
+        {
+          "rank": 10,
+          "tile": "北",
+          "probability": 0.022631600499153137
+        }
+      ],
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "1s",
+      "actual_tile": "7m",
+      "confidence": 0.41998910903930664,
+      "correct": false,
+      "actual_rank": 7,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "1s",
+          "probability": 0.41998910903930664
+        },
+        {
+          "rank": 2,
+          "tile": "2s",
+          "probability": 0.10708460211753845
+        },
+        {
+          "rank": 3,
+          "tile": "中",
+          "probability": 0.06089771166443825
+        },
+        {
+          "rank": 4,
+          "tile": "6s",
+          "probability": 0.05843795835971832
+        },
+        {
+          "rank": 5,
+          "tile": "6p",
+          "probability": 0.0364513024687767
+        },
+        {
+          "rank": 6,
+          "tile": "西",
+          "probability": 0.0346711166203022
+        },
+        {
+          "rank": 7,
+          "tile": "7m",
+          "probability": 0.030149711295962334
+        },
+        {
+          "rank": 8,
+          "tile": "東",
+          "probability": 0.029842190444469452
+        },
+        {
+          "rank": 9,
+          "tile": "4p",
+          "probability": 0.019627628847956657
+        },
+        {
+          "rank": 10,
+          "tile": "北",
+          "probability": 0.0195035170763731
+        }
+      ],
+      "round_index": 1
+    }
+  ],
+  "metrics": {
+    "exact_accuracy": 0.08333333333333333,
+    "top3_accuracy": 0.25,
+    "top5_accuracy": 0.6666666666666666,
+    "exact_matches": 1,
+    "top3_matches": 3,
+    "top5_matches": 8,
+    "rank_distribution": {
+      "1": 2,
+      "4": 4,
+      "2": 1,
+      "9": 1,
+      "圏外": 1,
+      "7": 2,
+      "5": 1
+    },
+    "confidence_accuracy": {
+      "高信頼度(>0.5)": 0.2,
+      "中信頼度(0.2-0.5)": 0.0,
+      "低信頼度(<0.2)": 0.0
+    },
+    "average_confidence": 0.48404012123743695
+  }
+}

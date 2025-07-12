@@ -1,0 +1,9 @@
+{
+  "tsumo_count": 7,
+  "player_id": 3,
+  "tsumo_tile": "8s",
+  "predicted_tile": "西",
+  "predicted_probability": 0.673624575138092,
+  "actual_tile": "北",
+  "match": false
+}
