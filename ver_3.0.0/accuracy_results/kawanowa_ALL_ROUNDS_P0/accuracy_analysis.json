@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-07-11T05:51:19.095748",
+  "timestamp": "2025-07-13T05:01:37.433278",
   "xml_file": "kawanowa.xml",
   "round_index": null,
   "player_id": 0,
@@ -64,6 +64,11 @@
           "probability": 0.004248505923897028
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "北",
+        "actual_tile": "北"
+      },
       "round_index": 1
     },
     {
@@ -124,6 +129,11 @@
           "probability": 0.009530824609100819
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "東",
+        "actual_tile": "1p"
+      },
       "round_index": 1
     },
     {
@@ -184,6 +194,11 @@
           "probability": 0.009972046129405499
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "東",
+        "actual_tile": "1m"
+      },
       "round_index": 1
     },
     {
@@ -244,6 +259,11 @@
           "probability": 0.009508779272437096
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "東",
+        "actual_tile": "中"
+      },
       "round_index": 1
     },
     {
@@ -304,6 +324,11 @@
           "probability": 0.007939070463180542
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "東",
+        "actual_tile": "東"
+      },
       "round_index": 1
     },
     {
@@ -364,6 +389,11 @@
           "probability": 0.01571975089609623
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "1s",
+        "actual_tile": "6m"
+      },
       "round_index": 1
     },
     {
@@ -424,6 +454,11 @@
           "probability": 0.01648418791592121
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "1s",
+        "actual_tile": "8s"
+      },
       "round_index": 1
     },
     {
@@ -484,6 +519,11 @@
           "probability": 0.015128648839890957
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "1s",
+        "actual_tile": "8m"
+      },
       "round_index": 1
     },
     {
@@ -544,6 +584,11 @@
           "probability": 0.023196887224912643
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "1s",
+        "actual_tile": "2p"
+      },
       "round_index": 1
     },
     {
@@ -604,6 +649,11 @@
           "probability": 0.01999686099588871
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "1s",
+        "actual_tile": "8s"
+      },
       "round_index": 1
     },
     {
@@ -664,6 +714,11 @@
           "probability": 0.022631600499153137
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "1s",
+        "actual_tile": "3p"
+      },
       "round_index": 1
     },
     {
@@ -724,6 +779,11 @@
           "probability": 0.0195035170763731
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "1s",
+        "actual_tile": "7m"
+      },
       "round_index": 1
     },
     {
@@ -784,6 +844,11 @@
           "probability": 0.003590997774153948
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "南",
+        "actual_tile": "南"
+      },
       "round_index": 2
     },
     {
@@ -844,6 +909,11 @@
           "probability": 0.013082403689622879
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "9p",
+        "actual_tile": "9p"
+      },
       "round_index": 2
     },
     {
@@ -904,6 +974,11 @@
           "probability": 0.00813539233058691
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "白",
+        "actual_tile": "白"
+      },
       "round_index": 2
     },
     {
@@ -964,6 +1039,11 @@
           "probability": 0.03178288787603378
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "2s",
+        "actual_tile": "6m"
+      },
       "round_index": 2
     },
     {
@@ -1024,6 +1104,11 @@
           "probability": 0.005073766689747572
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "中",
+        "actual_tile": "中"
+      },
       "round_index": 2
     },
     {
@@ -1084,6 +1169,11 @@
           "probability": 0.03500205650925636
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "4p",
+        "actual_tile": "4p"
+      },
       "round_index": 2
     },
     {
@@ -1144,6 +1234,11 @@
           "probability": 0.030572213232517242
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "2s",
+        "actual_tile": "3s"
+      },
       "round_index": 2
     },
     {
@@ -1204,6 +1299,11 @@
           "probability": 0.03348264843225479
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "2s",
+        "actual_tile": "9m"
+      },
       "round_index": 2
     },
     {
@@ -1264,6 +1364,11 @@
           "probability": 0.03602759912610054
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "2s",
+        "actual_tile": "7p"
+      },
       "round_index": 2
     },
     {
@@ -1324,6 +1429,11 @@
           "probability": 0.03418615832924843
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "南",
+        "actual_tile": "南"
+      },
       "round_index": 2
     },
     {
@@ -1384,6 +1494,11 @@
           "probability": 0.03254084661602974
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "5s",
+        "actual_tile": "0p"
+      },
       "round_index": 2
     },
     {
@@ -1444,6 +1559,11 @@
           "probability": 0.03267357870936394
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "5s",
+        "actual_tile": "7m"
+      },
       "round_index": 2
     },
     {
@@ -1504,6 +1624,11 @@
           "probability": 0.03121371939778328
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "5s",
+        "actual_tile": "9p"
+      },
       "round_index": 2
     },
     {
@@ -1564,6 +1689,11 @@
           "probability": 0.02774668112397194
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "西",
+        "actual_tile": "西"
+      },
       "round_index": 2
     },
     {
@@ -1624,6 +1754,11 @@
           "probability": 0.032469023019075394
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "5s",
+        "actual_tile": "1m"
+      },
       "round_index": 2
     },
     {
@@ -1684,6 +1819,11 @@
           "probability": 0.007910700514912605
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "南",
+        "actual_tile": "南"
+      },
       "round_index": 3
     },
     {
@@ -1744,6 +1884,11 @@
           "probability": 0.006454662419855595
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "白",
+        "actual_tile": "3p"
+      },
       "round_index": 3
     },
     {
@@ -1804,6 +1949,11 @@
           "probability": 0.00659386208280921
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "白",
+        "actual_tile": "9s"
+      },
       "round_index": 3
     },
     {
@@ -1864,6 +2014,11 @@
           "probability": 0.009367845021188259
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "白",
+        "actual_tile": "8p"
+      },
       "round_index": 3
     },
     {
@@ -1924,6 +2079,11 @@
           "probability": 0.01058232318609953
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "白",
+        "actual_tile": "白"
+      },
       "round_index": 3
     },
     {
@@ -1984,6 +2144,11 @@
           "probability": 0.007073244079947472
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "北",
+        "actual_tile": "4p"
+      },
       "round_index": 3
     },
     {
@@ -2044,6 +2209,11 @@
           "probability": 0.010764644481241703
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "北",
+        "actual_tile": "北"
+      },
       "round_index": 3
     },
     {
@@ -2104,6 +2274,11 @@
           "probability": 0.017717719078063965
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "1s",
+        "actual_tile": "3p"
+      },
       "round_index": 3
     },
     {
@@ -2164,6 +2339,11 @@
           "probability": 0.01681758090853691
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "1s",
+        "actual_tile": "7s"
+      },
       "round_index": 3
     },
     {
@@ -2224,6 +2404,11 @@
           "probability": 0.009974988177418709
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "1s",
+        "actual_tile": "4m"
+      },
       "round_index": 3
     },
     {
@@ -2284,6 +2469,11 @@
           "probability": 0.03284773975610733
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "5s",
+        "actual_tile": "6p"
+      },
       "round_index": 3
     },
     {
@@ -2344,6 +2534,11 @@
           "probability": 0.033210501074790955
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "5s",
+        "actual_tile": "9p"
+      },
       "round_index": 3
     },
     {
@@ -2404,6 +2599,11 @@
           "probability": 0.025342967361211777
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "中",
+        "actual_tile": "中"
+      },
       "round_index": 3
     },
     {
@@ -2464,6 +2664,11 @@
           "probability": 0.033957339823246
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "5s",
+        "actual_tile": "2p"
+      },
       "round_index": 3
     },
     {
@@ -2524,6 +2729,11 @@
           "probability": 0.005340430419892073
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "北",
+        "actual_tile": "北"
+      },
       "round_index": 4
     },
     {
@@ -2584,6 +2794,11 @@
           "probability": 0.0055200327187776566
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "中",
+        "actual_tile": "9m"
+      },
       "round_index": 4
     },
     {
@@ -2644,6 +2859,11 @@
           "probability": 0.006039096508175135
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "中",
+        "actual_tile": "中"
+      },
       "round_index": 4
     },
     {
@@ -2704,6 +2924,11 @@
           "probability": 0.006174043286591768
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "南",
+        "actual_tile": "5s"
+      },
       "round_index": 4
     },
     {
@@ -2764,6 +2989,11 @@
           "probability": 0.006600521504878998
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "南",
+        "actual_tile": "南"
+      },
       "round_index": 4
     },
     {
@@ -2824,6 +3054,11 @@
           "probability": 0.02105478011071682
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "3p",
+        "actual_tile": "3p"
+      },
       "round_index": 4
     },
     {
@@ -2884,6 +3119,11 @@
           "probability": 0.03140955790877342
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "9s",
+        "actual_tile": "2s"
+      },
       "round_index": 4
     },
     {
@@ -2944,6 +3184,11 @@
           "probability": 0.03230845555663109
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "南",
+        "actual_tile": "南"
+      },
       "round_index": 4
     },
     {
@@ -3004,6 +3249,11 @@
           "probability": 0.030359378084540367
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "9s",
+        "actual_tile": "1m"
+      },
       "round_index": 4
     },
     {
@@ -3064,6 +3314,11 @@
           "probability": 0.030876342207193375
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "9s",
+        "actual_tile": "3m"
+      },
       "round_index": 4
     },
     {
@@ -3124,6 +3379,11 @@
           "probability": 0.031221821904182434
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "9s",
+        "actual_tile": "4p"
+      },
       "round_index": 4
     },
     {
@@ -3184,6 +3444,11 @@
           "probability": 0.03187539055943489
         }
       ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "9s",
+        "actual_tile": "8s"
+      },
       "round_index": 4
     }
   ],

@@ -38,3 +38,5 @@ Thumbs.db
 *.pth
 *.hdf5
 training_data/ 
+
+google-cloud-sdk/

@@ -888,12 +888,19 @@ def create_comprehensive_json_output(game_state, player_id, tsumo_info, discard_
     top_indices = np.argsort(all_probabilities)[::-1][:10]
     for i, idx in enumerate(top_indices):
         if 0 <= idx < NUM_TILE_TYPES:
-            tile_str = tile_id_to_string(tile_index_to_id(idx))
-            top_predictions.append({
-                "rank": i + 1,
-                "tile": tile_str,
-                "probability": float(all_probabilities[idx])
-            })
+            tile_id = tile_index_to_id(idx)
+            if tile_id != -1:  # 有効なtile_idのみ処理
+                tile_str = tile_id_to_string(tile_id)
+                if tile_str != "?":  # 有効な牌名のみ追加
+                    top_predictions.append({
+                        "rank": i + 1,
+                        "tile": tile_str,
+                        "probability": float(all_probabilities[idx])
+                    })
+                else:
+                    print(f"[Warning] Invalid tile_str '?' for idx={idx}, tile_id={tile_id}")
+            else:
+                print(f"[Warning] Invalid tile_id=-1 for idx={idx}")
     
     # 総合結果
     result = {

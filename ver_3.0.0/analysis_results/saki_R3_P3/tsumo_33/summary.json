@@ -1,0 +1,9 @@
+{
+  "tsumo_count": 33,
+  "player_id": 3,
+  "tsumo_tile": "5s",
+  "predicted_tile": "3p",
+  "predicted_probability": 0.1233438178896904,
+  "actual_tile": "5s",
+  "match": false
+}

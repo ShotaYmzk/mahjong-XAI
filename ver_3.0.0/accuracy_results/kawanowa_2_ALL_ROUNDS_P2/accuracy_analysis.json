@@ -1,0 +1,2596 @@
+{
+  "timestamp": "2025-07-13T05:01:04.181199",
+  "xml_file": "kawanowa_2.xml",
+  "round_index": null,
+  "player_id": 2,
+  "all_rounds": true,
+  "total_moments": 39,
+  "analysis_results": [
+    {
+      "predicted_tile": "西",
+      "actual_tile": "4m",
+      "confidence": 0.8377417325973511,
+      "correct": false,
+      "actual_rank": 3,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "西",
+          "probability": 0.8377417325973511
+        },
+        {
+          "rank": 2,
+          "tile": "2p",
+          "probability": 0.04057848080992699
+        },
+        {
+          "rank": 3,
+          "tile": "4m",
+          "probability": 0.020287537947297096
+        },
+        {
+          "rank": 4,
+          "tile": "9p",
+          "probability": 0.014897255226969719
+        },
+        {
+          "rank": 5,
+          "tile": "東",
+          "probability": 0.010246030054986477
+        },
+        {
+          "rank": 6,
+          "tile": "7m",
+          "probability": 0.006333542987704277
+        },
+        {
+          "rank": 7,
+          "tile": "4p",
+          "probability": 0.004798493813723326
+        },
+        {
+          "rank": 8,
+          "tile": "9m",
+          "probability": 0.004405498038977385
+        },
+        {
+          "rank": 9,
+          "tile": "6p",
+          "probability": 0.004227804020047188
+        },
+        {
+          "rank": 10,
+          "tile": "7s",
+          "probability": 0.004164755344390869
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "西",
+        "actual_tile": "4m"
+      },
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "西",
+      "actual_tile": "西",
+      "confidence": 0.8758934140205383,
+      "correct": false,
+      "actual_rank": 1,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "西",
+          "probability": 0.8758934140205383
+        },
+        {
+          "rank": 2,
+          "tile": "2p",
+          "probability": 0.0272862296551466
+        },
+        {
+          "rank": 3,
+          "tile": "東",
+          "probability": 0.012077883817255497
+        },
+        {
+          "rank": 4,
+          "tile": "9p",
+          "probability": 0.009701188653707504
+        },
+        {
+          "rank": 5,
+          "tile": "中",
+          "probability": 0.005736420396715403
+        },
+        {
+          "rank": 6,
+          "tile": "6p",
+          "probability": 0.0052065071649849415
+        },
+        {
+          "rank": 7,
+          "tile": "4p",
+          "probability": 0.004768589045852423
+        },
+        {
+          "rank": 8,
+          "tile": "7m",
+          "probability": 0.004530513659119606
+        },
+        {
+          "rank": 9,
+          "tile": "6m",
+          "probability": 0.0042573027312755585
+        },
+        {
+          "rank": 10,
+          "tile": "5m",
+          "probability": 0.003968028351664543
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "西",
+        "actual_tile": "西"
+      },
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "東",
+      "actual_tile": "2p",
+      "confidence": 0.36462241411209106,
+      "correct": false,
+      "actual_rank": 2,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "東",
+          "probability": 0.36462241411209106
+        },
+        {
+          "rank": 2,
+          "tile": "2p",
+          "probability": 0.22595562040805817
+        },
+        {
+          "rank": 3,
+          "tile": "中",
+          "probability": 0.08301606774330139
+        },
+        {
+          "rank": 4,
+          "tile": "9p",
+          "probability": 0.03255443274974823
+        },
+        {
+          "rank": 5,
+          "tile": "4p",
+          "probability": 0.022089075297117233
+        },
+        {
+          "rank": 6,
+          "tile": "6p",
+          "probability": 0.020273694768548012
+        },
+        {
+          "rank": 7,
+          "tile": "7m",
+          "probability": 0.019116288051009178
+        },
+        {
+          "rank": 8,
+          "tile": "5p",
+          "probability": 0.016484607011079788
+        },
+        {
+          "rank": 9,
+          "tile": "1p",
+          "probability": 0.015704752877354622
+        },
+        {
+          "rank": 10,
+          "tile": "9m",
+          "probability": 0.014711637981235981
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "東",
+        "actual_tile": "2p"
+      },
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "東",
+      "actual_tile": "3p",
+      "confidence": 0.49234992265701294,
+      "correct": false,
+      "actual_rank": 3,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "東",
+          "probability": 0.49234992265701294
+        },
+        {
+          "rank": 2,
+          "tile": "中",
+          "probability": 0.09431131929159164
+        },
+        {
+          "rank": 3,
+          "tile": "3p",
+          "probability": 0.0627247616648674
+        },
+        {
+          "rank": 4,
+          "tile": "9p",
+          "probability": 0.05097013711929321
+        },
+        {
+          "rank": 5,
+          "tile": "1p",
+          "probability": 0.02269907109439373
+        },
+        {
+          "rank": 6,
+          "tile": "7m",
+          "probability": 0.021817006170749664
+        },
+        {
+          "rank": 7,
+          "tile": "4p",
+          "probability": 0.017407068982720375
+        },
+        {
+          "rank": 8,
+          "tile": "8p",
+          "probability": 0.016805598512291908
+        },
+        {
+          "rank": 9,
+          "tile": "6p",
+          "probability": 0.01672670803964138
+        },
+        {
+          "rank": 10,
+          "tile": "4s",
+          "probability": 0.015467300079762936
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "東",
+        "actual_tile": "3p"
+      },
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "9p",
+      "actual_tile": "4s",
+      "confidence": 0.12131897360086441,
+      "correct": false,
+      "actual_rank": 5,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "中",
+          "probability": 0.14116817712783813
+        },
+        {
+          "rank": 2,
+          "tile": "9p",
+          "probability": 0.12131897360086441
+        },
+        {
+          "rank": 3,
+          "tile": "東",
+          "probability": 0.06864005327224731
+        },
+        {
+          "rank": 4,
+          "tile": "西",
+          "probability": 0.05411611497402191
+        },
+        {
+          "rank": 5,
+          "tile": "4s",
+          "probability": 0.04492925852537155
+        },
+        {
+          "rank": 6,
+          "tile": "5s",
+          "probability": 0.042912907898426056
+        },
+        {
+          "rank": 7,
+          "tile": "北",
+          "probability": 0.03960196301341057
+        },
+        {
+          "rank": 8,
+          "tile": "1p",
+          "probability": 0.03366032987833023
+        },
+        {
+          "rank": 9,
+          "tile": "南",
+          "probability": 0.031555935740470886
+        },
+        {
+          "rank": 10,
+          "tile": "4p",
+          "probability": 0.027630021795630455
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "9p",
+        "actual_tile": "4s"
+      },
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "9p",
+      "actual_tile": "2s",
+      "confidence": 0.11828538775444031,
+      "correct": false,
+      "actual_rank": null,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "中",
+          "probability": 0.17430207133293152
+        },
+        {
+          "rank": 2,
+          "tile": "9p",
+          "probability": 0.11828538775444031
+        },
+        {
+          "rank": 3,
+          "tile": "東",
+          "probability": 0.07204009592533112
+        },
+        {
+          "rank": 4,
+          "tile": "西",
+          "probability": 0.06381144374608994
+        },
+        {
+          "rank": 5,
+          "tile": "北",
+          "probability": 0.03718395158648491
+        },
+        {
+          "rank": 6,
+          "tile": "7m",
+          "probability": 0.02983294054865837
+        },
+        {
+          "rank": 7,
+          "tile": "6p",
+          "probability": 0.029688989743590355
+        },
+        {
+          "rank": 8,
+          "tile": "1p",
+          "probability": 0.02898198366165161
+        },
+        {
+          "rank": 9,
+          "tile": "4p",
+          "probability": 0.028442101553082466
+        },
+        {
+          "rank": 10,
+          "tile": "南",
+          "probability": 0.02767680399119854
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "9p",
+        "actual_tile": "2s"
+      },
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "1m",
+      "actual_tile": "1m",
+      "confidence": 0.2881453037261963,
+      "correct": false,
+      "actual_rank": 1,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "1m",
+          "probability": 0.2881453037261963
+        },
+        {
+          "rank": 2,
+          "tile": "中",
+          "probability": 0.12275618314743042
+        },
+        {
+          "rank": 3,
+          "tile": "9p",
+          "probability": 0.06724279373884201
+        },
+        {
+          "rank": 4,
+          "tile": "東",
+          "probability": 0.0555804967880249
+        },
+        {
+          "rank": 5,
+          "tile": "西",
+          "probability": 0.05180773884057999
+        },
+        {
+          "rank": 6,
+          "tile": "北",
+          "probability": 0.027221687138080597
+        },
+        {
+          "rank": 7,
+          "tile": "4s",
+          "probability": 0.02496391534805298
+        },
+        {
+          "rank": 8,
+          "tile": "6p",
+          "probability": 0.024638792499899864
+        },
+        {
+          "rank": 9,
+          "tile": "5s",
+          "probability": 0.022485747933387756
+        },
+        {
+          "rank": 10,
+          "tile": "1p",
+          "probability": 0.020040463656187057
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "1m",
+        "actual_tile": "1m"
+      },
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "9p",
+      "actual_tile": "6m",
+      "confidence": 0.10149858146905899,
+      "correct": false,
+      "actual_rank": 7,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "中",
+          "probability": 0.19532349705696106
+        },
+        {
+          "rank": 2,
+          "tile": "9p",
+          "probability": 0.10149858146905899
+        },
+        {
+          "rank": 3,
+          "tile": "東",
+          "probability": 0.06483477354049683
+        },
+        {
+          "rank": 4,
+          "tile": "西",
+          "probability": 0.06162633001804352
+        },
+        {
+          "rank": 5,
+          "tile": "9m",
+          "probability": 0.061041396111249924
+        },
+        {
+          "rank": 6,
+          "tile": "北",
+          "probability": 0.03118222765624523
+        },
+        {
+          "rank": 7,
+          "tile": "6m",
+          "probability": 0.030859244987368584
+        },
+        {
+          "rank": 8,
+          "tile": "1p",
+          "probability": 0.028569284826517105
+        },
+        {
+          "rank": 9,
+          "tile": "7m",
+          "probability": 0.028082821518182755
+        },
+        {
+          "rank": 10,
+          "tile": "4p",
+          "probability": 0.02734091691672802
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "9p",
+        "actual_tile": "6m"
+      },
+      "round_index": 1
+    },
+    {
+      "predicted_tile": "白",
+      "actual_tile": "1s",
+      "confidence": 0.7087897658348083,
+      "correct": false,
+      "actual_rank": 2,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "白",
+          "probability": 0.7087897658348083
+        },
+        {
+          "rank": 2,
+          "tile": "1s",
+          "probability": 0.20158913731575012
+        },
+        {
+          "rank": 3,
+          "tile": "8m",
+          "probability": 0.018338637426495552
+        },
+        {
+          "rank": 4,
+          "tile": "2p",
+          "probability": 0.0066217477433383465
+        },
+        {
+          "rank": 5,
+          "tile": "4p",
+          "probability": 0.004571882542222738
+        },
+        {
+          "rank": 6,
+          "tile": "1p",
+          "probability": 0.004267422948032618
+        },
+        {
+          "rank": 7,
+          "tile": "中",
+          "probability": 0.003077430184930563
+        },
+        {
+          "rank": 8,
+          "tile": "3p",
+          "probability": 0.0030061432626098394
+        },
+        {
+          "rank": 9,
+          "tile": "4s",
+          "probability": 0.0028183867689222097
+        },
+        {
+          "rank": 10,
+          "tile": "2m",
+          "probability": 0.0027053572703152895
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "白",
+        "actual_tile": "1s"
+      },
+      "round_index": 2
+    },
+    {
+      "predicted_tile": "白",
+      "actual_tile": "8s",
+      "confidence": 0.8427389860153198,
+      "correct": false,
+      "actual_rank": 2,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "白",
+          "probability": 0.8427389860153198
+        },
+        {
+          "rank": 2,
+          "tile": "8s",
+          "probability": 0.03019351325929165
+        },
+        {
+          "rank": 3,
+          "tile": "8m",
+          "probability": 0.01690521277487278
+        },
+        {
+          "rank": 4,
+          "tile": "2p",
+          "probability": 0.015108403749763966
+        },
+        {
+          "rank": 5,
+          "tile": "4p",
+          "probability": 0.007301973178982735
+        },
+        {
+          "rank": 6,
+          "tile": "中",
+          "probability": 0.005163772962987423
+        },
+        {
+          "rank": 7,
+          "tile": "1p",
+          "probability": 0.004926117602735758
+        },
+        {
+          "rank": 8,
+          "tile": "2m",
+          "probability": 0.004905079025775194
+        },
+        {
+          "rank": 9,
+          "tile": "3p",
+          "probability": 0.004664270672947168
+        },
+        {
+          "rank": 10,
+          "tile": "7m",
+          "probability": 0.004533615428954363
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "白",
+        "actual_tile": "8s"
+      },
+      "round_index": 2
+    },
+    {
+      "predicted_tile": "北",
+      "actual_tile": "北",
+      "confidence": 0.613323986530304,
+      "correct": true,
+      "actual_rank": 1,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "北",
+          "probability": 0.613323986530304
+        },
+        {
+          "rank": 2,
+          "tile": "白",
+          "probability": 0.1702786684036255
+        },
+        {
+          "rank": 3,
+          "tile": "2p",
+          "probability": 0.03898927569389343
+        },
+        {
+          "rank": 4,
+          "tile": "8m",
+          "probability": 0.01597132347524166
+        },
+        {
+          "rank": 5,
+          "tile": "4p",
+          "probability": 0.014691798947751522
+        },
+        {
+          "rank": 6,
+          "tile": "7m",
+          "probability": 0.010924410074949265
+        },
+        {
+          "rank": 7,
+          "tile": "西",
+          "probability": 0.01032657828181982
+        },
+        {
+          "rank": 8,
+          "tile": "6p",
+          "probability": 0.009241447784006596
+        },
+        {
+          "rank": 9,
+          "tile": "1p",
+          "probability": 0.008104837499558926
+        },
+        {
+          "rank": 10,
+          "tile": "中",
+          "probability": 0.00761444354429841
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "北",
+        "actual_tile": "北"
+      },
+      "round_index": 2
+    },
+    {
+      "predicted_tile": "南",
+      "actual_tile": "南",
+      "confidence": 0.5039190649986267,
+      "correct": false,
+      "actual_rank": 1,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "南",
+          "probability": 0.5039190649986267
+        },
+        {
+          "rank": 2,
+          "tile": "白",
+          "probability": 0.15954281389713287
+        },
+        {
+          "rank": 3,
+          "tile": "2p",
+          "probability": 0.07181933522224426
+        },
+        {
+          "rank": 4,
+          "tile": "4p",
+          "probability": 0.024537643417716026
+        },
+        {
+          "rank": 5,
+          "tile": "7m",
+          "probability": 0.017936740070581436
+        },
+        {
+          "rank": 6,
+          "tile": "8m",
+          "probability": 0.015715252608060837
+        },
+        {
+          "rank": 7,
+          "tile": "6p",
+          "probability": 0.014475081115961075
+        },
+        {
+          "rank": 8,
+          "tile": "中",
+          "probability": 0.012553264386951923
+        },
+        {
+          "rank": 9,
+          "tile": "東",
+          "probability": 0.012521474622189999
+        },
+        {
+          "rank": 10,
+          "tile": "西",
+          "probability": 0.011349526233971119
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "南",
+        "actual_tile": "南"
+      },
+      "round_index": 2
+    },
+    {
+      "predicted_tile": "白",
+      "actual_tile": "9s",
+      "confidence": 0.39967480301856995,
+      "correct": false,
+      "actual_rank": 2,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "白",
+          "probability": 0.39967480301856995
+        },
+        {
+          "rank": 2,
+          "tile": "9s",
+          "probability": 0.1437450647354126
+        },
+        {
+          "rank": 3,
+          "tile": "2p",
+          "probability": 0.11770173162221909
+        },
+        {
+          "rank": 4,
+          "tile": "4p",
+          "probability": 0.03708992153406143
+        },
+        {
+          "rank": 5,
+          "tile": "中",
+          "probability": 0.03207424655556679
+        },
+        {
+          "rank": 6,
+          "tile": "7m",
+          "probability": 0.02373705431818962
+        },
+        {
+          "rank": 7,
+          "tile": "西",
+          "probability": 0.020638512447476387
+        },
+        {
+          "rank": 8,
+          "tile": "8m",
+          "probability": 0.020328255370259285
+        },
+        {
+          "rank": 9,
+          "tile": "東",
+          "probability": 0.019884686917066574
+        },
+        {
+          "rank": 10,
+          "tile": "6p",
+          "probability": 0.019336126744747162
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "白",
+        "actual_tile": "9s"
+      },
+      "round_index": 2
+    },
+    {
+      "predicted_tile": "白",
+      "actual_tile": "4s",
+      "confidence": 0.33016231656074524,
+      "correct": false,
+      "actual_rank": null,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "白",
+          "probability": 0.33016231656074524
+        },
+        {
+          "rank": 2,
+          "tile": "2p",
+          "probability": 0.22282786667346954
+        },
+        {
+          "rank": 3,
+          "tile": "4p",
+          "probability": 0.04465385898947716
+        },
+        {
+          "rank": 4,
+          "tile": "中",
+          "probability": 0.04431266710162163
+        },
+        {
+          "rank": 5,
+          "tile": "西",
+          "probability": 0.033963195979595184
+        },
+        {
+          "rank": 6,
+          "tile": "東",
+          "probability": 0.030345963314175606
+        },
+        {
+          "rank": 7,
+          "tile": "7m",
+          "probability": 0.03028278611600399
+        },
+        {
+          "rank": 8,
+          "tile": "8m",
+          "probability": 0.026709740981459618
+        },
+        {
+          "rank": 9,
+          "tile": "北",
+          "probability": 0.023509306833148003
+        },
+        {
+          "rank": 10,
+          "tile": "6p",
+          "probability": 0.022016918286681175
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "白",
+        "actual_tile": "4s"
+      },
+      "round_index": 2
+    },
+    {
+      "predicted_tile": "9s",
+      "actual_tile": "9s",
+      "confidence": 0.9279292225837708,
+      "correct": false,
+      "actual_rank": 1,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "9s",
+          "probability": 0.9279292225837708
+        },
+        {
+          "rank": 2,
+          "tile": "南",
+          "probability": 0.00742820929735899
+        },
+        {
+          "rank": 3,
+          "tile": "2s",
+          "probability": 0.006625108886510134
+        },
+        {
+          "rank": 4,
+          "tile": "1p",
+          "probability": 0.005457714665681124
+        },
+        {
+          "rank": 5,
+          "tile": "1m",
+          "probability": 0.0045631928369402885
+        },
+        {
+          "rank": 6,
+          "tile": "7p",
+          "probability": 0.0038010398857295513
+        },
+        {
+          "rank": 7,
+          "tile": "2p",
+          "probability": 0.0031759212724864483
+        },
+        {
+          "rank": 8,
+          "tile": "6s",
+          "probability": 0.0031670413445681334
+        },
+        {
+          "rank": 9,
+          "tile": "2m",
+          "probability": 0.0030860668048262596
+        },
+        {
+          "rank": 10,
+          "tile": "8s",
+          "probability": 0.0026324542704969645
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "9s",
+        "actual_tile": "9s"
+      },
+      "round_index": 3
+    },
+    {
+      "predicted_tile": "南",
+      "actual_tile": "南",
+      "confidence": 0.4636884927749634,
+      "correct": true,
+      "actual_rank": 1,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "南",
+          "probability": 0.4636884927749634
+        },
+        {
+          "rank": 2,
+          "tile": "2s",
+          "probability": 0.17228277027606964
+        },
+        {
+          "rank": 3,
+          "tile": "1m",
+          "probability": 0.05987906828522682
+        },
+        {
+          "rank": 4,
+          "tile": "1p",
+          "probability": 0.047777071595191956
+        },
+        {
+          "rank": 5,
+          "tile": "7p",
+          "probability": 0.025235777720808983
+        },
+        {
+          "rank": 6,
+          "tile": "2m",
+          "probability": 0.02257370762526989
+        },
+        {
+          "rank": 7,
+          "tile": "6s",
+          "probability": 0.022000765427947044
+        },
+        {
+          "rank": 8,
+          "tile": "2p",
+          "probability": 0.02099037729203701
+        },
+        {
+          "rank": 9,
+          "tile": "中",
+          "probability": 0.016629410907626152
+        },
+        {
+          "rank": 10,
+          "tile": "4p",
+          "probability": 0.011756974272429943
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "南",
+        "actual_tile": "南"
+      },
+      "round_index": 3
+    },
+    {
+      "predicted_tile": "南",
+      "actual_tile": "南",
+      "confidence": 0.7857576012611389,
+      "correct": false,
+      "actual_rank": 1,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "南",
+          "probability": 0.7857576012611389
+        },
+        {
+          "rank": 2,
+          "tile": "2s",
+          "probability": 0.03951158747076988
+        },
+        {
+          "rank": 3,
+          "tile": "1m",
+          "probability": 0.03296827897429466
+        },
+        {
+          "rank": 4,
+          "tile": "1p",
+          "probability": 0.014999051578342915
+        },
+        {
+          "rank": 5,
+          "tile": "6s",
+          "probability": 0.008193587884306908
+        },
+        {
+          "rank": 6,
+          "tile": "6m",
+          "probability": 0.007353993132710457
+        },
+        {
+          "rank": 7,
+          "tile": "2m",
+          "probability": 0.007148528005927801
+        },
+        {
+          "rank": 8,
+          "tile": "中",
+          "probability": 0.0071181124076247215
+        },
+        {
+          "rank": 9,
+          "tile": "2p",
+          "probability": 0.007106277160346508
+        },
+        {
+          "rank": 10,
+          "tile": "4p",
+          "probability": 0.006846241187304258
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "南",
+        "actual_tile": "南"
+      },
+      "round_index": 3
+    },
+    {
+      "predicted_tile": "1m",
+      "actual_tile": "7p",
+      "confidence": 0.25919651985168457,
+      "correct": false,
+      "actual_rank": 10,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "1m",
+          "probability": 0.25919651985168457
+        },
+        {
+          "rank": 2,
+          "tile": "2s",
+          "probability": 0.19603417813777924
+        },
+        {
+          "rank": 3,
+          "tile": "1p",
+          "probability": 0.1474216729402542
+        },
+        {
+          "rank": 4,
+          "tile": "中",
+          "probability": 0.04321783408522606
+        },
+        {
+          "rank": 5,
+          "tile": "6s",
+          "probability": 0.028857773169875145
+        },
+        {
+          "rank": 6,
+          "tile": "東",
+          "probability": 0.02528049610555172
+        },
+        {
+          "rank": 7,
+          "tile": "2p",
+          "probability": 0.021008530631661415
+        },
+        {
+          "rank": 8,
+          "tile": "2m",
+          "probability": 0.020233195275068283
+        },
+        {
+          "rank": 9,
+          "tile": "1s",
+          "probability": 0.018329473212361336
+        },
+        {
+          "rank": 10,
+          "tile": "7p",
+          "probability": 0.016912801191210747
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "1m",
+        "actual_tile": "7p"
+      },
+      "round_index": 3
+    },
+    {
+      "predicted_tile": "9s",
+      "actual_tile": "9s",
+      "confidence": 0.47990208864212036,
+      "correct": false,
+      "actual_rank": 1,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "9s",
+          "probability": 0.47990208864212036
+        },
+        {
+          "rank": 2,
+          "tile": "1m",
+          "probability": 0.09009943902492523
+        },
+        {
+          "rank": 3,
+          "tile": "2s",
+          "probability": 0.06870315223932266
+        },
+        {
+          "rank": 4,
+          "tile": "1p",
+          "probability": 0.05566531792283058
+        },
+        {
+          "rank": 5,
+          "tile": "中",
+          "probability": 0.038213714957237244
+        },
+        {
+          "rank": 6,
+          "tile": "6s",
+          "probability": 0.020952410995960236
+        },
+        {
+          "rank": 7,
+          "tile": "東",
+          "probability": 0.01846633106470108
+        },
+        {
+          "rank": 8,
+          "tile": "4p",
+          "probability": 0.0178826991468668
+        },
+        {
+          "rank": 9,
+          "tile": "6p",
+          "probability": 0.017053326591849327
+        },
+        {
+          "rank": 10,
+          "tile": "西",
+          "probability": 0.014997326768934727
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "9s",
+        "actual_tile": "9s"
+      },
+      "round_index": 3
+    },
+    {
+      "predicted_tile": "中",
+      "actual_tile": "中",
+      "confidence": 0.8248379826545715,
+      "correct": false,
+      "actual_rank": 1,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "中",
+          "probability": 0.8248379826545715
+        },
+        {
+          "rank": 2,
+          "tile": "1m",
+          "probability": 0.02938067354261875
+        },
+        {
+          "rank": 3,
+          "tile": "1p",
+          "probability": 0.015279443003237247
+        },
+        {
+          "rank": 4,
+          "tile": "2s",
+          "probability": 0.015017613768577576
+        },
+        {
+          "rank": 5,
+          "tile": "6s",
+          "probability": 0.00858503021299839
+        },
+        {
+          "rank": 6,
+          "tile": "4p",
+          "probability": 0.007812444120645523
+        },
+        {
+          "rank": 7,
+          "tile": "6p",
+          "probability": 0.006876871921122074
+        },
+        {
+          "rank": 8,
+          "tile": "7m",
+          "probability": 0.006291871424764395
+        },
+        {
+          "rank": 9,
+          "tile": "2p",
+          "probability": 0.005980376154184341
+        },
+        {
+          "rank": 10,
+          "tile": "東",
+          "probability": 0.005812643561512232
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "中",
+        "actual_tile": "中"
+      },
+      "round_index": 3
+    },
+    {
+      "predicted_tile": "1p",
+      "actual_tile": "1p",
+      "confidence": 0.19697779417037964,
+      "correct": false,
+      "actual_rank": 1,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "1p",
+          "probability": 0.19697779417037964
+        },
+        {
+          "rank": 2,
+          "tile": "1m",
+          "probability": 0.14664657413959503
+        },
+        {
+          "rank": 3,
+          "tile": "2p",
+          "probability": 0.12175159156322479
+        },
+        {
+          "rank": 4,
+          "tile": "2s",
+          "probability": 0.09475443512201309
+        },
+        {
+          "rank": 5,
+          "tile": "中",
+          "probability": 0.05831906199455261
+        },
+        {
+          "rank": 6,
+          "tile": "6p",
+          "probability": 0.03316423296928406
+        },
+        {
+          "rank": 7,
+          "tile": "西",
+          "probability": 0.030000243335962296
+        },
+        {
+          "rank": 8,
+          "tile": "東",
+          "probability": 0.028620056807994843
+        },
+        {
+          "rank": 9,
+          "tile": "6s",
+          "probability": 0.028404105454683304
+        },
+        {
+          "rank": 10,
+          "tile": "4p",
+          "probability": 0.024017101153731346
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "1p",
+        "actual_tile": "1p"
+      },
+      "round_index": 3
+    },
+    {
+      "predicted_tile": "1p",
+      "actual_tile": "1p",
+      "confidence": 0.21427249908447266,
+      "correct": false,
+      "actual_rank": 1,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "1p",
+          "probability": 0.21427249908447266
+        },
+        {
+          "rank": 2,
+          "tile": "2p",
+          "probability": 0.12540143728256226
+        },
+        {
+          "rank": 3,
+          "tile": "1m",
+          "probability": 0.12074191123247147
+        },
+        {
+          "rank": 4,
+          "tile": "2s",
+          "probability": 0.07128028571605682
+        },
+        {
+          "rank": 5,
+          "tile": "中",
+          "probability": 0.0642009824514389
+        },
+        {
+          "rank": 6,
+          "tile": "6p",
+          "probability": 0.03591494262218475
+        },
+        {
+          "rank": 7,
+          "tile": "西",
+          "probability": 0.03489441052079201
+        },
+        {
+          "rank": 8,
+          "tile": "東",
+          "probability": 0.03126569464802742
+        },
+        {
+          "rank": 9,
+          "tile": "6s",
+          "probability": 0.028489436954259872
+        },
+        {
+          "rank": 10,
+          "tile": "4p",
+          "probability": 0.02747671864926815
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "1p",
+        "actual_tile": "1p"
+      },
+      "round_index": 3
+    },
+    {
+      "predicted_tile": "2p",
+      "actual_tile": "1m",
+      "confidence": 0.20174439251422882,
+      "correct": false,
+      "actual_rank": 2,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "2p",
+          "probability": 0.20174439251422882
+        },
+        {
+          "rank": 2,
+          "tile": "1m",
+          "probability": 0.15749037265777588
+        },
+        {
+          "rank": 3,
+          "tile": "中",
+          "probability": 0.08914325386285782
+        },
+        {
+          "rank": 4,
+          "tile": "2s",
+          "probability": 0.07434527575969696
+        },
+        {
+          "rank": 5,
+          "tile": "6p",
+          "probability": 0.044317618012428284
+        },
+        {
+          "rank": 6,
+          "tile": "西",
+          "probability": 0.04426546394824982
+        },
+        {
+          "rank": 7,
+          "tile": "4p",
+          "probability": 0.03648453205823898
+        },
+        {
+          "rank": 8,
+          "tile": "東",
+          "probability": 0.035691507160663605
+        },
+        {
+          "rank": 9,
+          "tile": "6s",
+          "probability": 0.03166848048567772
+        },
+        {
+          "rank": 10,
+          "tile": "北",
+          "probability": 0.029811019077897072
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "2p",
+        "actual_tile": "1m"
+      },
+      "round_index": 3
+    },
+    {
+      "predicted_tile": "東",
+      "actual_tile": "東",
+      "confidence": 0.6343914866447449,
+      "correct": false,
+      "actual_rank": 1,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "東",
+          "probability": 0.6343914866447449
+        },
+        {
+          "rank": 2,
+          "tile": "2p",
+          "probability": 0.08472359925508499
+        },
+        {
+          "rank": 3,
+          "tile": "4p",
+          "probability": 0.030450761318206787
+        },
+        {
+          "rank": 4,
+          "tile": "中",
+          "probability": 0.023938005790114403
+        },
+        {
+          "rank": 5,
+          "tile": "6p",
+          "probability": 0.02204085700213909
+        },
+        {
+          "rank": 6,
+          "tile": "7m",
+          "probability": 0.014882028102874756
+        },
+        {
+          "rank": 7,
+          "tile": "6s",
+          "probability": 0.014627182856202126
+        },
+        {
+          "rank": 8,
+          "tile": "2s",
+          "probability": 0.010440989397466183
+        },
+        {
+          "rank": 9,
+          "tile": "5m",
+          "probability": 0.010337206535041332
+        },
+        {
+          "rank": 10,
+          "tile": "1p",
+          "probability": 0.010166950523853302
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "東",
+        "actual_tile": "東"
+      },
+      "round_index": 3
+    },
+    {
+      "predicted_tile": "2p",
+      "actual_tile": "9p",
+      "confidence": 0.2587657868862152,
+      "correct": false,
+      "actual_rank": 3,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "2p",
+          "probability": 0.2587657868862152
+        },
+        {
+          "rank": 2,
+          "tile": "中",
+          "probability": 0.09743678569793701
+        },
+        {
+          "rank": 3,
+          "tile": "9p",
+          "probability": 0.04828568547964096
+        },
+        {
+          "rank": 4,
+          "tile": "6s",
+          "probability": 0.04813119396567345
+        },
+        {
+          "rank": 5,
+          "tile": "4p",
+          "probability": 0.04788322001695633
+        },
+        {
+          "rank": 6,
+          "tile": "西",
+          "probability": 0.04186262562870979
+        },
+        {
+          "rank": 7,
+          "tile": "6p",
+          "probability": 0.038699921220541
+        },
+        {
+          "rank": 8,
+          "tile": "2s",
+          "probability": 0.034490227699279785
+        },
+        {
+          "rank": 9,
+          "tile": "東",
+          "probability": 0.03434813767671585
+        },
+        {
+          "rank": 10,
+          "tile": "7m",
+          "probability": 0.028727183118462563
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "2p",
+        "actual_tile": "9p"
+      },
+      "round_index": 3
+    },
+    {
+      "predicted_tile": "2s",
+      "actual_tile": "6m",
+      "confidence": 0.12018711119890213,
+      "correct": false,
+      "actual_rank": null,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "中",
+          "probability": 0.1378505378961563
+        },
+        {
+          "rank": 2,
+          "tile": "2s",
+          "probability": 0.12018711119890213
+        },
+        {
+          "rank": 3,
+          "tile": "6s",
+          "probability": 0.09715059399604797
+        },
+        {
+          "rank": 4,
+          "tile": "1p",
+          "probability": 0.045935824513435364
+        },
+        {
+          "rank": 5,
+          "tile": "西",
+          "probability": 0.04361479729413986
+        },
+        {
+          "rank": 6,
+          "tile": "6p",
+          "probability": 0.04244023561477661
+        },
+        {
+          "rank": 7,
+          "tile": "北",
+          "probability": 0.04098277539014816
+        },
+        {
+          "rank": 8,
+          "tile": "東",
+          "probability": 0.039004839956760406
+        },
+        {
+          "rank": 9,
+          "tile": "1s",
+          "probability": 0.03814822807908058
+        },
+        {
+          "rank": 10,
+          "tile": "4p",
+          "probability": 0.03748079389333725
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "2s",
+        "actual_tile": "6m"
+      },
+      "round_index": 3
+    },
+    {
+      "predicted_tile": "2s",
+      "actual_tile": "8m",
+      "confidence": 0.11063382029533386,
+      "correct": false,
+      "actual_rank": null,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "中",
+          "probability": 0.13901835680007935
+        },
+        {
+          "rank": 2,
+          "tile": "2s",
+          "probability": 0.11063382029533386
+        },
+        {
+          "rank": 3,
+          "tile": "6s",
+          "probability": 0.07161103934049606
+        },
+        {
+          "rank": 4,
+          "tile": "西",
+          "probability": 0.04798716679215431
+        },
+        {
+          "rank": 5,
+          "tile": "北",
+          "probability": 0.04540492221713066
+        },
+        {
+          "rank": 6,
+          "tile": "1p",
+          "probability": 0.043586213141679764
+        },
+        {
+          "rank": 7,
+          "tile": "6p",
+          "probability": 0.04290212690830231
+        },
+        {
+          "rank": 8,
+          "tile": "東",
+          "probability": 0.03775965794920921
+        },
+        {
+          "rank": 9,
+          "tile": "7m",
+          "probability": 0.03680252283811569
+        },
+        {
+          "rank": 10,
+          "tile": "4p",
+          "probability": 0.036441728472709656
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "2s",
+        "actual_tile": "8m"
+      },
+      "round_index": 3
+    },
+    {
+      "predicted_tile": "2s",
+      "actual_tile": "4s",
+      "confidence": 0.0879523903131485,
+      "correct": false,
+      "actual_rank": 6,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "中",
+          "probability": 0.14485706388950348
+        },
+        {
+          "rank": 2,
+          "tile": "2s",
+          "probability": 0.0879523903131485
+        },
+        {
+          "rank": 3,
+          "tile": "西",
+          "probability": 0.05390828847885132
+        },
+        {
+          "rank": 4,
+          "tile": "北",
+          "probability": 0.04896053299307823
+        },
+        {
+          "rank": 5,
+          "tile": "1p",
+          "probability": 0.04779157415032387
+        },
+        {
+          "rank": 6,
+          "tile": "4s",
+          "probability": 0.04664832726120949
+        },
+        {
+          "rank": 7,
+          "tile": "東",
+          "probability": 0.044920913875103
+        },
+        {
+          "rank": 8,
+          "tile": "6p",
+          "probability": 0.04466833174228668
+        },
+        {
+          "rank": 9,
+          "tile": "4p",
+          "probability": 0.03973362594842911
+        },
+        {
+          "rank": 10,
+          "tile": "1s",
+          "probability": 0.03411819785833359
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "2s",
+        "actual_tile": "4s"
+      },
+      "round_index": 3
+    },
+    {
+      "predicted_tile": "西",
+      "actual_tile": "西",
+      "confidence": 0.7336379289627075,
+      "correct": false,
+      "actual_rank": 1,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "西",
+          "probability": 0.7336379289627075
+        },
+        {
+          "rank": 2,
+          "tile": "白",
+          "probability": 0.11127196997404099
+        },
+        {
+          "rank": 3,
+          "tile": "4p",
+          "probability": 0.02863791584968567
+        },
+        {
+          "rank": 4,
+          "tile": "9m",
+          "probability": 0.01276980247348547
+        },
+        {
+          "rank": 5,
+          "tile": "南",
+          "probability": 0.009317278861999512
+        },
+        {
+          "rank": 6,
+          "tile": "5m",
+          "probability": 0.008455934002995491
+        },
+        {
+          "rank": 7,
+          "tile": "2m",
+          "probability": 0.008065704256296158
+        },
+        {
+          "rank": 8,
+          "tile": "3p",
+          "probability": 0.0058732712641358376
+        },
+        {
+          "rank": 9,
+          "tile": "2p",
+          "probability": 0.005396472290158272
+        },
+        {
+          "rank": 10,
+          "tile": "6s",
+          "probability": 0.00524781784042716
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "西",
+        "actual_tile": "西"
+      },
+      "round_index": 4
+    },
+    {
+      "predicted_tile": "白",
+      "actual_tile": "9m",
+      "confidence": 0.7103994488716125,
+      "correct": false,
+      "actual_rank": 6,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "白",
+          "probability": 0.7103994488716125
+        },
+        {
+          "rank": 2,
+          "tile": "4p",
+          "probability": 0.07188741862773895
+        },
+        {
+          "rank": 3,
+          "tile": "南",
+          "probability": 0.03514551371335983
+        },
+        {
+          "rank": 4,
+          "tile": "1m",
+          "probability": 0.016796326264739037
+        },
+        {
+          "rank": 5,
+          "tile": "5m",
+          "probability": 0.01322578638792038
+        },
+        {
+          "rank": 6,
+          "tile": "9m",
+          "probability": 0.012991233728826046
+        },
+        {
+          "rank": 7,
+          "tile": "3p",
+          "probability": 0.010592479258775711
+        },
+        {
+          "rank": 8,
+          "tile": "2m",
+          "probability": 0.009468731470406055
+        },
+        {
+          "rank": 9,
+          "tile": "6p",
+          "probability": 0.008803119882941246
+        },
+        {
+          "rank": 10,
+          "tile": "2p",
+          "probability": 0.008426818065345287
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "白",
+        "actual_tile": "9m"
+      },
+      "round_index": 4
+    },
+    {
+      "predicted_tile": "白",
+      "actual_tile": "南",
+      "confidence": 0.48762941360473633,
+      "correct": false,
+      "actual_rank": 2,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "白",
+          "probability": 0.48762941360473633
+        },
+        {
+          "rank": 2,
+          "tile": "南",
+          "probability": 0.09652312099933624
+        },
+        {
+          "rank": 3,
+          "tile": "9p",
+          "probability": 0.057195134460926056
+        },
+        {
+          "rank": 4,
+          "tile": "4p",
+          "probability": 0.056632623076438904
+        },
+        {
+          "rank": 5,
+          "tile": "1m",
+          "probability": 0.0495975986123085
+        },
+        {
+          "rank": 6,
+          "tile": "5m",
+          "probability": 0.021917592734098434
+        },
+        {
+          "rank": 7,
+          "tile": "6p",
+          "probability": 0.017924457788467407
+        },
+        {
+          "rank": 8,
+          "tile": "3p",
+          "probability": 0.01665009744465351
+        },
+        {
+          "rank": 9,
+          "tile": "6s",
+          "probability": 0.014314761385321617
+        },
+        {
+          "rank": 10,
+          "tile": "2p",
+          "probability": 0.013576837256550789
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "白",
+        "actual_tile": "南"
+      },
+      "round_index": 4
+    },
+    {
+      "predicted_tile": "南",
+      "actual_tile": "南",
+      "confidence": 0.41635268926620483,
+      "correct": false,
+      "actual_rank": 1,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "南",
+          "probability": 0.41635268926620483
+        },
+        {
+          "rank": 2,
+          "tile": "白",
+          "probability": 0.221967414021492
+        },
+        {
+          "rank": 3,
+          "tile": "1m",
+          "probability": 0.049233999103307724
+        },
+        {
+          "rank": 4,
+          "tile": "9p",
+          "probability": 0.030204376205801964
+        },
+        {
+          "rank": 5,
+          "tile": "4p",
+          "probability": 0.025937702506780624
+        },
+        {
+          "rank": 6,
+          "tile": "6p",
+          "probability": 0.019846273586153984
+        },
+        {
+          "rank": 7,
+          "tile": "5m",
+          "probability": 0.01838778890669346
+        },
+        {
+          "rank": 8,
+          "tile": "3p",
+          "probability": 0.016351787373423576
+        },
+        {
+          "rank": 9,
+          "tile": "2p",
+          "probability": 0.016249308362603188
+        },
+        {
+          "rank": 10,
+          "tile": "6s",
+          "probability": 0.013651232235133648
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "南",
+        "actual_tile": "南"
+      },
+      "round_index": 4
+    },
+    {
+      "predicted_tile": "白",
+      "actual_tile": "9p",
+      "confidence": 0.5992803573608398,
+      "correct": false,
+      "actual_rank": 4,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "白",
+          "probability": 0.5992803573608398
+        },
+        {
+          "rank": 2,
+          "tile": "1m",
+          "probability": 0.062099676579236984
+        },
+        {
+          "rank": 3,
+          "tile": "2p",
+          "probability": 0.04871271550655365
+        },
+        {
+          "rank": 4,
+          "tile": "9p",
+          "probability": 0.03637918084859848
+        },
+        {
+          "rank": 5,
+          "tile": "4p",
+          "probability": 0.02379639260470867
+        },
+        {
+          "rank": 6,
+          "tile": "6p",
+          "probability": 0.018504688516259193
+        },
+        {
+          "rank": 7,
+          "tile": "中",
+          "probability": 0.01805078610777855
+        },
+        {
+          "rank": 8,
+          "tile": "3p",
+          "probability": 0.01722143217921257
+        },
+        {
+          "rank": 9,
+          "tile": "5m",
+          "probability": 0.015432541258633137
+        },
+        {
+          "rank": 10,
+          "tile": "西",
+          "probability": 0.013919660821557045
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "白",
+        "actual_tile": "9p"
+      },
+      "round_index": 4
+    },
+    {
+      "predicted_tile": "白",
+      "actual_tile": "1m",
+      "confidence": 0.7035365104675293,
+      "correct": false,
+      "actual_rank": 2,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "白",
+          "probability": 0.7035365104675293
+        },
+        {
+          "rank": 2,
+          "tile": "1m",
+          "probability": 0.052888400852680206
+        },
+        {
+          "rank": 3,
+          "tile": "4p",
+          "probability": 0.019094280898571014
+        },
+        {
+          "rank": 4,
+          "tile": "2p",
+          "probability": 0.018765902146697044
+        },
+        {
+          "rank": 5,
+          "tile": "6p",
+          "probability": 0.017169004306197166
+        },
+        {
+          "rank": 6,
+          "tile": "西",
+          "probability": 0.01485434826463461
+        },
+        {
+          "rank": 7,
+          "tile": "中",
+          "probability": 0.014641610905528069
+        },
+        {
+          "rank": 8,
+          "tile": "5m",
+          "probability": 0.013559865765273571
+        },
+        {
+          "rank": 9,
+          "tile": "3p",
+          "probability": 0.011796263046562672
+        },
+        {
+          "rank": 10,
+          "tile": "東",
+          "probability": 0.01121466513723135
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "白",
+        "actual_tile": "1m"
+      },
+      "round_index": 4
+    },
+    {
+      "predicted_tile": "白",
+      "actual_tile": "2m",
+      "confidence": 0.7026150226593018,
+      "correct": false,
+      "actual_rank": null,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "白",
+          "probability": 0.7026150226593018
+        },
+        {
+          "rank": 2,
+          "tile": "3p",
+          "probability": 0.025654703378677368
+        },
+        {
+          "rank": 3,
+          "tile": "4p",
+          "probability": 0.02173888497054577
+        },
+        {
+          "rank": 4,
+          "tile": "2p",
+          "probability": 0.021628985181450844
+        },
+        {
+          "rank": 5,
+          "tile": "中",
+          "probability": 0.020206645131111145
+        },
+        {
+          "rank": 6,
+          "tile": "西",
+          "probability": 0.019442277029156685
+        },
+        {
+          "rank": 7,
+          "tile": "6p",
+          "probability": 0.01926330476999283
+        },
+        {
+          "rank": 8,
+          "tile": "5m",
+          "probability": 0.013967392034828663
+        },
+        {
+          "rank": 9,
+          "tile": "東",
+          "probability": 0.012364031746983528
+        },
+        {
+          "rank": 10,
+          "tile": "北",
+          "probability": 0.010981941595673561
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "白",
+        "actual_tile": "2m"
+      },
+      "round_index": 4
+    },
+    {
+      "predicted_tile": "白",
+      "actual_tile": "2s",
+      "confidence": 0.6499005556106567,
+      "correct": false,
+      "actual_rank": null,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "白",
+          "probability": 0.6499005556106567
+        },
+        {
+          "rank": 2,
+          "tile": "3p",
+          "probability": 0.030738089233636856
+        },
+        {
+          "rank": 3,
+          "tile": "2p",
+          "probability": 0.027434352785348892
+        },
+        {
+          "rank": 4,
+          "tile": "中",
+          "probability": 0.02661879174411297
+        },
+        {
+          "rank": 5,
+          "tile": "4p",
+          "probability": 0.025083204731345177
+        },
+        {
+          "rank": 6,
+          "tile": "西",
+          "probability": 0.022964829578995705
+        },
+        {
+          "rank": 7,
+          "tile": "6p",
+          "probability": 0.0227874293923378
+        },
+        {
+          "rank": 8,
+          "tile": "5m",
+          "probability": 0.019272183999419212
+        },
+        {
+          "rank": 9,
+          "tile": "東",
+          "probability": 0.01521927211433649
+        },
+        {
+          "rank": 10,
+          "tile": "北",
+          "probability": 0.013195561245083809
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "白",
+        "actual_tile": "2s"
+      },
+      "round_index": 4
+    },
+    {
+      "predicted_tile": "白",
+      "actual_tile": "白",
+      "confidence": 0.601345956325531,
+      "correct": true,
+      "actual_rank": 1,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "白",
+          "probability": 0.601345956325531
+        },
+        {
+          "rank": 2,
+          "tile": "1p",
+          "probability": 0.06716560572385788
+        },
+        {
+          "rank": 3,
+          "tile": "3p",
+          "probability": 0.02517729438841343
+        },
+        {
+          "rank": 4,
+          "tile": "中",
+          "probability": 0.024289436638355255
+        },
+        {
+          "rank": 5,
+          "tile": "6p",
+          "probability": 0.023159217089414597
+        },
+        {
+          "rank": 6,
+          "tile": "4p",
+          "probability": 0.02298613265156746
+        },
+        {
+          "rank": 7,
+          "tile": "西",
+          "probability": 0.021425871178507805
+        },
+        {
+          "rank": 8,
+          "tile": "5m",
+          "probability": 0.02134121023118496
+        },
+        {
+          "rank": 9,
+          "tile": "2p",
+          "probability": 0.01828611083328724
+        },
+        {
+          "rank": 10,
+          "tile": "東",
+          "probability": 0.01599806733429432
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "白",
+        "actual_tile": "白"
+      },
+      "round_index": 4
+    },
+    {
+      "predicted_tile": "1p",
+      "actual_tile": "6s",
+      "confidence": 0.287786066532135,
+      "correct": false,
+      "actual_rank": 2,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "1p",
+          "probability": 0.287786066532135
+        },
+        {
+          "rank": 2,
+          "tile": "6s",
+          "probability": 0.12181496620178223
+        },
+        {
+          "rank": 3,
+          "tile": "中",
+          "probability": 0.08551385253667831
+        },
+        {
+          "rank": 4,
+          "tile": "5m",
+          "probability": 0.04308268055319786
+        },
+        {
+          "rank": 5,
+          "tile": "2p",
+          "probability": 0.04077795147895813
+        },
+        {
+          "rank": 6,
+          "tile": "西",
+          "probability": 0.0383860319852829
+        },
+        {
+          "rank": 7,
+          "tile": "3p",
+          "probability": 0.03820119425654411
+        },
+        {
+          "rank": 8,
+          "tile": "4p",
+          "probability": 0.036494143307209015
+        },
+        {
+          "rank": 9,
+          "tile": "東",
+          "probability": 0.0292372889816761
+        },
+        {
+          "rank": 10,
+          "tile": "6p",
+          "probability": 0.02840958535671234
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "1p",
+        "actual_tile": "6s"
+      },
+      "round_index": 4
+    },
+    {
+      "predicted_tile": "1p",
+      "actual_tile": "5m",
+      "confidence": 0.24000822007656097,
+      "correct": false,
+      "actual_rank": 3,
+      "top_predictions": [
+        {
+          "rank": 1,
+          "tile": "1p",
+          "probability": 0.24000822007656097
+        },
+        {
+          "rank": 2,
+          "tile": "中",
+          "probability": 0.09965774416923523
+        },
+        {
+          "rank": 3,
+          "tile": "5m",
+          "probability": 0.06760960072278976
+        },
+        {
+          "rank": 4,
+          "tile": "2p",
+          "probability": 0.0578148290514946
+        },
+        {
+          "rank": 5,
+          "tile": "6p",
+          "probability": 0.0422234944999218
+        },
+        {
+          "rank": 6,
+          "tile": "西",
+          "probability": 0.04169617220759392
+        },
+        {
+          "rank": 7,
+          "tile": "4p",
+          "probability": 0.03870966657996178
+        },
+        {
+          "rank": 8,
+          "tile": "東",
+          "probability": 0.03788815066218376
+        },
+        {
+          "rank": 9,
+          "tile": "3p",
+          "probability": 0.034668538719415665
+        },
+        {
+          "rank": 10,
+          "tile": "發",
+          "probability": 0.03228171542286873
+        }
+      ],
+      "ukeire_comparison": {
+        "error": "受け入れ比較エラー: 'GameState' object has no attribute 'current_hands'",
+        "predicted_tile": "1p",
+        "actual_tile": "5m"
+      },
+      "round_index": 4
+    }
+  ],
+  "metrics": {
+    "exact_accuracy": 0.07692307692307693,
+    "top3_accuracy": 0.6923076923076923,
+    "top5_accuracy": 0.7435897435897436,
+    "exact_matches": 3,
+    "top3_matches": 27,
+    "top5_matches": 29,
+    "rank_distribution": {
+      "3": 4,
+      "1": 15,
+      "2": 8,
+      "5": 1,
+      "圏外": 6,
+      "7": 1,
+      "10": 1,
+      "6": 2,
+      "4": 1
+    },
+    "confidence_accuracy": {
+      "高信頼度(>0.5)": 0.11764705882352941,
+      "中信頼度(0.2-0.5)": 0.06666666666666667,
+      "低信頼度(<0.2)": 0.0
+    },
+    "average_confidence": 0.4691588208079338
+  },
+  "round_statistics": {
+    "第1局": {
+      "total_moments": 8,
+      "exact_accuracy": 0.0,
+      "top3_accuracy": 0.625,
+      "average_confidence": 0.3999819662421942
+    },
+    "第2局": {
+      "total_moments": 6,
+      "exact_accuracy": 0.16666666666666666,
+      "top3_accuracy": 0.8333333333333334,
+      "average_confidence": 0.5664348204930624
+    },
+    "第3局": {
+      "total_moments": 14,
+      "exact_accuracy": 0.07142857142857142,
+      "top3_accuracy": 0.7142857142857143,
+      "average_confidence": 0.3975883706339768
+    },
+    "第4局": {
+      "total_moments": 11,
+      "exact_accuracy": 0.09090909090909091,
+      "top3_accuracy": 0.6363636363636364,
+      "average_confidence": 0.5574992881579832
+    }
+  }
+}
