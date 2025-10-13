@@ -39,21 +39,21 @@ except ImportError as e:
 # --- データ関連 ---
 # ★★★ 変更点: データパスをHDF5ファイルに変更 ★★★
 DATA_HDF5_PATH = "./training_data/mahjong_imitation_data.hdf5"
-VALIDATION_SPLIT = 0.05
+VALIDATION_SPLIT = 0.1
 
 # --- モデル保存関連 ---
-MODEL_SAVE_PATH = "./trained_model/mahjong_transformer_v_strong_flat.pth"
-CHECKPOINT_DIR = "./checkpoints_v_strong_flat/"
+NUM_EPOCHS = 1000
+MODEL_SAVE_PATH = "./trained_model/mahjong_transformer_v_strong_flat_e500.pth"
+CHECKPOINT_DIR = "./checkpoints_v_strong_flat_e500/"
 
 # --- ログ・プロット関連 ---
-LOG_DIR = "./logs_v_strong_flat"
-PLOT_DIR = "./plots_v_strong_flat"
+LOG_DIR = "./logs_v_strong_flat_e500"
+PLOT_DIR = "./plots_v_strong_flat_e500"
 PLOT_EVERY_EPOCH = 1
 
 # --- トレーニングハイパーパラメータ ---
 BATCH_SIZE = 1024
-NUM_EPOCHS = 100
-LEARNING_RATE = 5e-4
+LEARNING_RATE = 3e-4
 WEIGHT_DECAY = 0.05
 CLIP_GRAD_NORM = 1.0
 ACCUMULATION_STEPS = 2
@@ -73,7 +73,7 @@ COMPILE_MODE = "reduce-overhead"
 LABEL_SMOOTHING = 0.1
 
 # --- その他 ---
-EARLY_STOPPING_PATIENCE = 10
+EARLY_STOPPING_PATIENCE = 30
 SEED = 42
 EVENT_FEATURE_DIM = 6
 
@@ -282,11 +282,11 @@ def train_model(resume=False):
             USE_TORCH_COMPILE = False
 
     optimizer = optim.AdamW(model.parameters(), lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY, betas=(0.9, 0.98), eps=1e-9)
-    lr_scheduler = CosineAnnealingLR(optimizer, T_max=NUM_EPOCHS, eta_min=LEARNING_RATE / 100)
+    lr_scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=NUM_EPOCHS)
     criterion = LabelSmoothingLoss(smoothing=LABEL_SMOOTHING) if LABEL_SMOOTHING > 0 else nn.CrossEntropyLoss()
     scaler = GradScaler(enabled=USE_AMP)
     amp_dtype = torch.bfloat16 if bf16_supported else torch.float16
-    logging.info(f"初期設定完了 (Scheduler: CosineAnnealingLR, Loss: {type(criterion).__name__}, AMP: {USE_AMP}, AMP dtype: {amp_dtype})")
+    logging.info(f"初期設定完了 (Scheduler: CosineAnnealingWarmRestarts, Loss: {type(criterion).__name__}, AMP: {USE_AMP}, AMP dtype: {amp_dtype})")
 
     start_epoch = 0
     metrics = {k: [] for k in ['train_loss', 'val_loss', 'train_acc', 'val_acc', 'train_top3', 'val_top3', 'lr']}

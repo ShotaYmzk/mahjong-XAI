@@ -85,7 +85,7 @@ NLAYERS = 4
 DROPOUT = 0.1
 ACTIVATION = 'relu' # Or 'gelu' depending on trained model
 
-DEFAULT_MODEL_PATH = "/home/ubuntu/Documents/Mahjong-XAI/ver_1.1.11/trained_model/mahjong_transformer_v1111_large_compiled.pth"
+DEFAULT_MODEL_PATH = "/home/ubuntu/Documents/Mahjong-XAI/ver_2.0.0/checkpoints_v_strong_flat_e500/checkpoint_epoch_214.pth"
 DATA_HDF5_PATH = "./training_data/mahjong_imitation_data_v1110.hdf5" # For SHAP/LIME background data
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu"))
@@ -356,7 +356,16 @@ def load_background_data(data_path, batch_size=1000):
 # --- Game State Reconstruction ---
 def reconstruct_game_state_at_tsumo(xml_path, target_round_index, target_tsumo_event_count_in_round):
     logger.info(f"牌譜ファイル {xml_path} を解析中...")
+    
+    # 絶対パスに変換
+    if not os.path.isabs(xml_path):
+        xml_path = os.path.abspath(xml_path)
+    
     meta, rounds_data = parse_full_mahjong_log(xml_path)
+    
+    if not rounds_data:
+        raise ValueError(f"牌譜ファイルから局データを取得できませんでした: {xml_path}")
+    
     if not (1 <= target_round_index <= len(rounds_data)):
         raise ValueError(f"指定された局インデックスが無効です: {target_round_index} (利用可能な範囲: 1-{len(rounds_data)})")
 
@@ -1003,7 +1012,7 @@ def main():
                 pooling_attention, layer_attentions = attention_weights
                 # Pooling attentionのみ可視化
                 if pooling_attention is not None:
-                    plot_attention_map(pooling_attention.cpu().numpy(), output_dir, 'pooling_attention.png')
+                    plot_attention_map(pooling_attention.cpu().numpy(), save_path=os.path.join(args.output_dir, 'pooling_attention.png'))
                 # Transformer層のattentionは未対応
                 if layer_attentions is not None:
                     logger.warning("Transformer層のattention可視化はPyTorch標準では未対応のためスキップします。")
